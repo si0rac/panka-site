@@ -453,10 +453,21 @@ header, main, footer {
 	}
 }
 
-.active, .collapsible:hover {
+.open, .collapsible:hover {
 	border-bottom: solid 3px #760fc3;
 
 	p {
 		color: #760fc3;
 	}
+}
+
+.collapsible-content {
+	display: none;
+  overflow: hidden;
+	border-left: solid 2px #f8f0ff;
+	border-right: solid 2px #f8f0ff;
+	border-bottom: solid 2px #f8f0ff;
+	border-top: none;
+	border-radius: 16px;
+	padding: 0 18px;
 }
