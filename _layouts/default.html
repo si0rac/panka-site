@@ -1,0 +1,127 @@
+{% for article in site.articles %}
+  {% if page.url == article.url %}
+    {% assign current_article = article %}
+  {% endif %}
+{% endfor %}
+
+{% for post in site.posts %}
+  {% if page.url == post.url %}
+    {% assign current_post = post %}
+  {% endif %}
+{% endfor %}
+
+
+<!DOCTYPE HTML>
+<html lang="hu">
+  {% seo %}
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      {% if page.url != "/" and page.url != "/index" %}
+        {{ current_article.title }} - {{ site.data.basic_info.name }}
+      {% else %}
+        {{ site.data.basic_info.name }}
+      {% endif %}
+    </title>
+    <meta property="og:title" content="{{ site.data.basic_info.name }}" />
+    <meta property="og:locale" content="hu" />
+    <meta property="og:url" content="{{ site.data.basic_info.page_url }}" />
+    <meta property="og:site_name" content="{{ site.data.basic_info.name }}" />
+    <meta name="theme-color" content="{{ site.data.colors.deep_purple }}" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/favicon.svg" color="#3bc3a3" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-76x76.png" type="image/png" sizes="76x76" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-120x120.png" type="image/png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png" type="image/png" sizes="152x152" />
+    <link rel="canonical" href="{{ site.data.basic_info.page_url }}" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/main.css" />
+    <link rel="stylesheet" href="/assets/search.css" />
+    <link href="/assets/signup-forms.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <div class="page-wrapper">
+        <header>
+              <ul id="menu" class="main-navigation">
+                <li class="menu-item"><a class="menu-link" href="/">Kezdőlap</a></li>
+                <li class="menu-item"><a class="menu-link" href="/About/">Rólam</a></li>
+                <li class="menu-item"><a class="menu-link" href="/contact/">Kapcsolat</a></li>
+                <li class="menu-item"><a class="menu-link" href="/blogposts/">Blog</a></li>
+              </ul>
+              <div class="placeholder"></div>
+              <div class="search-bar">
+                <div class="input-wrapper">
+                  <label class="search-icon material-icon"></label>
+                  <input type="text" id="search-input" placeholder="Search" />
+                  <button class="search-clear material-icon" onclick="clearSearchField()"></button>
+                </div>
+              </div>
+              <div class="right-side-navigation">
+                <a class="social-logo" target="_blank" href="https://www.facebook.com/pages/category/Community/Rudolf-Panka-biblioterapeuta-%C3%B6nismeret-irodalom-263008247482207/"><img src="/assets/icons/facebook.svg"></img></a>
+                <a class="social-logo" target="_blank" href="https://www.instagram.com/rudolfpanka/"><img class="social-logo" src="/assets/icons/instagram.svg"></img></a>
+              </div>
+        </header>
+        <main>
+            <nav class="images">
+                <img src="{{ current_article.image_url }}"></img>
+            </nav>
+            <section class="content">
+                {% if current_article %}
+                  {% if current_article.url != "/" %}
+                    <div class="title-with-source-edit">
+                      <h1>{{ current_article.title }}</h1>
+                    </div>
+                  {% endif %}
+                {% endif %}
+                {% if current_post %}
+                  <div class="title-with-source-edit">
+                    <h1>{{ current_post.title }}</h1>
+                  </div>
+                {% endif %}
+                {{ content }}
+            </section>
+        <!-- Begin Mailchimp Signup Form -->
+            {% if page.url != "/contact/" %}
+            <div class="mailchimp-holder">
+              <div id="mc_embed_signup">
+                <form action="https://gmail.us8.list-manage.com/subscribe/post?u=cf16bf1795ea790880f550e1d&amp;id=04fa578359" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                  <label for="mce-EMAIL">Iratkozz fel a hírlevélre!</label>
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="pelda@gmail.com" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cf16bf1795ea790880f550e1d_04fa578359" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Feliratkozom" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+              </div>
+            </div>
+            {% endif %}
+        <!--End mc_embed_signup-->
+        </main>
+        <footer>
+            <div class="meta">
+              {% assign current_year = 'now' | date: '%Y' %}
+              {% if current_year != '2020' %}
+                Copyright © 2020 - {{ current_year }} Me!
+              {% else %}
+                Copyright © 2020 Me!
+              {% endif %}
+            </div>
+        </footer>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+  <script src="/assets/javascripts/list-collapse.js"></script>
+  <script src="/assets/javascripts/search-input.js"></script>
+  <script src="/assets/javascripts/side-menu.js"></script>
+  <script src="/assets/javascripts/code-collapse.js"></script>
+  <script src="/assets/javascripts/active-highlight.js"></script>
+</html>
