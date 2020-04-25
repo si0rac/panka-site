@@ -393,7 +393,7 @@ header, main, footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 20px;
+    padding: 20px 0;
     font-family: Merriweather, sans-serif;
     border-bottom: solid 2px white;
 }
@@ -457,6 +457,7 @@ header, main, footer {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.85;
+    padding-top: 100px;
 }
 
 .index-page-2 {
