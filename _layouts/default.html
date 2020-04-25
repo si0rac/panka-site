@@ -48,25 +48,26 @@
   <body>
       <div class="page-wrapper">
         <header>
-              <ul id="menu" class="main-navigation">
-                <li class="menu-item"><a class="menu-link" href="/">Kezdőlap</a></li>
-                <li class="menu-item"><a class="menu-link" href="/About/">Rólam</a></li>
-                <li class="menu-item"><a class="menu-link" href="/contact/">Kapcsolat</a></li>
-                <li class="menu-item"><a class="menu-link" href="/blogposts/">Blog</a></li>
-              </ul>
-              <div class="placeholder"></div>
-              <div class="search-bar">
-                <div class="input-wrapper">
-                  <label class="search-icon material-icon"></label>
-                  <input type="text" id="search-input" placeholder="Search" />
-                  <button class="search-clear material-icon" onclick="clearSearchField()"></button>
-                </div>
-              </div>
-              <div class="right-side-navigation">
-                <a class="social-logo" target="_blank" href="https://www.facebook.com/pages/category/Community/Rudolf-Panka-biblioterapeuta-%C3%B6nismeret-irodalom-263008247482207/"><img src="/assets/icons/facebook.svg"></img></a>
-                <a class="social-logo" target="_blank" href="https://www.instagram.com/rudolfpanka/"><img class="social-logo" src="/assets/icons/instagram.svg"></img></a>
-              </div>
-        </header>
+          <div class="main-logo"><a href="/"><img src="/assets/icons/main-logo-large-white.png"/></a></div>
+          <div class="main-menu">
+            <ul id="menu" class="main-navigation">
+              <li class="menu-item"><a class="menu-link" href="/About/">Rólam</a></li>
+              <li class="menu-item"><a class="menu-link" href="/contact/">Események</a></li>
+            </ul>
+            <ul id="menu" class="main-navigation">
+              <li class="menu-item"><a class="menu-link" href="/About/">Blog</a></li>
+              <li class="menu-item"><a class="menu-link" href="/blogposts/">Csoportok</a></li>
+            </ul>
+            <ul id="menu" class="main-navigation">
+              <li class="menu-item"><a class="menu-link" href="/events/">Kapcsolat</a></li>
+              <li class="menu-item"><a class="menu-link" href="/events/">Egyéni konzultáció</a></li>
+            </ul>
+          </div>
+          <div class="right-side-navigation">
+            <a class="social-logo" target="_blank" href="https://www.facebook.com/pages/category/Community/Rudolf-Panka-biblioterapeuta-%C3%B6nismeret-irodalom-263008247482207/"><img src="/assets/icons/facebook.svg"></img></a>
+            <a class="social-logo" target="_blank" href="https://www.instagram.com/rudolfpanka/"><img class="social-logo" src="/assets/icons/instagram.svg"></img></a>
+          </div>
+    </header>
         <main>
             <nav class="images">
                 <img src="{{ current_article.image_url }}"></img>
