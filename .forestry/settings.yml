@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: _includes
+  label: HTML Pages
+  create: all
+  match: "**/*.html"
+- type: directory
   path: _articles
   label: Articles
   create: all
@@ -12,11 +17,6 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-- type: directory
-  path: _includes
-  label: Pages
-  create: all
-  match: "**/*"
 - type: directory
   path: _images
   label: Images
