@@ -5,6 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: _layouts
+  label: Layout pages (home page and default layout)
+  create: all
+  match: "**/*.html"
+  new_doc_ext: ".html"
+- type: directory
   path: _articles
   label: Articles
   create: all
@@ -14,9 +20,10 @@ sections:
   create: all
 - type: directory
   path: _includes
-  label: HTML Pages
+  label: HTML Pages (Contact, Blogposts, Consult, Header)
   create: all
   match: "**/*.html"
+  new_doc_ext: ".html"
 - type: directory
   path: _images
   label: Images
