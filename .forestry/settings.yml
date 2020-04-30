@@ -4,6 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Deployment
+- type: document
+  path: deploy.md
+  label: Deploying the site
+  match: "**/*"
+- type: heading
+  label: Content
 - type: directory
   path: _articles
   label: Articles
