@@ -34,58 +34,88 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/main.css" />
     <link rel="stylesheet" href="/assets/search.css" />
   </head>
-  <body>
+  <body> 
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
       <div class="page-wrapper">
+        {% include header.html %}
         <main class="index-main">
-          <div class="header-container">
-            <div class="main-logo"><a href="/"><img src="/assets/icons/main-logo-large-white.png"/></a></div>
-            <div class="main-menu">
-              <ul id="menu" class="main-navigation">
-                <li class="menu-item"><a class="menu-link" href="/About/">Rólam</a></li>
-                <li class="menu-item"><a class="menu-link" href="/contact/">Események</a></li>
-              </ul>
-              <ul id="menu" class="main-navigation">
-                <li class="menu-item"><a class="menu-link" href="/About/">Blog</a></li>
-                <li class="menu-item"><a class="menu-link" href="/blogposts/">Csoportok</a></li>
-              </ul>
-              <ul id="menu" class="main-navigation">
-                <li class="menu-item"><a class="menu-link" href="/events/">Kapcsolat</a></li>
-                <li class="menu-item"><a class="menu-link" href="/events/">Egyéni konzultáció</a></li>
-              </ul>
-            </div>
-            <div class="right-side-navigation">
-              <a class="social-logo" target="_blank" href="https://www.facebook.com/pages/category/Community/Rudolf-Panka-biblioterapeuta-%C3%B6nismeret-irodalom-263008247482207/"><img src="/assets/icons/facebook.svg"></img></a>
-              <a class="social-logo" target="_blank" href="https://www.instagram.com/rudolfpanka/"><img class="social-logo" src="/assets/icons/instagram.svg"></img></a>
-            </div>
-          </div>
           <div class="index-page">
-            <div class="panka">
-              <span class="welcome">Üdvözöllek a honlapomon! Rudolf Panka irodalomterapeuta vagyok</span>
-            </div>
-            <div class="image-container">
-              <div class="intro-image"><img src="/assets/img/panka_index.jpg">
+            <div class="panka-container">
+              <div class="panka">
+              <title>Rudolf Panka vagyok, irodalomterapeuta</title><p>Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start. That’s why we set up a bibliotherapy service: to guide you to life-changing, eye-opening but often elusive works of literature, both past and present, the books that truly have the power to enchant, enrich and inspire.</p>
+              <div class="cta-container">
+                <button class="cta-purple"><span>Pocakold a pocakot!</span></button>
+                <button class="cta-purple"><a target="_blank" href="http://m.me/263008247482207"><span>Írj nekem Messengeren!</span></a></button>
+              </div>
               </div>
             </div>
+            <div class="panka-image-container">
+              <img src="/assets/img/panka_index.jpg">
+            </div>
           </div>
-          <div class="index-page-2">
-            <div class="intro-background">
-              <div class="intro-text">
-              Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start.
-          
-              That’s why we set up a bibliotherapy service: to guide you to life-changing, eye-opening but often elusive works of literature, both past and present, the books that truly have the power to enchant, enrich and inspire.
+          <div class="sensible-container">
+            <div class="sensible-section">
+              <div class="sensible-content">
+                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/what-is.webp"></div><div class="info-block-text-holder"><label>Önismereti csoport</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start.</p><a class="info-block-link" href="#">Katt ide! &gt;</a></div></div>
+                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/library.jpg"></div><div class="info-block-text-holder"><label>Booktion!</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start.</p><a href="#">Katt ide! &gt;</a></div></div>
+                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/talking.jpg"></div><div class="info-block-text-holder"><label>Egyéni konzultáció</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start.</p><a href="#">Katt ide! &gt;</a></div></div>
+              </div>
+              <div class="sensible-content">
+                <div class="info-block-large"><div><img src="/assets/img/what-is.webp"></div><div><label>Önismereti csoport</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start. That’s why we set up a bibliotherapy service: to guide you to life-changing, eye-opening but often elusive works of literature, the books that truly have the power to enchant, enrich and inspire.</p><a href="#">Itt többet is megtudhatsz &gt;</a></div></div>
               </div>
             </div>
           </div>
           <div class="slider-wrap"> 
+            <title>Rólam mondták</title>
             <div class="slider" id="slider">
               <div class="holder">
-                <div class="slide" id="slide-0"><div class="feedback"><nav class="next-0"><a href="">&lt;</a></nav><span class="feedback-text">Such a brilliant group experience!</span><span class="feedback-text">Felt like I was with family and friends.</span><span class="feedback-text">Panka is just out of this world!</span><nav class="next"><a href="#slide-1">&gt;</a></nav></div></div>
-                <div class="slide" id="slide-1"><div class="feedback"><nav class="next"><a href="#slide-0">&lt;</a></nav><span class="feedback-text">Felt like I was with family and friends.</span><nav class="next"><a href="#slide-2">&gt;</a></nav></div></div>
-                <div class="slide" id="slide-2"><div class="feedback"><nav class="next"><a href="#slide-1">&lt;</a></nav><span class="feedback-text">Panka is just out of this world!</span><nav class="next-2"><a href="#slide-2">&gt;</a></nav></div></div>
+                <div class="slide" id="slide-0">
+                  <div class="feedback">
+                    <nav class="next-slide-fake">&lt;</nav>
+                    <span class="feedback-text">"Such a brilliant group experience!"</span>
+                    <span class="dot">Separator</span>
+                    <span class="feedback-text">"Felt like I was with family and friends."</span>
+                    <span class="dot">Separator</span>
+                    <span class="feedback-text">"Panka is just out of this world!"</span>
+                    <nav class="next-slide">
+                      <a href="#slide-1">&gt;</a>
+                    </nav>
+                  </div>
+                </div>
+                <div class="slide" id="slide-1">
+                  <div class="feedback">
+                    <nav class="next-slide">
+                      <a href="#slide-0">&lt;</a>
+                    </nav>
+                    <span class="feedback-text">"Rengeteg tengerimalac volt az eseményen"</span>
+                    <span class="dot">Separator</span>
+                    <span class="feedback-text">"Folyamatosan visítoztak, nagyon kedves volt."</span>
+                    <span class="dot">Separator</span>
+                    <span class="feedback-text">"Nagyon örültek az uborkának a malackák!"</span>
+                    <nav class="next-slide"><a href="#slide-2">&gt;</a>
+                    </nav>
+                  </div>
+                </div>
+                <div class="slide" id="slide-2">
+                  <div class="feedback">
+                    <nav class="next-slide">
+                      <a href="#slide-1">&lt;</a>
+                    </nav>
+                    <span class="feedback-text">"Such a brilliant group experience!"</span>
+                    <span class="dot">Separator</span>
+                    <span class="feedback-text">"Felt like I was with family and friends."</span>
+                    <span class="dot">Separator</span>
+                    <span class="feedback-text">"Panka is just out of this world!"</span>
+                    <nav class="next-slide-fake">&gt;</nav>
+                  </div>
+                </div>
             </div>
           </div>
         </main>
@@ -93,9 +123,9 @@
             <div class="meta">
               {% assign current_year = 'now' | date: '%Y' %}
               {% if current_year != '2020' %}
-                Copyright © 2020 - {{ current_year }} Me!
+                Copyright © 2020 - {{ current_year }} Rudolf Panka
               {% else %}
-                Copyright © 2020 Me!
+                Copyright © 2020 Rudolf Panka
               {% endif %}
             </div>
         </footer>
@@ -107,6 +137,7 @@
   <script src="/assets/javascripts/active-highlight.js"></script>
   <script src="/assets/javascripts/list-collapse.js"></script>
   <script src="/assets/javascripts/search-input.js"></script>
-  <script src="/assets/javascripts/side-menu.js"></script>
+  <script src="/assets/javascripts/top-menu.js"></script>
   <script src="/assets/javascripts/code-collapse.js"></script>
+  <script src="/assets/javascripts/slider.js"></script>
 </html>
