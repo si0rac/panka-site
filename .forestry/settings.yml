@@ -13,6 +13,11 @@ sections:
   label: Posts
   create: all
 - type: directory
+  path: _includes
+  label: Pages
+  create: all
+  match: "**/*"
+- type: directory
   path: _images
   label: Images
   create: all
