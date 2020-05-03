@@ -363,8 +363,10 @@ header, main, footer {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    background: #6CA5D4;
-    box-shadow: 0 0 18px 6px rgba(62,116,171,1);
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(150deg, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    box-shadow: 4px 4px 8px 4px grey;   
     border-radius: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -372,6 +374,7 @@ header, main, footer {
     padding-right: 0.5rem;
     overflow: hidden;
     color: #f2f2f2;
+    opacity: 0.8;
 
     p {
         width: 85%;
@@ -380,6 +383,7 @@ header, main, footer {
         text-align: justify;
         padding-top: 1.2rem;
         border-top: solid 2px #f2f2f2;
+        opacity: 0.9;
     }
 
     title {
@@ -389,6 +393,7 @@ header, main, footer {
         margin: auto;
         width: 80%;
         padding-bottom: 1rem;
+        opacity: 0.9;
     }
 }
 
@@ -430,8 +435,8 @@ header, main, footer {
 
     img {
         border-radius: 50%;
-        border-left: solid 20px #6CA5D4;
-        border-right: solid 20px #6CA5D4;
+        border-left: solid 20px #2B32B2;
+        border-right: solid 20px #1488CC;
         height: auto;
         width: 100%;
         box-shadow: 6px 6px 18px 6px rgba(62,116,171,1);
@@ -440,10 +445,7 @@ header, main, footer {
 } 
 
 .sensible-container {
-    background: #00416A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: linear-gradient(180deg, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
     color: black;
     width: 100%;
     display: flex;
@@ -477,7 +479,7 @@ header, main, footer {
     border: 1px solid #f2f2f2;
     border-top: 6px solid darkblue;
     border-radius: 12px;
-    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 8px 6px rgba(0, 0, 0, 0.15);
     padding: 10px;
     font-family: 'Montserrat';
 
@@ -769,7 +771,8 @@ header, main, footer {
       width: 27.5%;
       height: 100%;
       padding: 3rem;
-      background-color: #6CA5D4;
+      background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(360deg, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
       border-radius: 12px;
       box-shadow: 6px 6px 10px 1px rgba(188, 143, 143, 0.3);
 
