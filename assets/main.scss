@@ -50,13 +50,15 @@ header, main, footer {
             flex-direction: row;
             align-items: center;
             justify-content: space-evenly;
+            width: 100%;
             height: 15%;
             background: #ECE9E6;  /* fallback for old browsers */
             background: -webkit-linear-gradient(to right, #ECE9E6, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #ECE9E6, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */            
             border-bottom: solid 2px rgba(149, 195, 233, 0.3);
-            letter-spacing: 0;
-            width: 100%;
+            letter-spacing: 1px;
+            font-size: 1.2rem;
+            font-family: 'Bebas Neue', cursive;
 
 
             .main-logo {
@@ -261,19 +263,22 @@ header, main, footer {
 	display: block;
     cursor: pointer;
     width: 60%;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: purple;
     border: none;
     border-bottom: solid 2px #f8f0ff;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
     text-align: center;
     outline: none;
     word-wrap: break-word;
+}
 
-	p {
+.consult-text-and-image + div button.collapsible {
+    background-color: purple;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    	p {
         color: white;
 		display: inline-block;
         letter-spacing: 0.2px;
@@ -283,12 +288,6 @@ header, main, footer {
 		padding-top: 0;
 		padding-bottom: 0;
 		padding-left: 1rem;
-	}
-}
-
-.open, .collapsible:hover {
-
-	p {
 	}
 }
 
@@ -315,17 +314,10 @@ header, main, footer {
     justify-content: space-between;
 }
 
-
-.index-page {
+.landing-page {
     width: 100%;
+    height: 95vh;
     position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-shrink: 0;
-    padding-left: 10%;
-    padding-right: 10%;
-    justify-content: space-evenly;
 
     &:before {
         content: '';
@@ -336,9 +328,9 @@ header, main, footer {
         width: 100%;
         height: 100%;
         z-index: 0;
-        background-color: rgba(255,255,255,0.8);
+        background-color: rgba(255,255,255,0.3);
         background-blend-mode: lighten;
-        background-image: url(/assets/img/talking.png/);
+        background-image: url(/assets/img/therapy-office.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -347,65 +339,118 @@ header, main, footer {
     }
 }
 
-.panka-container {
-    width: 55%;
+.hover-nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 15%;
-    margin-bottom: 75px;
-    z-index: 1;
-}
-
-.panka {
-    display: flex;
-    flex-direction: column;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    background: #1488CC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(150deg, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-    box-shadow: 4px 4px 8px 4px grey;   
-    border-radius: 12px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    overflow: hidden;
-    color: #f2f2f2;
-    opacity: 0.8;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    background: #DEB887;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.2px;
+    text-align: center;
 
     p {
-        width: 85%;
-        margin: auto;
-        overflow: hidden;
-        text-align: justify;
-        padding-top: 1.2rem;
-        border-top: solid 2px #f2f2f2;
-        opacity: 0.9;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
-    title {
-        display: block;
-        font-size: 2rem;
-        text-align: center;
-        margin: auto;
-        width: 80%;
-        padding-bottom: 1rem;
-        opacity: 0.9;
+    img {
+        margin-right: 1rem;
+        transform: translateY(0.2rem);
     }
 }
+
+.hover-nav-content {
+    max-height: 0;
+    transition: max-height 0.1s ease-in;
+
+    p {
+        display: none;
+    }
+
+    label {
+        display: none;
+    }
+}
+
+.hover-nav:hover .hover-nav-content {
+    max-height: 150px;
+    background: rgba(128,0,128, 1);
+    border-bottom-right-radius: 12px;
+    padding: 1rem;
+
+    p {
+        display: block;
+    }
+
+    label {
+        display: inline-block;
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+}
+
+.landing-text-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    top: 23.5%;
+    right: 0;
+    width: 60%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 15%, rgba(255,255,255,0.1) 15%);
+}
+
+.landing-text {
+    color: 	white;
+    text-shadow: 1px 1px grey;
+    text-align: center;
+    font-weight: bold;
+    width: 70%;
+    margin-right: 2rem;
+
+    title {
+        display: inline-block;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        margin-top: 1rem;
+        position: relative;
+    }
+}
+
+.panka-landing-image-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+
+    img {
+        border-radius: 50%;
+        box-shadow: 2px 2px 6px 2px #404040;
+        width: 80%;
+        height: 80%;
+    }
+}
+
 
 .cta-purple {
     display: flex;
+    position: absolute;
+    top: 60%;
+    right: 15%;
     margin: auto;
     margin-top: 3rem;
     background: purple;
     border-radius: 8px;
     border: none;
     box-shadow: 0 0 0.25rem rgba(128, 0, 128, 0.8);
-    width: 35%;
+    width: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -427,30 +472,19 @@ header, main, footer {
     }
 }
 
-.panka-image-container {
-    margin-top: 7.5%;
-    align-items: center;
-    width: 30%;
-    z-index: 1;
-
-    img {
-        border-radius: 50%;
-        border-left: solid 20px #2B32B2;
-        border-right: solid 20px #1488CC;
-        height: auto;
-        width: 100%;
-        box-shadow: 6px 6px 18px 6px rgba(62,116,171,1);
-        min-width: 200px;
-    }
-} 
-
 .sensible-container {
-    background: linear-gradient(180deg, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-    color: black;
+    background-color: rgba(135,206,250,0.5);
+    background-blend-mode: lighten;
+    background-image: url(/assets/img/therapy-office.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    color: black;
 }
 
 .sensible-section {
@@ -466,7 +500,7 @@ header, main, footer {
     align-items: center;
     justify-content: space-evenly;
     align-self: center;
-    width: 90%;
+    width: 80%;
     height: 50%;
     padding: 50px 0;
 }
@@ -474,14 +508,14 @@ header, main, footer {
 .info-block {
     display: flex;
     width: 30%;
-    height: 37.5%;
-    background: white;
+    height: 30%;
+    background: rgba(255,255,255,0.8);
     border: 1px solid #f2f2f2;
     border-top: 6px solid darkblue;
     border-radius: 12px;
     box-shadow: 2px 2px 8px 6px rgba(0, 0, 0, 0.15);
     padding: 10px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 
     .info-block-image-holder {
         display: flex;
@@ -500,12 +534,15 @@ header, main, footer {
         width: 75%;
 
         label {
-            font-weight: bold;
+            font-family: Bebas Neue, cursive;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            opacity: 0.65;
         }
     
         p {
-            font-size: 0.85rem;
             opacity: 0.65;
+            font-size: 0.85rem;
         }
     }
 
@@ -514,7 +551,7 @@ header, main, footer {
         color: $main-color-dark;
 
         &:hover, &:focus {
-            color: $main-color-dark;
+            color: $main-color-light;
         }
     }
 }
@@ -524,13 +561,13 @@ header, main, footer {
   align-items: center;
   width: 60%;
   height: 100%;
-  background: white;
+  background: rgba(255,255,255,0.8);
   border: 1px solid #f2f2f2;
   border-top: 6px solid darkblue;
   border-radius: 12px;
   box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
   padding: 10px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 
   img {
       width: 80%;
@@ -544,8 +581,10 @@ header, main, footer {
   }
 
   label {
-      font-weight: bold;
-      font-size: 1.5rem;
+    font-family: Bebas Neue, cursive;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    opacity: 0.65;
   }
 
   p {
@@ -658,9 +697,10 @@ header, main, footer {
         top: 0;
         width: 100%;
         height: 100%;
-        z-index: 1;
-        opacity: 0.2;
-        background-image: url(/assets/img/talking.png/);
+        z-index: 0;
+        background-color: rgba(240,248,255,0.5);
+        background-blend-mode: lighten;
+        background-image: url(/assets/img/therapy-office.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -671,11 +711,17 @@ header, main, footer {
     title {
         display: block;
         align-self: center;
-        font-size: 2rem;
-        color: #6CA5D4;
-        border-bottom: solid 2px #6CA5D4;
-        border-top: solid 2px #6CA5D4;
+        width: 50%;
         padding: 20px;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.2);
+        border-top: solid 2px #696969;
+        border-bottom: solid 2px #696969;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        color: 	#696969;
     }
 }
 
@@ -683,6 +729,7 @@ header, main, footer {
     display: flex;
     flex-direction: row;
     width: 300%;
+    z-index: 1;
 }
 
 .slider-alt {
@@ -696,6 +743,7 @@ header, main, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 1;
   }
 
   .slide {
@@ -771,8 +819,8 @@ header, main, footer {
       width: 27.5%;
       height: 100%;
       padding: 3rem;
-      background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(360deg, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+      background: -webkit-linear-gradient(360deg, rgba(43, 50, 178, 0.7), rgba(20, 136, 204, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(360deg, rgba(43, 50, 178, 0.7),rgba(20, 136, 204, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
       border-radius: 12px;
       box-shadow: 6px 6px 10px 1px rgba(188, 143, 143, 0.3);
 
@@ -789,7 +837,7 @@ header, main, footer {
     width: 15px;
     height: 15px;
     display: inline-block;
-    background: #6CA5D4;
+    background: linear-gradient(360deg, rgba(43, 50, 178, 0.7),rgba(20, 136, 204, 0.7));
     margin: auto;
     overflow: hidden;
     text-indent: -9999px;
@@ -804,6 +852,7 @@ header, main, footer {
       padding-left: 1rem;
       padding-right: 1rem;
       border-radius: 12px;
+      z-index: 1;
 
       p {
           margin-left: auto;
@@ -814,6 +863,7 @@ header, main, footer {
 
       a {
           color: white;
+          font-size: 1.1rem;
           text-decoration: none;
       }
   }
