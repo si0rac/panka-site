@@ -1,6 +1,6 @@
 ---
 layout: default
-image_url: ''
+image_url: "/media/thumbnail-test-1.png"
 title: Online biblioterápia 2.
 
 ---
