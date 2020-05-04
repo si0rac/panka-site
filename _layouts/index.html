@@ -35,7 +35,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/main.css" />
     <link rel="stylesheet" href="/assets/search.css" />
@@ -46,19 +46,22 @@
       <div class="page-wrapper">
         {% include header.html %}
         <main class="index-main">
-          <div class="index-page">
-            <div class="panka-container">
-              <div class="panka">
-              <title>Rudolf Panka vagyok, irodalomterapeuta</title><p>Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start. That’s why we set up a bibliotherapy service: to guide you to life-changing, eye-opening but often elusive works of literature, both past and present, the books that truly have the power to enchant, enrich and inspire.</p>
-                <button class="cta-purple"><a target="_blank" href="http://m.me/263008247482207"><label class="button-text">Írj nekem Messengeren!</label></a></button>
+          <div class="landing-page">
+            <div class="hover-nav"><p><img src="/assets/icons/calendar.svg/">Következő esemény</p><div class="hover-nav-content"><label>Witcher Workshop</label><p>Időpont: 2020. május 7., 18:00</p></div></div>
+            <div class="landing-text-container">
+              <div class="panka-landing-image-container">
+                <img src="/assets/img/panka_index.jpg">
+              </div>
+              <div class="landing-text">
+                <title>Rudolf Panka vagyok, irodalomterapeuta</title>
+                <p>Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start. </p>
               </div>
             </div>
-            <div class="panka-image-container">
-              <img src="/assets/img/panka_index.jpg">
-            </div>
+            <button class="cta-purple"><a target="_blank" href="http://m.me/263008247482207"><label class="button-text">Írj nekem Messengeren!</label></a></button>
+            {% assign latest_blog = site.posts.first %}<a href="{{ latest_blog.url }}"><div class="hover-nav-blog"><p><img src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.excerpt | truncatewords: 8 }}</p></div></div></a>
           </div>
           <div class="sensible-container">
-            <div class="sensible-section">
+            <div class="sensible-section" id="sensible-content">
               <div class="sensible-content">
                 <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/what-is.webp"></div><div class="info-block-text-holder"><label>Önismereti csoport</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start.</p><a class="info-block-link" href="#">Katt ide! &gt;</a></div></div>
                 <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/library.jpg"></div><div class="info-block-text-holder"><label>Booktion!</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start.</p><a href="#">Katt ide! &gt;</a></div></div>
