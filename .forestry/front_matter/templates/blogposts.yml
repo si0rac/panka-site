@@ -5,6 +5,12 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: default
 - type: text
   name: permalink
   label: permalink
+- name: image_url
+  type: file
+  config:
+    maxSize: 64
+  label: Thumbnail image for the post
