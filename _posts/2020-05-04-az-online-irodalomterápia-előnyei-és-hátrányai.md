@@ -10,11 +10,13 @@ Miben más az online irodalomterápiás csoport, mint az offline?
 
 Hátrányok:
 
+![](/media/panka_logo.png)
+
 ➡️A szemkontaktus hiánya
 
 👀Óriási negatívuma videós applikációknak, hogy nem tudunk egyidőben egymás szemébe nézni. Ha a másik szemébe nézek, akkor nem a kamerába nézek, tehát ő nem érzékeli, hogy épp szemkontaktust keresek vele. Nem lehet vele mit kezdeni, de előnye, hogy még jobban rá kell fókuszálnunk egymásra, a megfelelő hangolódás érdekében.
 
-➡️Nehézkesebb a visszejelzés.
+## ➡️Nehézkesebb a visszejelzés.
 
 🗣Aki volt már csoportomon, tudja, hogy fontosnak tartom, hogy reflektáljunk egymásra. Rossz érzés, amikor őszintén megosztunk valamit másokkal, és nem jön rá reakció. Online ez nehézkesebben megy, de nem lehetetlen!
 
