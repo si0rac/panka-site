@@ -1,6 +1,6 @@
 ---
 layout: default
-image_url: "/uploads/94780053_909616226154736_2735445781556232192_n.png"
+image_url: "/media/thumbnail-test.png"
 
 ---
 Miben más az online irodalomterápiás csoport, mint az offline?  
