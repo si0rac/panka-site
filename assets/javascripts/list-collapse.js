@@ -7,9 +7,9 @@ function collapseProcedures() {
       this.classList.toggle("open");
       var content = this.nextElementSibling;
       if (content.style.display === "block") {
-        content.style.display = "none";
+        content.style.display = "none", this.style.width = "60%";
       } else {
-        content.style.display = "block";
+        content.style.display = "block", content.style.width = "100%", this.style.width = "100%", document.getElementsByTagName("p img").style.marginBottom = "2rem";
       }
     });
   }

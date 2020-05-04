@@ -58,6 +58,7 @@
               </div>
             </div>
             <button class="cta-purple"><a target="_blank" href="http://m.me/263008247482207"><label class="button-text">Írj nekem Messengeren!</label></a></button>
+            {% assign latest_blog = site.posts.first %}<a href="{{ latest_blog.url }}"><div class="hover-nav-blog"><p><img src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.excerpt | truncatewords: 8 }}</p></div></div></a>
           </div>
           <div class="sensible-container">
             <div class="sensible-section" id="sensible-content">
