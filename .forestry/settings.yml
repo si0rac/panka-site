@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _articles/groups.md
+  label: Csoportok
+  match: "**/*"
 - type: heading
   label: Deployment
 - type: document
@@ -11,26 +15,19 @@ sections:
   label: Deploying the site
 - type: heading
   label: Content
-- type: directory
-  path: _articles
-  label: Articles
-  create: all
+- type: document
+  path: _includes/index.html
+  label: Kezdőoldal (HTML)
+  match: "**/*"
+- type: document
+  path: _articles/events.md
+  label: Események
   match: "**/*"
 - type: jekyll-posts
-  label: Posts
+  label: Blogposztok
   create: all
-- type: directory
-  path: _layouts
-  label: Layout pages (home page and default layout)
-  create: all
-  match: "**/*.html"
-  new_doc_ext: html
-- type: directory
-  path: _includes
-  label: HTML Pages (Contact, Blogposts, Consult, Header)
-  create: all
-  match: "**/*.html"
-  new_doc_ext: html
+  templates:
+  - blogposts
 - type: directory
   path: _images
   label: Images
