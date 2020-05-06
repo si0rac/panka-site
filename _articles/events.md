@@ -2,11 +2,12 @@
 layout: default
 permalink: /events/
 title: Események
+comments: false
 ---
 
 ![](/assets/img/events/witcher_workshop_20200507-2.jpg)
 
-## Witcher workshop - 2020. 05. 07., 18:00
+# Witcher workshop - 2020. 05. 07., 18:00
 
 A Witcher pszichológiája workshop - best of online version.
 
@@ -34,7 +35,7 @@ A program NEM előadás, hanem workshop, ami azt jelenti, hogy interaktív gyako
 
 ![](/assets/img/events/meseolvasas.png)
 
-## Ingyenes szorongáscsökkentő beszélgetés és gyógyító meseolvasás
+# Ingyenes szorongáscsökkentő beszélgetés és gyógyító meseolvasás
 
 Ingyenes szorongáscsökkentő beszélgetés vagy gyógyító meseolvasás 15 percben (online).
 
@@ -58,7 +59,7 @@ Mindezt persze online, vagy Facebook messengeren, vagy Skype-on.
 
 ![](/assets/img/events/belso-szabadsag.jpg)
 
-## Belső szabadság II. - online irodalomterápiás workshop - 2020. 05. 13., 18:00
+# Belső szabadság II. - online irodalomterápiás workshop - 2020. 05. 13., 18:00
 
 Belső szabadság – három alkalmas online irodalomterápiás workshop-sorozat
 
@@ -91,7 +92,7 @@ Kedvezményes részvétel [A Kék Könyvtárszoba - 'itt nem kell megőrülni'](
 
 ![](/assets/img/events/dontpanic.jpg)
 
-## Ne ess pánikba - törölközőnapi online irodalomterápiás workshop - 2020. 05. 25., 18:00 
+# Ne ess pánikba - törölközőnapi online irodalomterápiás workshop - 2020. 05. 25., 18:00 
 
 Ne ess pánikba!
 

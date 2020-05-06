@@ -47,28 +47,32 @@
         {% include header.html %}
         <main class="index-main">
           <div class="landing-page">
-            <div class="hover-nav"><p><img src="/assets/icons/calendar.svg/">Következő esemény</p><div class="hover-nav-content"><label>Witcher Workshop</label><p>Időpont: 2020. május 7., 18:00</p></div></div>
+            <div class="panka-landing-image-mobile">
+              <img src="/assets/img/panka_index.jpg">
+            </div>
+            <div class="hover-nav"><p><img class="hover-nav-img" src="/assets/icons/calendar.svg/">Következő esemény</p><div class="hover-nav-content"><label>Witcher Workshop</label><p>Időpont: 2020. május 7., 18:00</p></div></div>
             <div class="landing-text-container">
               <div class="panka-landing-image-container">
                 <img src="/assets/img/panka_index.jpg">
               </div>
               <div class="landing-text">
                 <title>Rudolf Panka vagyok, irodalomterapeuta</title>
-                <p>Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start. </p>
+                <p>A legkülönfélébb irodalmi műveket választom ki ahhoz, hogy segítségükkel elkezdhesd a saját életed történetét írni, aminek te vagy a főszereplője! Legyen szó egyéni konzultációról, önismereti csoportról vagy workshopról, a szövegek és én leszünk társaid az úton önmagadhoz!</p>
               </div>
             </div>
-            <button class="cta-purple"><a target="_blank" href="http://m.me/263008247482207"><label class="button-text">Írj nekem Messengeren!</label></a></button>
-            {% assign latest_blog = site.posts.first %}<a href="{{ latest_blog.url }}"><div class="hover-nav-blog"><p><img src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.excerpt | truncatewords: 8 }}</p></div></div></a>
+            <a target="_blank" href="http://m.me/263008247482207"><button class="cta-purple"><p class="button-text">Írj nekem Messengeren!</p></button></a>
+            {% assign latest_blog = site.posts.first %}<a href="{{ latest_blog.url }}"><div class="hover-nav-blog"><p><img class="hover-nav-img" src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.excerpt | truncatewords: 8 }}</p></div></div></a>
           </div>
           <div class="sensible-container">
             <div class="sensible-section" id="sensible-content">
+              <div class="feedback-title">Mire van szükséged?</div>
               <div class="sensible-content">
-                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/what-is.webp"></div><div class="info-block-text-holder"><label>Önismereti csoport</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start.</p><a class="info-block-link" href="#">Katt ide! &gt;</a></div></div>
-                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/library.jpg"></div><div class="info-block-text-holder"><label>Booktion!</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start.</p><a href="#">Katt ide! &gt;</a></div></div>
-                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/talking.jpg"></div><div class="info-block-text-holder"><label>Egyéni konzultáció</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start.</p><a href="#">Katt ide! &gt;</a></div></div>
+                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-1.png"></div><div class="info-block-text-holder"><label>Önismereti csoport</label><p>Csatlakozz nyitott vagy zárt irodalomterápiás önismereti csoportjaimhoz, ha szeretnél egy mélyebb folyamat során rálátni saját működési módjaidra, elakadásaidra!</p><a class="info-block-link" href="#">Katt ide! &gt;</a></div></div>
+                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-2.png"></div><div class="info-block-text-holder"><label>Egyéni konzultáció</label><p>Jelentkezz be egyéni irodalomterápiás konzultációra, ha igényeidre és problémáidra szabott segítő beszélgetésre van szükséged. Személyesen neked választott irodalmi szöveggel!</p><a href="#">Katt ide! &gt;</a></div></div>
+                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-3.png"></div><div class="info-block-text-holder"><label>Workshopok</label><p>Ha játékos és kreatív gyakorlatok során edzenéd önreflexiós képességedet, ahol egy-egy téma vagy szöveg van előtérben, az irodalomterápiás workshopjaimat ajánlom neked!</p><a href="#">Katt ide! &gt;</a></div></div>
               </div>
               <div class="sensible-content">
-                <div class="info-block-large"><div><img src="/assets/img/what-is.webp"></div><div><label>Önismereti csoport</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start. That’s why we set up a bibliotherapy service: to guide you to life-changing, eye-opening but often elusive works of literature, the books that truly have the power to enchant, enrich and inspire.</p><a href="#">Itt többet is megtudhatsz &gt;</a></div></div>
+                <div class="info-block-large"><div><img src="/assets/img/info-block-large.png"></div><div><label>Mi is az a biblioterápia?</label><p>Játsszunk együtt, és ismerjük meg önmagunk! Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start. That’s why we set up a bibliotherapy service: to guide you to life-changing, eye-opening but often elusive works of literature, the books that truly have the power to enchant, enrich and inspire.</p><a href="#">Itt többet is megtudhatsz &gt;</a></div></div>
               </div>
             </div>
           </div>
@@ -89,7 +93,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
   <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-  <script src="/assets/javascripts/active-highlight.js"></script>
   <script src="/assets/javascripts/list-collapse.js"></script>
   <script src="/assets/javascripts/search-input.js"></script>
   <script src="/assets/javascripts/top-menu.js"></script>

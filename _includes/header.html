@@ -1,14 +1,29 @@
 <header class="sensible-header">
     <button class="burger-icon" onclick="toggleSideBar()"></button>
     <div class="main-logo"><a href="/"><img src="/assets/icons/main-logo-large-white.png"/></a></div>
-    <ul id="menu" class="main-navigation">
-        <li class="menu-item"><a class="menu-link" href="/about/">Rólam</a></li>
-        <li class="menu-item"><a class="menu-link" href="/events/">Események</a></li>
-        <li class="menu-item"><a class="menu-link" href="/groups/">Csoportok</a></li>
-        <li class="menu-item"><a class="menu-link" href="/consult/">Egyéni konzultáció</a></li>
-        <li class="menu-item"><a class="menu-link" href="/blogposts/">Blog</a></li>
-        <li class="menu-item"><a class="menu-link" href="/contact/">Kapcsolat</a></li>
+    <div id="menu">
+      <ul class="main-navigation">
+        <li class="menu-item" id="aboutme"><a class="menu-link" href="/rolam/">Rólam</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
+          <ul class="dropdown-menu">
+            <li class="dropdown-menu-item"><a class="menu-link" href="/rolam/#bemutatkozás">Bemutatkozás</a></li>
+            <li class="dropdown-menu-item"><a class="menu-link" href="/rolam/#mi-is-az-a-biblioterápia">Mi is az a biblioterápia?</a></li>
+            <li class="dropdown-menu-item"><a class="menu-link" href="/rolam/#visszajelzések">Visszajelzések</a></li>
+            <li class="dropdown-menu-item"><a class="menu-link" href="/rolam/#cikkek-interjúk">Cikkek, interjúk</a></li>
+          </ul>
+        </li>
+        <li class="menu-item" id="events"><a class="menu-link" href="/events/">Aktuális események</a></li>
+        <li class="menu-item" id="groups"><a class="menu-link" href="/groups/">Csoportok</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
+          <ul class="dropdown-menu">
+            <li class="dropdown-menu-item"><a class="menu-link" href="/open-groups/">Nyitott csoportok</a></li>
+            <li class="dropdown-menu-item"><a class="menu-link" href="/closed-groups/">Zárt csoportok</a></li>
+            <li class="dropdown-menu-item"><a class="menu-link" href="/workshops/">Workshopok</a></li>
+          </ul>
+        </li>
+        <li class="menu-item" id="consult"><a class="menu-link" href="/consult/">Egyéni konzultáció</a></li>
+        <li class="menu-item" id="blog"><a class="menu-link" href="/blogposts/">Blog</a></li>
+        <li class="menu-item" id="contact"><a class="menu-link" href="/contact/">Kapcsolat</a></li>
     </ul>
+    </div>
     <div class="right-side-navigation">
       <a class="social-logo" target="_blank" href="https://www.facebook.com/pages/category/Community/Rudolf-Panka-biblioterapeuta-%C3%B6nismeret-irodalom-263008247482207/"><img src="/assets/icons/facebook-black.svg"></img></a>
       <a class="social-logo" target="_blank" href="https://www.instagram.com/rudolfpanka/"><img class="social-logo" src="/assets/icons/instagram-black.svg"></img></a>

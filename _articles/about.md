@@ -1,35 +1,72 @@
 ---
 layout: default
-title: About us
+title: Rólam
+comments: false
+permalink: /rolam/
 ---
 
-## Bibliotherapy
+![](/assets/img/about/panka-intro-image.png)
 
-Life’s too short for bad books – but with a new book published every 30 seconds, it can be hard to know where to start.
+## Bemutatkozás
 
-That’s why we set up a bibliotherapy service: to guide you to life-changing, eye-opening but often elusive works of literature, both past and present, the books that truly have the power to enchant, enrich and inspire.
+Rudolf Panka vagyok, és hiszek a történetek és az emberek erejében. Hiszek benne, hogy a történetek az ősidőktől fogva segítenek a saját narratívánk írásában és saját életünk élésében.
+Kiskorom óta könyvmoly vagyok, amióta megtanultam olvasni, mindig van a kezem ügyében egy kötet. A könyvek mindig is menedéket, felismeréseket, azonosulást, kalandot jelentettek a számomra.
 
-In a consultation with one of our bibliotherapists, you'll explore your relationship with books so far and your unique readerly identity will be sketched. You will be guided to books that can put their finger on feelings that you may often have had but perhaps never understood so clearly before; books that open new perspectives and re-enchant the world for you.
+Ezért is választottam két bölcsész szakot, amikor egyetemre mentem - angol és magyar szakos tanárként diplomáztam. Ám éreztem, valami hibádzik, nem lexikális tudást szerettem volna átadni a diákjaimnak, inkább emberként érdekeltek. Sosem tudtam igazán szigorú tanárnéni lenni, nem szerettem házit adni, követelni…
 
-Our bibliotherapists specialise in works of fiction but also prescribe select works of philosophy, poetry and other creative non-fiction. They've appeared extensively in the UK and international press, and have spoken at festivals around the country. They have recently published The Novel Cure: an A-Z of Literary Remedies (Canongate).
+Amikor életemben először hallottam a biblioterápiáról, azt éreztem, mint amikor az ember szerelmes lesz, megtalálja álmai otthonát, megkapja álmai állását… ez az! Ez az, amit kerestem, ami egyesíti az irodalom és az emberek iránt érzett elhivatottságomat.
 
-You will be asked to complete a questionnaire in advance of the session and you'll be given an instant prescription to take away. Your full prescription will follow within a couple of days.
+2013-ban indítottam irodalmi-közösségi programsorozatomat, a Booktion!-t. A Booktion! célja az volt, hogy szövegek segítségével kapcsolódjunk egymáshoz, felejtsük el, “mire gondolt a költő”, beszélgessünk magunkról, egymásról.
 
-### About the Bibliotherapists
+Amikor már a Pécsi Tudományegyetemen tanultam az irodalomterápiát, akkor jöttem rá, hoyg szinte már a Booktion! is az volt…
+2018 óta már diplomás biblioterapeutaként indítok csoportokat, tartok egyéni konzultációkat.
 
-Ella Berthoud started reading on a journey from Tehran to London, on the parcel shelf of a Wolsey 1300 when she was five. She spent the next thirteen years reading books in inappropriate places. Ella first started talking about bibliotherapy with Susan Elderkin when they were at Cambridge together. Over the ensuing years they prescribed literature to their friends and family, while Ella worked as an artist and Susan wrote her own novels.
+Célom a sokszínűség: mivel ti, akik eljöttök a foglalkozásaimra, szintén sokszínűek vagytok, ezért nem
 
-Simona Lyons joined the team in 2010. She has spent as long as she can remember with her head in a book and spent over a decade running an independent bookshop in North London before becoming a bibliotherapist. She loves nothing more than matching the right book to the right person and spreading her love of the written word.
+## Mi is az a biblioterápia?
 
-Susan Elderkin is the author of two critically acclaimed novels, Sunset over Chocolate Mountains and The Voices. One of Granta’s 20 Best Young British Novelists in 2003, she also works as a critic and has taught creative writing on the MA courses at Birkbeck and Goldsmith’s. The Novel Cure: An A-Z of Literary Remedies by Ella Berthoud and Susan Elderkin was published in September 2013 by Canongate.
+Rudolf Panka vagyok, és hiszek a történetek és az emberek erejében. Hiszek benne, hogy a történetek az ősidőktől fogva segítenek a saját narratívánk írásában és saját életünk élésében.
+Kiskorom óta könyvmoly vagyok, amióta megtanultam olvasni, mindig van a kezem ügyében egy kötet. A könyvek mindig is menedéket, felismeréseket, azonosulást, kalandot jelentettek a számomra.
 
-### Booking Information
-Sessions can take place in-person in London or remotely via phone or skype. Once you have purchased a session one of our bibliotherapists will contact you within 2-3 days to arrange a convenient date and time.
+Ezért is választottam két bölcsész szakot, amikor egyetemre mentem - angol és magyar szakos tanárként diplomáztam. Ám éreztem, valami hibádzik, nem lexikális tudást szerettem volna átadni a diákjaimnak, inkább emberként érdekeltek. Sosem tudtam igazán szigorú tanárnéni lenni, nem szerettem házit adni, követelni…
 
-Please note that due to health and safety concerns, all new Bibliotherapy bookings will be for online sessions only, for the foreseeable future.
+Amikor életemben először hallottam a biblioterápiáról, azt éreztem, mint amikor az ember szerelmes lesz, megtalálja álmai otthonát, megkapja álmai állását… ez az! Ez az, amit kerestem, ami egyesíti az irodalom és az emberek iránt érzett elhivatottságomat.
 
-Please note that once your appointment time and date have been confirmed, we have a forty-eight hour cancellation policy. Any cancellations less than 48 hours prior to an appointment, or any no-shows will be charged.
+2013-ban indítottam irodalmi-közösségi programsorozatomat, a Booktion!-t. A Booktion! célja az volt, hogy szövegek segítségével kapcsolódjunk egymáshoz, felejtsük el, “mire gondolt a költő”, beszélgessünk magunkról, egymásról.
 
-Sessions need to be arranged within 12 months. Bookings made over 12 months ago that were not arranged, cannot be refunded other than in exceptional circumstances. If you were gifted a session that you do not wish to take, then we will happily exchange this for a gift voucher within 12 months of the original booking. To request a refund or exchange for a gift voucher please email therapy@theschooloflife.com. 
+Amikor már a Pécsi Tudományegyetemen tanultam az irodalomterápiát, akkor jöttem rá, hoyg szinte már a Booktion! is az volt…
+2018 óta már diplomás biblioterapeutaként indítok csoportokat, tartok egyéni konzultációkat.
 
-You can buy a bibliotherapy gift e-voucher here.
+Célom a sokszínűség: mivel ti, akik eljöttök a foglalkozásaimra, szintén sokszínűek vagytok, ezért nem
+
+## Visszajelzések
+
+Rudolf Panka vagyok, és hiszek a történetek és az emberek erejében. Hiszek benne, hogy a történetek az ősidőktől fogva segítenek a saját narratívánk írásában és saját életünk élésében.
+Kiskorom óta könyvmoly vagyok, amióta megtanultam olvasni, mindig van a kezem ügyében egy kötet. A könyvek mindig is menedéket, felismeréseket, azonosulást, kalandot jelentettek a számomra.
+
+Ezért is választottam két bölcsész szakot, amikor egyetemre mentem - angol és magyar szakos tanárként diplomáztam. Ám éreztem, valami hibádzik, nem lexikális tudást szerettem volna átadni a diákjaimnak, inkább emberként érdekeltek. Sosem tudtam igazán szigorú tanárnéni lenni, nem szerettem házit adni, követelni…
+
+Amikor életemben először hallottam a biblioterápiáról, azt éreztem, mint amikor az ember szerelmes lesz, megtalálja álmai otthonát, megkapja álmai állását… ez az! Ez az, amit kerestem, ami egyesíti az irodalom és az emberek iránt érzett elhivatottságomat.
+
+2013-ban indítottam irodalmi-közösségi programsorozatomat, a Booktion!-t. A Booktion! célja az volt, hogy szövegek segítségével kapcsolódjunk egymáshoz, felejtsük el, “mire gondolt a költő”, beszélgessünk magunkról, egymásról.
+
+Amikor már a Pécsi Tudományegyetemen tanultam az irodalomterápiát, akkor jöttem rá, hoyg szinte már a Booktion! is az volt…
+2018 óta már diplomás biblioterapeutaként indítok csoportokat, tartok egyéni konzultációkat.
+
+Célom a sokszínűség: mivel ti, akik eljöttök a foglalkozásaimra, szintén sokszínűek vagytok, ezért nem
+
+## Cikkek, interjúk
+
+Rudolf Panka vagyok, és hiszek a történetek és az emberek erejében. Hiszek benne, hogy a történetek az ősidőktől fogva segítenek a saját narratívánk írásában és saját életünk élésében.
+Kiskorom óta könyvmoly vagyok, amióta megtanultam olvasni, mindig van a kezem ügyében egy kötet. A könyvek mindig is menedéket, felismeréseket, azonosulást, kalandot jelentettek a számomra.
+
+Ezért is választottam két bölcsész szakot, amikor egyetemre mentem - angol és magyar szakos tanárként diplomáztam. Ám éreztem, valami hibádzik, nem lexikális tudást szerettem volna átadni a diákjaimnak, inkább emberként érdekeltek. Sosem tudtam igazán szigorú tanárnéni lenni, nem szerettem házit adni, követelni…
+
+Amikor életemben először hallottam a biblioterápiáról, azt éreztem, mint amikor az ember szerelmes lesz, megtalálja álmai otthonát, megkapja álmai állását… ez az! Ez az, amit kerestem, ami egyesíti az irodalom és az emberek iránt érzett elhivatottságomat.
+
+2013-ban indítottam irodalmi-közösségi programsorozatomat, a Booktion!-t. A Booktion! célja az volt, hogy szövegek segítségével kapcsolódjunk egymáshoz, felejtsük el, “mire gondolt a költő”, beszélgessünk magunkról, egymásról.
+
+Amikor már a Pécsi Tudományegyetemen tanultam az irodalomterápiát, akkor jöttem rá, hoyg szinte már a Booktion! is az volt…
+2018 óta már diplomás biblioterapeutaként indítok csoportokat, tartok egyéni konzultációkat.
+
+Célom a sokszínűség: mivel ti, akik eljöttök a foglalkozásaimra, szintén sokszínűek vagytok, ezért nem

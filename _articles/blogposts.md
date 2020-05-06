@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /blogposts/
+comments: false
 ---
 
 <ul class="blogpost-ul">

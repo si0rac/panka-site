@@ -2,6 +2,7 @@
 layout: default
 image_url: "/media/thumbnail-test-2.png"
 title: Az online irodalomterápia előnyei és hátrányai
+comments: true
 
 ---
 Miben más az online irodalomterápiás csoport, mint az offline?
@@ -9,8 +10,6 @@ Miben más az online irodalomterápiás csoport, mint az offline?
 \- eddigi tapasztalataim szerint, csoportvezetői szemmel.
 
 Hátrányok:
-
-![](/media/panka_logo.png)
 
 ➡️A szemkontaktus hiánya
 
