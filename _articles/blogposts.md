@@ -2,6 +2,9 @@
 layout: default
 permalink: /blog/
 comments: false
+title: Blog
+tags: irodalomterápia, biblioterápia, blog, rudolfpanka
+description: "Rudolf Panka irodalomterapeuta blogja"
 ---
 
 <ul class="blogpost-ul">

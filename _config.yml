@@ -13,14 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bibliotherapy
-email: biblio@therapy.com
+title: Rudolf Panka irodalomterapeuta honlapja
+tagline: Irodalmi műveken át az önismeretig
+author: Rudolf Panka
+email: info@rudolfpanka.hu
 description: >- # this means to ignore newlines until "baseurl:"
-  Learn all about bibliotherapy.
+  Rudolf Panka irodalomterapeuta honlapja: a legkülönfélébb irodalmi műveket választom ki ahhoz, hogy segítségükkel elkezdhesd a saját életed történetét írni, aminek te vagy a főszereplője! Legyen szó egyéni konzultációról, önismereti csoportról vagy workshopról, a szövegek és én leszünk társaid az úton önmagadhoz!
 baseurl: '/' # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://www.rudolfpanka.hu" # the base hostname & protocol for your site, e.g. http://example.com
+lang: hu_HU
+twitter_username: 
+github_username: si0rac
+facebook:
+  admins: 
+logo: "/assets/icons/main-logo-large-white.png"
+social:
+  links: 
+    - https://www.facebook.com/pages/category/Community/Rudolf-Panka-biblioterapeuta-%C3%B6nismeret-irodalom-263008247482207/
 
 # Build settings
 markdown: kramdown

@@ -3,6 +3,7 @@ layout: default
 permalink: /esemenyek/
 title: Események
 comments: false
+tags: események, irodalomterápia, biblioterápia, rudolfpanka, workshop, csoport
 ---
 
 ![](/assets/img/events/witcher_workshop_20200507-2.jpg)
