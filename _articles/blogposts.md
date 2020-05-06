@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /blogposts/
+permalink: /blog/
 comments: false
 ---
 

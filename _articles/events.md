@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /events/
+permalink: /esemenyek/
 title: Események
 comments: false
 ---

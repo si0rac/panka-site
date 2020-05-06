@@ -61,11 +61,11 @@
               </div>
             </div>
             <a target="_blank" href="http://m.me/263008247482207"><button class="cta-purple"><p class="button-text">Írj nekem Messengeren!</p></button></a>
-            {% assign latest_blog = site.posts.first %}<a href="{{ latest_blog.url }}"><div class="hover-nav-blog"><p><img class="hover-nav-img" src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.excerpt | truncatewords: 8 }}</p></div></div></a>
+            {% assign latest_blog = site.posts.first %}<div class="hover-nav-blog"><p><img class="hover-nav-img" src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><a href="{{ latest_blog.url }}"><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.excerpt | truncatewords: 8 }}</p></div></a></div>
           </div>
           <div class="sensible-container">
             <div class="sensible-section" id="sensible-content">
-              <div class="feedback-title">Mire van szükséged?</div>
+              <div class="feedback-title" id="container-title">Mire van szükséged?</div>
               <div class="sensible-content">
                 <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-1.png"></div><div class="info-block-text-holder"><label>Önismereti csoport</label><p>Csatlakozz nyitott vagy zárt irodalomterápiás önismereti csoportjaimhoz, ha szeretnél egy mélyebb folyamat során rálátni saját működési módjaidra, elakadásaidra!</p><a class="info-block-link" href="#">Katt ide! &gt;</a></div></div>
                 <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-2.png"></div><div class="info-block-text-holder"><label>Egyéni konzultáció</label><p>Jelentkezz be egyéni irodalomterápiás konzultációra, ha igényeidre és problémáidra szabott segítő beszélgetésre van szükséged. Személyesen neked választott irodalmi szöveggel!</p><a href="#">Katt ide! &gt;</a></div></div>
@@ -82,11 +82,13 @@
             <div class="meta">
               {% assign current_year = 'now' | date: '%Y' %}
               {% if current_year != '2020' %}
-                Copyright © 2020 - {{ current_year }} Rudolf Panka
+                Copyright © 2020 - {{ current_year }} Rudolf Panka  |  info@rudolfpanka.hu
               {% else %}
                 Copyright © 2020 Rudolf Panka
               {% endif %}
             </div>
+            <div class="meta">|</div>
+            <div class="meta">email: info@rudolfpanka.hu</div>
         </footer>
     </div>
   </body>

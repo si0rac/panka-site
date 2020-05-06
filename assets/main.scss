@@ -248,12 +248,15 @@ html, body {
         }
 
         .blogpost-img {
+            display: inline-block;
             width: 48px;
             height: 48px;
-            margin-right: 10px;
+            margin-right: 20px;
         }
 
         h2.post-title {
+            display: flex;
+            align-items: center;
             font-size: 1.6rem;
         }
 
@@ -269,7 +272,7 @@ html, body {
     footer {
         display: flex;
         justify-content: center;
-        background-color: #6CA5D4;
+        background: $active-menu-background-color;
         color: white;
         height: 3rem;
     }
@@ -320,19 +323,27 @@ html, body {
     width: 60%;
 }
 
-/* styling for events page - can affect collapsibles and titles elsewhere! */
+/* styling for "events" and "about" pages - can affect collapsibles and titles elsewhere! */
 
-.title-with-source-edit + p img, .collapse-container + p img {
+.title-with-source-edit + p img, .collapse-container + p img, h2#bemutatkozás + p img {
     width: 32.5%;
     float: right;
-    margin-top: 2rem;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    border: solid 4px rosybrown;
-    padding: 8px;
+    border-radius: 12px;
 }
 
-.collapse-container + h1, p + h1 {
+.title-with-source-edit + p img, .collapse-container + p img {
+    margin-top: 2rem;
+}
+
+#bemutatkozás + p img {
+    padding: 8px;
+    border: 4px solid rosybrown;
+    border-radius:12px;
+}
+
+p + h1 {
     border-top: solid 2px rgba(188,143,143, 1);
     padding-top: 20px;
     margin-top: 20px;
@@ -414,7 +425,7 @@ html, body {
 
 .landing-page {
     width: 100%;
-    height: 95vh;
+    height: 80vh;
     position: relative;
 
     &:before {
@@ -449,6 +460,7 @@ html, body {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1.2px;
     text-align: center;
+    z-index: 2;
 
     p {
         color: white;
@@ -618,7 +630,7 @@ html, body {
     align-self: center;
     width: 80%;
     height: 50%;
-    padding: 50px 0;
+    padding: 25px 0 25px;
 }
 
 .info-block {
@@ -833,15 +845,22 @@ html, body {
     padding: 20px;
     z-index: 1;
     background: rgba(255, 255, 255, 0.8);
-    border-top: solid 2px #696969;
-    border-bottom: solid 2px #696969;
     border-radius: 12px;
     box-shadow: 2px 2px 8px 6px rgba(0, 0, 0, 0.15);
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     letter-spacing: 1px;
+}
+
+#container-title {
     color: #8c8c8c;
+    margin-bottom: 25px;
+}
+
+#slider-title {
+    color: white;
+    background: $active-menu-background-color;
 }
 
 .holder {
@@ -980,6 +999,7 @@ html, body {
       padding-right: 1rem;
       border-radius: 12px;
       z-index: 1;
+      cursor: pointer;
 
       p {
           margin-left: auto;
@@ -994,6 +1014,10 @@ html, body {
           color: white;
           font-size: 1.1rem;
           text-decoration: none;
+      }
+
+      &:hover {
+        background: #A32FA3;
       }
   }
 
@@ -1040,21 +1064,21 @@ figcaption {
     margin-right: auto;
     margin-bottom: 15rem;
     margin-top: 1rem;
-    font-size: 1rem;
     opacity: 0.5;
-    font-style: italic;
 
     p {
         text-align: center;
+        font-style: italic;
+        font-size: 1rem;
     }
 }
 
 .consult-feedback-person {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-family: Bebas Neue, cursive;
+    letter-spacing: 1px;
     opacity: 1;
     text-align: center;
+    font-size: 1.3rem;
 }
 
 #disqus_thread {
@@ -1281,6 +1305,10 @@ figcaption {
             display: none;
         }
     }
+
+    .hover-nav-content-blog p {
+        font-size: 0.65rem;
+    }
     
     .hover-nav:hover .hover-nav-content, .hover-nav-blog:hover .hover-nav-content-blog {
     
@@ -1289,7 +1317,7 @@ figcaption {
         }
     }
     
-    .hover-nav:hover ~ a .hover-nav-blog {
+    .hover-nav:hover ~ .hover-nav-blog {
         top: 45%;
     }
     
@@ -1457,6 +1485,10 @@ figcaption {
 }
 
 @media only screen and (max-width: 30em) {
+
+    .landing-page {
+        height: 100vh;
+    }
     
     .panka-landing-image-mobile {
         top: 10%;

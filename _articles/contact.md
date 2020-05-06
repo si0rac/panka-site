@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: "/contact/"
-title: Contact information 
+permalink: "/kapcsolat/"
+title: Itt érhetsz el
 comments: false
 ---
 

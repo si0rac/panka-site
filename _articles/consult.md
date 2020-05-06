@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /consult/
+permalink: /konzultacio/
 title: Egyéni irodalomterápiás konzultáció - online
 comments: false
 ---
