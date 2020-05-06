@@ -12,25 +12,20 @@ sections:
 - type: heading
   label: Content
 - type: document
-  path: _includes/index.html
+  path: _layouts/index.html
   label: Kezdőlap (HTML)
-  match: "**/*"
 - type: document
   path: _articles/index.md
   label: Kezdőlap (markdown)
-  match: "**/*"
 - type: document
   path: _articles/about.md
   label: Rólam
-  match: "**/*"
 - type: document
   path: _articles/events.md
   label: Események
-  match: "**/*"
 - type: document
   path: _articles/groups.md
   label: Csoportok
-  match: "**/*"
 - type: jekyll-posts
   label: Blogposztok
   create: all
@@ -39,12 +34,16 @@ sections:
 - type: document
   path: _includes/contact.html
   label: Kapcsolat
-  match: "**/*"
 - type: directory
   path: _images
   label: Images
   create: all
   match: "**/*"
+- type: document
+  path: _layouts/default.html
+  label: Default layout
+  match: "**/*"
+  read_only: true
 upload_dir: media
 public_path: "/media"
 front_matter_path: ''
