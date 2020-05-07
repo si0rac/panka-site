@@ -20,4 +20,4 @@ fields:
   label: Lehet-e kommentelni?
   default: false
 pages:
-- _events/teszt-esemény.md
+- _events/20200520teszt-esemeny.md
