@@ -29,9 +29,15 @@ fields:
   default: true
 - name: tag
   type: tag_list
-  default: []
-  label: 'Meta tagek, a keresőmotorok könnyebb eligazodása érdekében. Néhány kulcsszó
-    javaslott. '
+  default:
+  - rudolfpanka
+  - irodalomterápia
+  - blogposzt
+  - biblioterápia
+  description: 'Meta tagek, a keresőmotorok könnyebb eligazodása érdekében. Néhány
+    kulcsszó javaslott. Ha vesszőt ütsz, új tag kezdődik. Összetett tageket kötőjellel
+    lehet: "terapias-csoport". Ékezetek használhatóak.'
+  label: A cikkhez tartozó kulcsszavak (tagek)
 - type: text
   name: layout
   label: layout
