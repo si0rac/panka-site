@@ -334,6 +334,10 @@ h1 ~ p img, .collapse-container + p img, h2#bemutatkozás + p img {
     border-radius: 12px;
 }
 
+h2#bemutatkozás + p img {
+    width: 35%;
+}
+
 .title-with-source-edit + p img, .collapse-container + p img {
     margin-top: 2rem;
 }
