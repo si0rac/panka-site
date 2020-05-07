@@ -30,7 +30,8 @@ fields:
 - name: tag
   type: tag_list
   default: []
-  label: "Meta tagek, a keresőmotorok könnyebb eligazodása érdekében. Néhány kulcsszó javaslott. "
+  label: 'Meta tagek, a keresőmotorok könnyebb eligazodása érdekében. Néhány kulcsszó
+    javaslott. '
 - type: text
   name: layout
   label: layout
