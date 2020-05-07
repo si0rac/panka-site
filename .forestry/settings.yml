@@ -42,11 +42,6 @@ sections:
 - type: document
   path: _includes/contact.html
   label: Kapcsolat
-- type: directory
-  path: assets/img
-  label: Images
-  create: all
-  match: "**/*"
 - type: document
   path: _layouts/default.html
   label: Default layout
