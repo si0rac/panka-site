@@ -18,6 +18,7 @@ html, body {
     letter-spacing: -0.5px;
     box-sizing: border-box;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
 *, *:before, *:after {
@@ -1095,7 +1096,59 @@ figcaption {
     margin-right: auto;
 }
 
-  /* not used right now
+/* events page styling starts */
+
+
+.events-list {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/assets/img/events/calendar.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    list-style-type: none;
+    list-style-position: outside;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2rem;
+}
+
+.events-list-item {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 2px darkred;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: Bebas Neue, cursive;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+a.events-list-item-link {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.events-list-item-link:hover {
+    text-decoration: underline;
+}
+
+.events-aligner {
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-family: Bebas Neue, cursive;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6rem 0 4rem;
+}
+
+/* not used right now
 
   .what-is-container {
     position: relative;
@@ -1214,16 +1267,8 @@ figcaption {
         justify-content: flex-start;
     }
 
-    #aboutme .menu-link, #groups .menu-link {
-        width: 40%;
-    }
-
-    #events .menu-link {
+    #aboutme .menu-link, #groups .menu-link, #events .menu-link {
         width: 60%;
-    }
-
-    #events .menu-link + .opener {
-        width: 40%;
     }
 
     #aboutme .dropdown-menu-item .menu-link, #groups .dropdown-menu-item .menu-link, #events .dropdown-menu-item .menu-link {
@@ -1231,13 +1276,17 @@ figcaption {
     }
 
     .opener {
-       width: 60%;
+       width: 40%;
        background: transparent;
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-end;
+       align-items: center;
+       padding-right: 15px;
+       padding-bottom: 30px;
 
        img {
            transform: rotate(90deg) translateX(1rem);
-           margin-top: auto;
-           margin-bottom: auto;
        }
     }
 
@@ -1525,4 +1574,25 @@ figcaption {
             border-radius: 50%;
         }
     }
+
+    .events-list {
+        background-image: none;
+        position: relative;
+
+        &:before {
+            content: url(/assets/icons/calendar-grey.svg/);
+            filter: invert(1);
+            padding-right: 10px;
+            position: absolute;
+            top: 3%;
+            left: 15%;
+        }
+    }
+
+    .events-aligner {
+        color: #8c8c8c;
+        padding: 10px;
+        height: auto;
+        font-size: 1.8rem;
+    } 
 }
