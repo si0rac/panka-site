@@ -5,6 +5,7 @@ comments: false
 tags: események, irodalomterápia, biblioterápia, rudolfpanka, workshop, csoport
 event_name: Ne ess pánikba! 
 event_date: "2020. május 10., 18:00"
+description: "Törölközőnapi online irodalomterápiás workshop: megtudhatjuk, hogy miért legyen nálunk mindig törölköző, hol találunk teát, ha megsemmisítik a Földet, és hogy hogy lehet kibírni egy szűk űrhajón a bezártságot."
 ---
 
 # Ne ess pánikba - törölközőnapi online irodalomterápiás workshop

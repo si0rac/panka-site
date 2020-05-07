@@ -3,6 +3,7 @@ layout: default
 title: Ingyenes meseolvasás
 comments: false
 tags: események, irodalomterápia, biblioterápia, rudolfpanka, workshop, csoport
+description: Ingyenes szorongáscsökkentő beszélgetés vagy gyógyító meseolvasás 15 percben (online).
 ---
 
 # Ingyenes szorongáscsökkentő beszélgetés és gyógyító meseolvasás

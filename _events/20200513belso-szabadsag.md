@@ -4,11 +4,14 @@ title: Belső szabadság II.
 comments: false
 tags: események, irodalomterápia, biblioterápia, rudolfpanka, workshop, csoport
 event_date: "2020. 05. 13., 18:00"
+description: A három alkalmas online irodalomterápiás workshop-sorozat második része.
 ---
 
-# Belső szabadság II. - online irodalomterápiás workshop - 2020. 05. 13., 18:00
+# Belső szabadság II. - online irodalomterápiás workshop
 
 ![](/assets/img/events/belso-szabadsag.jpg)
+
+## Időpont: 2020. május 13., 18:00
 
 Belső szabadság – három alkalmas online irodalomterápiás workshop-sorozat
 

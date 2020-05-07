@@ -6,4 +6,44 @@ comments: false
 tags: események, irodalomterápia, biblioterápia, rudolfpanka, workshop, csoport
 ---
 
-Itt találhatjátok meg az aktuális eseményeimet! 
+<style>
+    .event-main-list-item {
+        display: flex;
+        flex-direction: column;
+        background-image: url(/assets/img/events/calendar.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 4rem;
+        padding-top: 10rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 2rem;
+        width: 100%;
+    }
+
+    .event-main-list-item h2 {
+        margin-bottom: 0;
+        margin-top: -6rem;
+        flex: 1 1 auto;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .event-main-list-item h3 {
+        margin-bottom: 0;
+        margin-top: 2rem;
+        flex: 1 1 auto;
+    }
+</style>
+
+<div class="events-container">
+{% for event in site.events %}
+    <div class="event-main-list-item">
+        <h2>{{ event.title }}</h2>
+        <h3>{{ event.event_date | date: '%Y. %m. %d., %H:%M' }}</h3>
+        <div class="event-description"><p>{{ event.description }}</p></div>
+        <div class="url"><a href="{{ event.url }}">A részletekért katt ide &gt;&gt;</a></div>
+    </div>
+{% endfor %}
+</div>
