@@ -53,7 +53,7 @@
             <div class="panka-landing-image-mobile">
               <img src="/assets/img/panka_index.jpg">
             </div>
-            {% assign next_event = site.events.first %}<div class="hover-nav"><p><img class="hover-nav-img" src="/assets/icons/calendar.svg/">Következő esemény</p><a href="{{ next_event.url }}"><div class="hover-nav-content"><label>{{ next_event.title }}</label><p>Időpont: {{ next_event.event_date | date: '%Y. %m. %d. %hh:%mm' }}</p></div></a></div>
+            {% assign next_event = site.events.first %}<div class="hover-nav"><p><img class="hover-nav-img" src="/assets/icons/calendar.svg/">Következő esemény</p><a href="{{ next_event.url }}"><div class="hover-nav-content"><label>{{ next_event.title }}</label><p>Időpont: {{ next_event.event_date | date: '%Y. %m. %d. %H:%M' }}</p></div></a></div>
             <div class="landing-text-container">
               <div class="panka-landing-image-container">
                 <img src="/assets/img/panka_index.jpg">
