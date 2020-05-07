@@ -15,6 +15,11 @@ fields:
   name: event_date
   label: Mikor lesz az esemény?
   default: 
+- name: tag
+  type: tag_list
+  default: []
+  label: "Meta tagek: ezekkel lehet nyitott, zárt, vagy workshop kategóriába helyezni az eseményt, a 'nyitott', 'zárt' és 'workshop' tagek használatával."
+  description: Tags for generating related article links
 - type: boolean
   name: comments
   label: Lehet-e kommentelni?

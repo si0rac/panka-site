@@ -27,6 +27,10 @@ fields:
   name: comments
   label: Lehet-e kommentelni?
   default: true
+- name: tag
+  type: tag_list
+  default: []
+  label: "Meta tagek, a keresőmotorok könnyebb eligazodása érdekében. Néhány kulcsszó javaslott. "
 - type: text
   name: layout
   label: layout
