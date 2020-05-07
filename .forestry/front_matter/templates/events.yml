@@ -11,6 +11,8 @@ fields:
   name: description
   label: Egy rövid leírás az eseményről
   default: 
+  description: A keresőmotorok kedvéért célszerű írni néhány mondatot, maximum olyan
+    160-200 karakter mennyiségben.
 - type: datetime
   name: event_date
   label: Mikor lesz az esemény?
