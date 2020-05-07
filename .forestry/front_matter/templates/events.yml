@@ -19,3 +19,5 @@ fields:
   name: comments
   label: Lehet-e kommentelni?
   default: false
+pages:
+- _events/teszt-esemény.md

@@ -28,7 +28,7 @@ sections:
   label: Események (az egyes események)
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - events
 - type: document
