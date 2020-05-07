@@ -21,9 +21,11 @@ fields:
   - irodalomterápia
   - rudolfpanka
   - biblioterápia
-  label: 'Meta tagek: ezekkel lehet nyitott, zárt, vagy workshop kategóriába helyezni
-    az eseményt, a ''nyitott'', ''zárt'' és ''workshop'' tagek használatával.'
-  description: Tags for generating related article links
+  description: 'Meta tagek: ezekkel lehet nyitott, zárt, vagy workshop kategóriába
+    helyezni az eseményt, a ''nyitott'', ''zárt'' és ''workshop'' tagek használatával.
+    Ha vesszőt ütsz, új tag kezdődik. Összetett tageket kötőjellel lehet: "terapias-csoport".
+    Ékezetek használhatóak.'
+  label: A cikkhez tartozó kulcsszavak (tagek).
 - type: boolean
   name: comments
   label: Lehet-e kommentelni?
