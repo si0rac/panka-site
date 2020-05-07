@@ -10,17 +10,12 @@ fields:
 - type: textarea
   name: description
   label: Egy rövid leírás az eseményről
-  default:
+  default: 
 - type: datetime
   name: event_date
   label: Mikor lesz az esemény?
   default: 
 - type: boolean
   name: comments
-  label: Lehet-e kommentelni? 
+  label: Lehet-e kommentelni?
   default: false
-pages:
-- _events/20200507witcher.md
-- _events/20200513belso-szabadsag.md
-- _events/20200525dontpanic.md
-- _events/meseolvasas.md

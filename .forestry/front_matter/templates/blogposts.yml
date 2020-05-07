@@ -10,7 +10,7 @@ fields:
 - type: textarea
   name: description
   label: Egy rövid összefoglaló a posztról
-  default:
+  default: 
 - type: datetime
   name: Date
   label: Date of publication
@@ -25,7 +25,7 @@ fields:
   label: Thumbnail image for the post
 - type: boolean
   name: comments
-  label: Lehet-e kommentelni? 
+  label: Lehet-e kommentelni?
   default: true
 - type: text
   name: layout

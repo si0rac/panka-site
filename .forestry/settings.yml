@@ -22,7 +22,15 @@ sections:
   label: Rólam
 - type: document
   path: _articles/events.md
-  label: Események
+  label: Események (menüpont)
+- type: directory
+  path: _events
+  label: Események (az egyes események)
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - events
 - type: document
   path: _articles/groups.md
   label: Csoportok
@@ -42,7 +50,6 @@ sections:
 - type: document
   path: _layouts/default.html
   label: Default layout
-  match: "**/*"
   read_only: true
 upload_dir: media
 public_path: "/media"
