@@ -11,13 +11,14 @@ fields:
   name: description
   label: Egy rövid összefoglaló a posztról
   default: 
+  description: 'A keresőmotorok kedvéért célszerű írni néhány mondatot, maximum olyan
+    160-200 karakter mennyiségben. '
 - type: datetime
   name: Date
-  label: Date of publication
+  label: A megjelenés időpontja
   default: 
-- type: text
-  name: permalink
-  label: permalink
+  description: 'Ezzel időzíteni is lehet a posztot: a megadott dátumig nem jelenik
+    meg. '
 - name: image_url
   type: file
   config:
@@ -27,6 +28,8 @@ fields:
   name: comments
   label: Lehet-e kommentelni?
   default: true
+  description: 'A disqus kommentmező csak akkor jelenik meg, ha ez a toggle true-ra
+    van állítva. '
 - name: tag
   type: tag_list
   default:
@@ -38,6 +41,9 @@ fields:
     kulcsszó javaslott. Ha vesszőt ütsz, új tag kezdődik. Összetett tageket kötőjellel
     lehet: "terapias-csoport". Ékezetek használhatóak.'
   label: A cikkhez tartozó kulcsszavak (tagek)
+- type: text
+  name: permalink
+  label: permalink
 - type: text
   name: layout
   label: layout
