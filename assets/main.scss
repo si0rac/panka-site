@@ -163,7 +163,7 @@ html, body {
     
     @media screen and (min-width: 50em) {
 
-        #aboutme:hover > .dropdown-menu, #groups:hover > .dropdown-menu {
+        #aboutme:hover > .dropdown-menu, #groups:hover > .dropdown-menu, #events:hover > .dropdown-menu {
             display: block;
             position: absolute;
             top: 80%;
@@ -178,6 +178,17 @@ html, body {
         .opener {
             display: none;
         }
+    }
+
+    .title-with-source-edit h1 {
+        text-align: center;
+        border-bottom: solid 2px #20B2AA;
+        font-size: 2.2rem;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+        font-family: Bebas Neue, cursive;
+        letter-spacing: 1.5px;
+        opacity: 0.7;
     }
 
     main {
@@ -219,17 +230,6 @@ html, body {
                 height: 110px; /* fixed header height*/
                 margin: -110px 0 0; /* negative fixed header height */
               }
-        }
-
-        .title-with-source-edit {
-            text-align: center;
-            border-bottom: solid 2px #20B2AA;
-            font-size: 1.8rem;
-            margin-top: -1rem;
-            margin-bottom: 2rem;
-            font-family: Bebas Neue, cursive;
-            letter-spacing: 1.5px;
-            opacity: 0.7;
         }
 
         .blogpost-ul {
@@ -325,7 +325,7 @@ html, body {
 
 /* styling for "events" and "about" pages - can affect collapsibles and titles elsewhere! */
 
-.title-with-source-edit + p img, .collapse-container + p img, h2#bemutatkozás + p img {
+h1 ~ p img, .collapse-container + p img, h2#bemutatkozás + p img {
     width: 32.5%;
     float: right;
     margin-left: 2rem;
@@ -343,12 +343,13 @@ html, body {
     border-radius:12px;
 }
 
-p + h1 {
-    border-top: solid 2px rgba(188,143,143, 1);
+h1 {
+    border-bottom: solid 2px rgba(188,143,143, 1);
     padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-family: Bebas Neue, cursive;
     letter-spacing: 1.5px;
     opacity: 0.7;
@@ -471,6 +472,10 @@ p + h1 {
         margin-right: 1rem;
         transform: translateY(0.2rem);
     }
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .hover-nav {
@@ -502,16 +507,18 @@ p + h1 {
 
     p {
         display: block;
+        font-size: 1.2rem;
     }
 
     label {
         display: inline-block;
         color: white;
         font-size: 1.5rem;
+        cursor: pointer;
     }
 }
 
-.hover-nav:hover ~ a .hover-nav-blog {
+.hover-nav:hover ~ .hover-nav-blog {
     top: 65%;
 }
 
@@ -519,9 +526,9 @@ p + h1 {
     cursor: pointer;
 }
 
-.hover-nav-content-blog p {
+.hover-nav-blog:hover .hover-nav-content-blog > p {
     font-family: Montserrat;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .landing-text-container {
@@ -681,7 +688,7 @@ p + h1 {
         color: $color-dark-blue;
 
         &:hover, &:focus {
-            color: $color-light-blue;
+            opacity: 0.65
         }
     }
 }
@@ -727,7 +734,7 @@ p + h1 {
       color: $color-dark-blue;
 
       &:hover, &:focus {
-          color: $color-light-blue;
+          opacity: 0.65;
       }
   }
 }
@@ -1189,18 +1196,18 @@ figcaption {
         margin-right: 0;
     }
 
-    #aboutme, #groups {
+    #aboutme, #groups, #events {
         position: relative;
     }
 
-    #aboutme.opened > .dropdown-menu, #groups.opened > .dropdown-menu {
+    #aboutme.opened > .dropdown-menu, #groups.opened > .dropdown-menu, #events.opened > .dropdown-menu {
         display: block;
         width: 100%;
         list-style-type: none;
         padding-left: 0;
     }
 
-    #aboutme, #groups {
+    #aboutme, #groups, #events {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
@@ -1210,7 +1217,15 @@ figcaption {
         width: 40%;
     }
 
-    #aboutme .dropdown-menu-item .menu-link, #groups .dropdown-menu-item .menu-link {
+    #events .menu-link {
+        width: 60%;
+    }
+
+    #events .menu-link + .opener {
+        width: 40%;
+    }
+
+    #aboutme .dropdown-menu-item .menu-link, #groups .dropdown-menu-item .menu-link, #events .dropdown-menu-item .menu-link {
         width: 100%;
     }
 
@@ -1306,14 +1321,19 @@ figcaption {
         }
     }
 
-    .hover-nav-content-blog p {
+    .hover-nav-blog:hover .hover-nav-content-blog p {
+        font-family: Montserrat;
         font-size: 0.65rem;
+    }
+
+    .hover-nav:hover .hover-nav-content p {
+        font-size: 0.8rem;
     }
     
     .hover-nav:hover .hover-nav-content, .hover-nav-blog:hover .hover-nav-content-blog {
     
         label {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
     }
     
@@ -1480,6 +1500,10 @@ figcaption {
     .invisible-slide {
         opacity: 0;
         transition: opacity 2s;
+    }
+
+    .meta {
+      font-size: 0.7rem;  
     }
   
 }

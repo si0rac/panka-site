@@ -11,6 +11,10 @@ fields:
   name: description
   label: Egy rövid összefoglaló a posztról
   default:
+- type: datetime
+  name: Date
+  label: Date of publication
+  default: 
 - type: text
   name: permalink
   label: permalink

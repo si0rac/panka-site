@@ -11,7 +11,13 @@
             <li class="dropdown-menu-item"><a class="menu-link" href="/rolam/#cikkek-interjúk">Cikkek, interjúk</a></li>
           </ul>
         </li>
-        <li class="menu-item" id="events"><a class="menu-link" href="/esemenyek/">Aktuális események</a></li>
+        <li class="menu-item" id="events"><a class="menu-link" href="/esemenyek/">Aktuális események</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
+          <ul class="dropdown-menu">
+          {% for event in site.events %}
+            <li class="dropdown-menu-item"><a class="menu-link" href="{{ event.url }}">{{ event.title }}</a></li>
+          {% endfor %}
+          </ul>
+        </li>
         <li class="menu-item" id="groups"><a class="menu-link" href="/csoportok/">Csoportok</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
           <ul class="dropdown-menu">
             <li class="dropdown-menu-item"><a class="menu-link" href="/nyitott-csoportok/">Nyitott csoportok</a></li>

@@ -47,6 +47,9 @@ collections:
     permalink: "/:path/"
   images: 
     output: true
+  events:
+    output: true
+    permalink: "/:path/"
 
 defaults:
 - scope:
@@ -54,6 +57,12 @@ defaults:
     type: articles
   values:
     layout: default
+- scope:
+    path: ''
+    type: events
+  values:
+    layout: default
+
 
 algolia:
   index_name: BIBLIO_TEST

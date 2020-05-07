@@ -12,11 +12,13 @@ $("#aboutme > .opener").click(function() {
 	$("#aboutme" ).toggleClass( "opened"), $("#aboutme > .opener").toggleClass( "clicked");
   });
 
-
 $("#groups > .opener").click(function() {
 	$("#groups" ).toggleClass( "opened"), $("#groups > .opener").toggleClass( "clicked");
   });
 
+$("#events > .opener").click(function() {
+  $("#events" ).toggleClass( "opened"), $("#events > .opener").toggleClass( "clicked");
+  });
 
 $("a.menu-link").each(function() {
     if (this.href == window.location.href) {

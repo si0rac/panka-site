@@ -50,7 +50,7 @@
             <div class="panka-landing-image-mobile">
               <img src="/assets/img/panka_index.jpg">
             </div>
-            <div class="hover-nav"><p><img class="hover-nav-img" src="/assets/icons/calendar.svg/">Következő esemény</p><div class="hover-nav-content"><label>Witcher Workshop</label><p>Időpont: 2020. május 7., 18:00</p></div></div>
+            {% assign next_event = site.events.first %}<div class="hover-nav"><p><img class="hover-nav-img" src="/assets/icons/calendar.svg/">Következő esemény</p><a href="{{ next_event.url }}"><div class="hover-nav-content"><label>{{ next_event.title }}</label><p>Időpont: {{ next_event.event_date }}</p></div></a></div>
             <div class="landing-text-container">
               <div class="panka-landing-image-container">
                 <img src="/assets/img/panka_index.jpg">

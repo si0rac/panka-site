@@ -10,6 +10,11 @@
   {% endif %}
 {% endfor %}
 
+{% for event in site.events %}
+  {% if page.url == event.url %}
+    {% assign current_event = event %}
+  {% endif %}
+{% endfor %}
 
 <!DOCTYPE HTML>
 <html lang="hu">
@@ -51,17 +56,16 @@
         {% include header.html %}
         <main>
             <section class="content">
-                {% if current_article %}
-                  {% if current_article.url != "/" %}
+                {% if current_article or current_post or current_event %}
+                  {% if current_article.url != "/" and current_article %}
                     <div class="title-with-source-edit">
                       <h1>{{ current_article.title }}</h1>
                     </div>
+                  {% elsif current_post %}
+                    <div class="title-with-source-edit">
+                      <h1>{{ current_post.title }}</h1>
+                    </div>
                   {% endif %}
-                {% endif %}
-                {% if current_post %}
-                  <div class="title-with-source-edit">
-                    <h1>{{ current_post.title }}</h1>
-                  </div>
                 {% endif %}
                 {% include anchor_headings.html html=content anchorBody="⚓" anchorClass="anchor-symbol" %}
             </section>
