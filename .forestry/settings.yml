@@ -43,7 +43,7 @@ sections:
   path: _includes/contact.html
   label: Kapcsolat
 - type: directory
-  path: _images
+  path: assets/img
   label: Images
   create: all
   match: "**/*"
