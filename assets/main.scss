@@ -329,7 +329,7 @@ h1 ~ p img, .collapse-container + p img, h2#bemutatkozás + p img {
     width: 45%;
     float: right;
     margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border-radius: 12px;
 }
 
@@ -360,7 +360,7 @@ h1 {
 .collapsible {
 	display: block;
     cursor: pointer;
-    width: 60%;
+    width: 100%;
     background: rgba(188,143,143, 1);
     border: none;
     border-bottom: solid 2px #f8f0ff;
@@ -388,6 +388,7 @@ h1 {
     margin-right: auto;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    width: 60%;
 
     p {
 		font-size: 1.3rem;

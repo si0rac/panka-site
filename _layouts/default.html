@@ -57,7 +57,7 @@
         <main>
             <section class="content">
                 {% if current_article or current_post or current_event %}
-                  {% if current_article.url != "/" and current_article %}
+                  {% if current_article.url != "/" and current_article.url != "/esemenyek/" and current_article %}
                     <div class="title-with-source-edit">
                       <h1>{{ current_article.title }}</h1>
                     </div>
