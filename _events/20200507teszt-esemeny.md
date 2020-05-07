@@ -1,7 +1,7 @@
 ---
 title: Teszt esemény
 description: Ezzel tesztelem a kódot
-event_date: 2020-05-20 16:00:00 +0000
+event_date: 2020-05-07 15:00:00 +0000
 comments: false
 
 ---
