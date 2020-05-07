@@ -19,5 +19,3 @@ fields:
   name: comments
   label: Lehet-e kommentelni?
   default: false
-pages:
-- _events/20200507teszt-esemeny.md
