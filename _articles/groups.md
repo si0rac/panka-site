@@ -2,7 +2,6 @@
 title: Csoportok
 permalink: "/csoportok/"
 comments: false
-published: false
 
 ---
 ## Nyitott csoportok
