@@ -26,6 +26,11 @@ Ez zárt biblioterápiás csoport során hatalmas esélyed van rá, hogy életed
 
 ## Workshopok
 
-A workshopok egyenesen kiválóak.
+Szeretnél egy konkrét irodalmi műről vagy gondolatébresztő témáról beszélgetni, hasonló érdeklődésű emberekkel? Szeretnéd játékos és interaktív gyakorlatok során eddzeni önreflexiós képességeidet, felszabadítani kreatív erőforrásaidat? Szereted az intellektuális kihívásokat és vitákat, aminek során kihozod magadból a legtöbbet?  
+  
+Akkor ajánlom neked workshopjaimat!  
+Miben más egy irodalomterápiás workshop, mint egy önismereti csoport? Egy workshopon kevésbé az önismereti kérdéseken van a hangsúly, a mint inkább a választott témán vagy irodalmi művön.
+
+Ám, mivel szemléletem alapvetően személyközpontú és önreflexív, ezért a workshopokon is lehetőséged van saját magadra reflektálni, gondolkodni működési módjaidról. A foglalkozás célja azonban nem elsősorban az önismereted fejlesztése, hanem mindig az adott workshop témája mentén való kapcsolódás.
 
 {% include workshop.html %}
