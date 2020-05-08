@@ -2,42 +2,30 @@
 layout: default
 title: Rólam
 comments: false
-permalink: /rolam/
----
+permalink: "/rolam/"
 
+---
 ## Bemutatkozás
 
 ![](/assets/img/about/panka-intro-image.png)
 
-Rudolf Panka vagyok, és hiszek a történetek és az emberek erejében. Hiszek benne, hogy a történetek az ősidőktől fogva segítenek a saját narratívánk írásában és saját életünk élésében.
-Kiskorom óta könyvmoly vagyok, amióta megtanultam olvasni, mindig van a kezem ügyében egy kötet. A könyvek mindig is menedéket, felismeréseket, azonosulást, kalandot jelentettek a számomra.
+Rudolf Panka vagyok, és hiszek a történetek és az emberek erejében. Hiszek benne, hogy a történetek az ősidőktől fogva segítenek a saját narratívánk írásában és saját életünk alakításában.
+
+Kiskorom óta könyvmoly vagyok, a könyvek mindig is menedéket, felismeréseket, azonosulást, kalandot jelentettek a számomra.
 
 Ezért is választottam két bölcsész szakot, amikor egyetemre mentem - angol és magyar szakos tanárként diplomáztam. Ám éreztem, valami hibádzik, nem lexikális tudást szerettem volna átadni a diákjaimnak, inkább emberként érdekeltek. Sosem tudtam igazán szigorú tanárnéni lenni, nem szerettem házit adni, követelni…
 
-Amikor életemben először hallottam a biblioterápiáról, azt éreztem, mint amikor az ember szerelmes lesz, megtalálja álmai otthonát, megkapja álmai állását… ez az! Ez az, amit kerestem, ami egyesíti az irodalom és az emberek iránt érzett elhivatottságomat.
+Ezért 2013-ban elindítottam irodalmi-közösségi programsorozatomat, a Booktion!-t. A Booktion! célja az volt, hogy szövegek segítségével kapcsolódjunk egymáshoz, felejtsük el, “mire gondolt a költő”, beszélgessünk magunkról, egymásról. Ez a foglalkozássorozat rengeteg tapasztalattal és élménnyel gazdagított, és úgy éreztem, ezt a kézzelfogható gyakorlati tudást alapjaiban is meg kell támogatnom.
 
-2013-ban indítottam irodalmi-közösségi programsorozatomat, a Booktion!-t. A Booktion! célja az volt, hogy szövegek segítségével kapcsolódjunk egymáshoz, felejtsük el, “mire gondolt a költő”, beszélgessünk magunkról, egymásról.
-
-Amikor már a Pécsi Tudományegyetemen tanultam az irodalomterápiát, akkor jöttem rá, hoyg szinte már a Booktion! is az volt…
-2018 óta már diplomás biblioterapeutaként indítok csoportokat, tartok egyéni konzultációkat.
-
-Célom a sokszínűség: mivel ti, akik eljöttök a foglalkozásaimra, szintén sokszínűek vagytok, ezért nem
+2018-ban elvégeztem a Pécsi Tudományegyetemen a biblioterápia szakot, így azóta már okleves irodalomterapeutaként tartom foglalkozásaimat. A fókusz nálam mindig a hozzám fordulókon van, a szöveg pedig segítőtársként kísér végig a közös utunkon. Hiszem, hogy a legfontosabb összetevő a kapcsolódás - csoportjaimon kapcsolódsz hozzám, a csoporttagokhoz, a szöveghez, és nem utolsó sorban önmagadhoz is!
 
 ## Mi is az a biblioterápia?
 
-Rudolf Panka vagyok, és hiszek a történetek és az emberek erejében. Hiszek benne, hogy a történetek az ősidőktől fogva segítenek a saját narratívánk írásában és saját életünk élésében.
-Kiskorom óta könyvmoly vagyok, amióta megtanultam olvasni, mindig van a kezem ügyében egy kötet. A könyvek mindig is menedéket, felismeréseket, azonosulást, kalandot jelentettek a számomra.
+A biblioterápia elnevezés a ‘biblio’ = könyvek és a terápia szóból ered, a művészetterápiák körébe tartozik. Szinonímája az irodalomterápia, az egyértelműség kedvéért szeretem ez utóbbit használni.
 
-Ezért is választottam két bölcsész szakot, amikor egyetemre mentem - angol és magyar szakos tanárként diplomáztam. Ám éreztem, valami hibádzik, nem lexikális tudást szerettem volna átadni a diákjaimnak, inkább emberként érdekeltek. Sosem tudtam igazán szigorú tanárnéni lenni, nem szerettem házit adni, követelni…
+Egy irodalomterápiás foglalkozás során a legkülönfélébb irodalmi művek segítenek számodra, hogy reflektálj saját működési módjaidra, elakadásaidra, kérdéseidre. Nem szöveget elemzünk egy foglalkozás vagy konzultáció során, hanem RÓLAD beszélgetünk, és arról, számodra itt és most mit mond a szöveg, hogyan tudsz kapcsolódni hozzá. A szöveg segít elindulni, kapaszkodót ad hozzá, hogy megkezd vagy folytasd az önismereti utad. Egy-egy szereplő motivációja, élethelyzete ismerős lehet a számodra a saját életedből, és segít tisztábban, egy külső perspektívából rálátni egy dilemmára. A szövegek segítségével megéled, hogy nem vagy egyedül, hiszen akár hosszú évekkel ezelőtt és nagy földrajzi távolságokban alkotó emberek írtak ugyanarról a kérdésről, ami téged foglalkoztat.
 
-Amikor életemben először hallottam a biblioterápiáról, azt éreztem, mint amikor az ember szerelmes lesz, megtalálja álmai otthonát, megkapja álmai állását… ez az! Ez az, amit kerestem, ami egyesíti az irodalom és az emberek iránt érzett elhivatottságomat.
-
-2013-ban indítottam irodalmi-közösségi programsorozatomat, a Booktion!-t. A Booktion! célja az volt, hogy szövegek segítségével kapcsolódjunk egymáshoz, felejtsük el, “mire gondolt a költő”, beszélgessünk magunkról, egymásról.
-
-Amikor már a Pécsi Tudományegyetemen tanultam az irodalomterápiát, akkor jöttem rá, hoyg szinte már a Booktion! is az volt…
-2018 óta már diplomás biblioterapeutaként indítok csoportokat, tartok egyéni konzultációkat.
-
-Célom a sokszínűség: mivel ti, akik eljöttök a foglalkozásaimra, szintén sokszínűek vagytok, ezért nem
+Irodalomterápiás csoportjaimon az önismereti kérdések mellett fontos szerepet kap a játék és a kreatív energiák felszabadítása is. Mozgósítjuk a játékos, kreatív énedet, melynek segítségével utat találhatsz valódi önmagadhoz, akit nem kötnek elvárások, szabályok.
 
 ## Visszajelzések
 
