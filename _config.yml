@@ -50,6 +50,9 @@ collections:
   events:
     output: true
     permalink: "/:path/"
+  posts: 
+    output: true 
+    permalink: "/blog/:path"
 
 defaults:
 - scope:
@@ -59,10 +62,9 @@ defaults:
     layout: default
 - scope:
     path: ''
-    type: events
+    type: posts
   values:
     layout: default
-
 
 algolia:
   index_name: BIBLIO_TEST

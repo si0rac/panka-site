@@ -133,7 +133,12 @@ html, body {
                 }
             }
 
-            .active {
+            .current {
+                color: white !important;
+                background: $active-menu-background-color;
+            }
+
+            .current-sibling {
                 color: white !important;
                 background: $active-menu-background-color;
             }
@@ -365,13 +370,14 @@ h1 {
 .collapsible {
 	display: block;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     background: rgba(188,143,143, 1);
     border: none;
     border-bottom: solid 2px #f8f0ff;
     text-align: center;
     outline: none;
     word-wrap: break-word;
+
 
     &:hover {
         opacity: 0.8;
@@ -393,7 +399,7 @@ h1 {
     margin-right: auto;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    width: 60%;
+    width: 50%;
 
     p {
 		font-size: 1.3rem;
@@ -1298,7 +1304,7 @@ a.events-list-item-link:hover {
         transform: rotate(270deg) translateX(-1rem);
     }
 
-    .active + .opener {
+    .current + .opener {
         background: $active-menu-background-color;
 
         img {
@@ -1554,6 +1560,14 @@ a.events-list-item-link:hover {
     .invisible-slide {
         opacity: 0;
         transition: opacity 2s;
+    }
+
+    .collapsible, .consult-text-and-image + .collapse-container button.collapsible {
+        width: 100%;
+    }
+
+    h1 {
+        margin-top: -1rem;
     }
 
     .meta {
