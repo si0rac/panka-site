@@ -2,26 +2,22 @@
 layout: default
 title: Rólam
 comments: false
-permalink: /rolam/
----
+permalink: "/rolam/"
 
+---
 ## Bemutatkozás
 
 ![](/assets/img/about/panka-intro-image.png)
 
-Rudolf Panka vagyok, és hiszek a történetek és az emberek erejében. Hiszek benne, hogy a történetek az ősidőktől fogva segítenek a saját narratívánk írásában és saját életünk élésében.
-Kiskorom óta könyvmoly vagyok, amióta megtanultam olvasni, mindig van a kezem ügyében egy kötet. A könyvek mindig is menedéket, felismeréseket, azonosulást, kalandot jelentettek a számomra.
+Rudolf Panka vagyok, és hiszek a történetek és az emberek erejében. Hiszek benne, hogy a történetek az ősidőktől fogva segítenek a saját narratívánk írásában és saját életünk alakításában.
 
-Ezért is választottam két bölcsész szakot, amikor egyetemre mentem - angol és magyar szakos tanárként diplomáztam. Ám éreztem, valami hibádzik, nem lexikális tudást szerettem volna átadni a diákjaimnak, inkább emberként érdekeltek. Sosem tudtam igazán szigorú tanárnéni lenni, nem szerettem házit adni, követelni…
-
-Amikor életemben először hallottam a biblioterápiáról, azt éreztem, mint amikor az ember szerelmes lesz, megtalálja álmai otthonát, megkapja álmai állását… ez az! Ez az, amit kerestem, ami egyesíti az irodalom és az emberek iránt érzett elhivatottságomat.
-
-2013-ban indítottam irodalmi-közösségi programsorozatomat, a Booktion!-t. A Booktion! célja az volt, hogy szövegek segítségével kapcsolódjunk egymáshoz, felejtsük el, “mire gondolt a költő”, beszélgessünk magunkról, egymásról.
-
-Amikor már a Pécsi Tudományegyetemen tanultam az irodalomterápiát, akkor jöttem rá, hoyg szinte már a Booktion! is az volt…
-2018 óta már diplomás biblioterapeutaként indítok csoportokat, tartok egyéni konzultációkat.
-
-Célom a sokszínűség: mivel ti, akik eljöttök a foglalkozásaimra, szintén sokszínűek vagytok, ezért nem
+Kiskorom óta könyvmoly vagyok, a könyvek mindig is menedéket, felismeréseket, azonosulást, kalandot jelentettek a számomra.  
+  
+Ezért is választottam két bölcsész szakot, amikor egyetemre mentem - angol és magyar szakos tanárként diplomáztam. Ám éreztem, valami hibádzik, nem lexikális tudást szerettem volna átadni a diákjaimnak, inkább emberként érdekeltek. Sosem tudtam igazán szigorú tanárnéni lenni, nem szerettem házit adni, követelni…  
+  
+Ezért 2013-ban elindítottam irodalmi-közösségi programsorozatomat, a Booktion!-t. A Booktion! célja az volt, hogy szövegek segítségével kapcsolódjunk egymáshoz, felejtsük el, “mire gondolt a költő”, beszélgessünk magunkról, egymásról. Ez a foglalkozássorozat rengeteg tapasztalattal és élménnyel gazdagított, és úgy éreztem, ezt a kézzelfogható gyakorlati tudást alapjaiban is meg kell támogatnom.   
+  
+2018-ban elvégeztem a Pécsi Tudományegyetemen a biblioterápia szakot, így azóta már okleves irodalomterapeutaként tartom foglalkozásaimat. A fókusz nálam mindig a hozzám fordulókon van, a szöveg pedig segítőtársként kísér végig a közös utunkon. Hiszem, hogy a legfontosabb összetevő a kapcsolódás - csoportjaimon kapcsolódsz hozzám, a csoporttagokhoz, a szöveghez, és nem utolsó sorban önmagadhoz is!
 
 ## Mi is az a biblioterápia?
 
