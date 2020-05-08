@@ -3,7 +3,6 @@ layout: default
 title: Rólam
 comments: false
 permalink: "/rolam/"
-published: false
 
 ---
 ## Bemutatkozás
