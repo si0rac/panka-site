@@ -4,6 +4,7 @@ permalink: "/csoportok/"
 comments: false
 
 ---
+
 ## Nyitott csoportok
 
 Érdekel az irodalomterápia, de még sosem voltál csoporton? Dolgoznál az önismereteden, de nem akarsz elköteleződni egy hosszabb folyamatra? Részt vennél egy mély beszélgetésen, izgalmas és fontos témákról? Újfajta kulturális élményre vágysz? Felszabadítanád kreatív és játékos energiáid? Átélnél egy olyan közösségi élményt, ahol valódi kapcsolódásban van részed?  

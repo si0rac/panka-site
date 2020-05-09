@@ -5,24 +5,24 @@
       <ul class="main-navigation">
         <li class="menu-item" id="aboutme"><a class="menu-link" href="/rolam/">Rólam</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
           <ul class="dropdown-menu">
-            <li class="dropdown-menu-item"><a class="menu-link" href="/rolam/#bemutatkozás">Bemutatkozás</a></li>
-            <li class="dropdown-menu-item"><a class="menu-link" href="/rolam/#mi-is-az-a-biblioterápia">Mi is az a biblioterápia?</a></li>
-            <li class="dropdown-menu-item"><a class="menu-link" href="/rolam/#visszajelzések">Visszajelzések</a></li>
-            <li class="dropdown-menu-item"><a class="menu-link" href="/rolam/#cikkek-interjúk">Cikkek, interjúk</a></li>
+            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/rolam/#bemutatkozás">Bemutatkozás</a></li>
+            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/rolam/#mi-is-az-a-biblioterápia">Mi is az a biblioterápia?</a></li>
+            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/rolam/#visszajelzések">Visszajelzések</a></li>
+            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/rolam/#cikkek-interjúk">Cikkek, interjúk</a></li>
           </ul>
         </li>
         <li class="menu-item" id="events"><a class="menu-link" href="/esemenyek/">Aktuális események</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
           <ul class="dropdown-menu">
           {% for event in site.events %}
-            <li class="dropdown-menu-item"><a class="menu-link" href="{{ event.url }}">{{ event.title }}</a></li>
+            <li class="dropdown-menu-item"><a class="sub-menu-link" href="{{ event.url }}">{{ event.title }}</a></li>
           {% endfor %}
           </ul>
         </li>
         <li class="menu-item" id="groups"><a class="menu-link" href="/csoportok/">Csoportok</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
           <ul class="dropdown-menu">
-            <li class="dropdown-menu-item"><a class="menu-link" href="/csoportok/#nyitott-csoportok">Nyitott csoportok</a></li>
-            <li class="dropdown-menu-item"><a class="menu-link" href="/csoportok/#zárt-csoportok">Zárt csoportok</a></li>
-            <li class="dropdown-menu-item"><a class="menu-link" href="/csoportok/#workshopok">Workshopok</a></li>
+            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/csoportok/#nyitott-csoportok">Nyitott csoportok</a></li>
+            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/csoportok/#zárt-csoportok">Zárt csoportok</a></li>
+            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/csoportok/#workshopok">Workshopok</a></li>
           </ul>
         </li>
         <li class="menu-item" id="consult"><a class="menu-link" href="/konzultacio/">Egyéni konzultáció</a></li>

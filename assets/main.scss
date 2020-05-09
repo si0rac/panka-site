@@ -103,7 +103,7 @@ html, body {
 
                 }
 
-                .menu-link {
+                .menu-link, .sub-menu-link {
                     width: 100%;
                     height: 100%;
                     padding: 0 20px 0 20px;
@@ -119,7 +119,7 @@ html, body {
                 }
 
 
-                .dropdown-menu-item:hover > .menu-link, .dropdown-menu-item:active > .menu-link, .dropdown-menu-item:focus > .menu-link {
+                .dropdown-menu-item:hover > .sub-menu-link, .dropdown-menu-item:active > .sub-menu-link, .dropdown-menu-item:focus > .sub-menu-link {
                     background: $active-menu-background-color;
                     color: white;
                 }
@@ -1279,10 +1279,6 @@ a.events-list-item-link:hover {
 
     #aboutme .menu-link, #groups .menu-link, #events .menu-link {
         width: 60%;
-    }
-
-    #aboutme .dropdown-menu-item .menu-link, #groups .dropdown-menu-item .menu-link, #events .dropdown-menu-item .menu-link {
-        width: 100%;
     }
 
     .opener {

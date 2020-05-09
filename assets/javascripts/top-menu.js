@@ -16,7 +16,7 @@ function openMobileDropdownMenu() {
 openMobileDropdownMenu();
 
 function closeMobileMenu() {
-  const menuItems = document.getElementsByClassName("menu-link");
+  const menuItems = document.getElementsByClassName("sub-menu-link");
 
   for (let i = 0; i < menuItems.length; i++) {
     menuItems[i].addEventListener('click', toggleSideBar);
@@ -28,24 +28,35 @@ closeMobileMenu();
 function activeLinkHighlight() {
   const currentPage = window.location.href;
   const menuLinks = document.getElementsByClassName("menu-link");
-    
-  for (let i = 0; i < menuLinks.length; i++) {
-    let linkTarget = menuLinks[i].href;
-    let menuParentLink = menuLinks[i].parentElement.parentElement.parentElement.firstChild;
-    if (linkTarget == currentPage && linkTarget.indexOf("#") == -1) {
-      menuLinks[i].classList.toggle('current'), menuParentLink.classList.toggle('current');
-    }
+  const subMenuLinks = document.getElementsByClassName("sub-menu-link");
 
-    if (linkTarget == currentPage && linkTarget.indexOf("#") != -1) {
-      let menuSelectors = menuLinks[i].parentElement.parentElement.querySelectorAll(".menu-link");
-      for (let i = 0; i < menuSelectors.length; i++) {
-        menuSelectors[i].classList.toggle("current-sibling");
-      }
-      menuLinks[i].classList.toggle('current'), menuParentLink.classList.toggle('current');
+  function highlightMainAndAnchorSub() {
+    for (i = 0; i < menuLinks.length; i++) {
+      if (menuLinks[i].href == currentPage) {
+        menuLinks[i].classList.toggle('current');
+        let subMenuOpener = menuLinks[i].parentElement.querySelector(".opener");
+        if (subMenuOpener != null) {
+          let menuSub = menuLinks[i].parentElement.querySelectorAll(".sub-menu-link");
+          for (let i = 0; i < menuSub.length; i++) {
+            if (menuSub[i].href.indexOf("#") != -1) {
+              menuSub[i].classList.toggle('current-sibling');
+            }
+          }
+        }
+      };
     }
-  };
+  }
+  highlightMainAndAnchorSub();
+
+  for (i = 0; i < subMenuLinks.length; i++) {
+    if (subMenuLinks[i].href == currentPage) {
+      let parent = subMenuLinks[i].parentElement;
+      while (!parent.classList.contains('menu-item'))
+        parent = parent.parentElement;
+      subMenuLinks[i].classList.toggle('current'), parent.querySelector(".menu-link").classList.toggle('current');
+    }
+  }
 };
 
 activeLinkHighlight();
-
 
