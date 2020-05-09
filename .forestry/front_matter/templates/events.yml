@@ -23,6 +23,7 @@ fields:
   config:
     required: false
     options:
+    - Zárt csoport
     - Nyitott csoport
     - Workshop
     source:
