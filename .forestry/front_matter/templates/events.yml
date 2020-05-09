@@ -17,7 +17,7 @@ fields:
   name: event_date
   label: Mikor lesz az esemény?
   default: 
-- name: tag
+- name: tags
   type: tag_list
   default:
   - irodalomterápia
