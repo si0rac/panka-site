@@ -27,7 +27,7 @@ fields:
     helyezni az eseményt, a ''nyitott'', ''zárt'' és ''workshop'' tagek használatával.
     Ha vesszőt ütsz, új tag kezdődik. Összetett tageket kötőjellel lehet: "terapias-csoport".
     Ékezetek használhatóak.'
-  label: A cikkhez tartozó kulcsszavak (tagek).
+  label: A cikkhez tartozó kulcsszavak (tagek)
 - type: boolean
   name: comments
   label: Lehet-e kommentelni?
