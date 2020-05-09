@@ -1,6 +1,6 @@
 {% assign workshopCounter = 0 %}
 {% for event in site.events %}
-{% if event.tags contains 'workshop' %}
+{% if event.event_type == 'Workshop' %}
 {% assign workshopCounter = workshopCounter | plus: 1 %}
 {% if workshopCounter == 1 %}
 <h3>Aktuális workshopjaim</h3>

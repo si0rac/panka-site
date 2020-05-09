@@ -4,8 +4,8 @@
 {% if event.event_type == 'Zárt csoport' %}
 {% assign closedCounter = closedCounter | plus: 1 %}
 {% if closedCounter == 1 %}
-    <h3>Aktuális zárt csoportjaim</h3>
+<h3>Aktuális zárt csoportjaim</h3>
 {% endif %}
-    <a href="{{event.url}}">{{event.title}}</a>
+<a href="{{event.url}}">{{event.title}}</a>
 {% endif %}
 {% endfor %}

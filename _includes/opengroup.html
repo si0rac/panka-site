@@ -1,6 +1,6 @@
 {% assign openCounter = 0 %}
 {% for event in site.events %}
-{% if event.tags contains 'nyitott' %}
+{% if event.event_type == 'Nyitott csoport' %}
 {% assign openCounter = openCounter | plus: 1 %}
 {% if openCounter == 1 %}
 <h3>Aktuális nyitott csoportjaim</h3>

@@ -10,7 +10,7 @@ tags:
 - irodalomterápia
 description: Ingyenes szorongáscsökkentő beszélgetés vagy gyógyító meseolvasás 15
   percben (online).
-event_type: Zárt csoport
+event_type:
 
 ---
 # Ingyenes szorongáscsökkentő beszélgetés és gyógyító meseolvasás
