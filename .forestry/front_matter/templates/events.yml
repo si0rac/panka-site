@@ -17,6 +17,22 @@ fields:
   name: event_date
   label: Mikor lesz az esemény?
   default: 
+- name: event_type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Nyitott csoport
+    - Workshop
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Az esemény típusa
+  description: 'Add meg, hogy milyen eseményről van szó: workshop, zárt csoport, nyitott
+    csoport. '
 - name: tags
   type: tag_list
   default:
