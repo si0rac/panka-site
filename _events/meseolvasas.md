@@ -8,10 +8,11 @@ tags:
 - nyitott
 - rudolfpanka
 - irodalomterápia
+description: Ingyenes szorongáscsökkentő beszélgetés vagy gyógyító meseolvasás 15
+  percben (online).
+event_type: Zárt csoport
 
-description: Ingyenes szorongáscsökkentő beszélgetés vagy gyógyító meseolvasás 15 percben (online).
 ---
-
 # Ingyenes szorongáscsökkentő beszélgetés és gyógyító meseolvasás
 
 ![](/assets/img/events/meseolvasas.png)
