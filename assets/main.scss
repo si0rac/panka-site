@@ -169,7 +169,7 @@ html, body {
     
     @media screen and (min-width: 50em) {
 
-        #aboutme:hover > .dropdown-menu, #groups:hover > .dropdown-menu, #events:hover > .dropdown-menu {
+        #aboutme:hover > .dropdown-menu, #groups:hover > .dropdown-menu, #events:hover > .dropdown-menu, #blog:hover > .dropdown-menu {
             display: block;
             position: absolute;
             top: 80%;
@@ -1158,6 +1158,32 @@ a.events-list-item-link:hover {
     padding: 6rem 0 4rem;
 }
 
+/* groups page styling */
+
+.groups-container {
+    background: rosybrown;
+    width: 50%;
+}
+
+.groups-title {
+    background: white;
+    border-top: solid 1px rosybrown;
+    border-left: solid 1px rosybrown;
+    border-right: solid 1px rosybrown;
+    padding: 10px;
+}
+
+.groups-name {
+    padding: 20px;
+    background: transparent;
+}
+
+.groups-name a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 /* not used right now
 
   .what-is-container {
@@ -1264,25 +1290,25 @@ a.events-list-item-link:hover {
         position: relative;
     }
 
-    #aboutme.opened > .dropdown-menu, #groups.opened > .dropdown-menu, #events.opened > .dropdown-menu {
+    #aboutme.opened > .dropdown-menu, #groups.opened > .dropdown-menu, #events.opened > .dropdown-menu, #blog.opened > .dropdown-menu {
         display: block;
         width: 100%;
         list-style-type: none;
         padding-left: 0;
     }
 
-    #aboutme, #groups, #events {
+    #aboutme, #groups, #events, #blog {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
     }
 
-    #aboutme .menu-link, #groups .menu-link, #events .menu-link {
-        width: 60%;
+    #aboutme .menu-link, #groups .menu-link, #events .menu-link, #blog .menu-link {
+        width: 70%;
     }
 
     .opener {
-       width: 40%;
+       width: 30%;
        background: transparent;
        display: flex;
        flex-direction: row;

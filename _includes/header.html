@@ -1,5 +1,5 @@
 <header class="sensible-header">
-    <button class="burger-icon" onclick="toggleSideBar()"></button>
+    <button class="burger-icon" onclick="toggleTopMenuBar()"></button>
     <div class="main-logo"><a href="/"><img src="/assets/icons/main-logo-large-white.png"/></a></div>
     <div id="menu">
       <ul class="main-navigation">
@@ -13,8 +13,8 @@
         </li>
         <li class="menu-item" id="events"><a class="menu-link" href="/esemenyek/">Aktuális események</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
           <ul class="dropdown-menu">
-          {% for event in site.events %}
-            <li class="dropdown-menu-item"><a class="sub-menu-link" href="{{ event.url }}">{{ event.title }}</a></li>
+          {% for event in site.events limit: 8 %}
+            <li class="dropdown-menu-item"><a class="sub-menu-link" href="{{ event.url }}">{{ event.title | truncate: 35 }}</a></li>
           {% endfor %}
           </ul>
         </li>

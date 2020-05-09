@@ -1,11 +1,12 @@
-
+<div class="groups-container">
 {% assign closedCounter = 0 %}
 {% for event in site.events %}
 {% if event.event_type == 'Zárt csoport' %}
 {% assign closedCounter = closedCounter | plus: 1 %}
 {% if closedCounter == 1 %}
-<h3>Aktuális zárt csoportjaim</h3>
+<div class="groups-title"><h3>Aktuális zárt csoportjaim</h3></div>
 {% endif %}
-<a href="{{event.url}}">{{event.title}}</a>
+<div class="groups-name"><a href="{{event.url}}">{{event.title}}</a></div>
 {% endif %}
 {% endfor %}
+</div>

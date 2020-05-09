@@ -1,4 +1,4 @@
-function toggleSideBar() {
+function toggleTopMenuBar() {
 	let sideMenu = document.getElementById('menu');
 	sideMenu.classList.toggle("dropdown");
 }
@@ -19,7 +19,7 @@ function closeMobileMenu() {
   const menuItems = document.getElementsByClassName("sub-menu-link");
 
   for (let i = 0; i < menuItems.length; i++) {
-    menuItems[i].addEventListener('click', toggleSideBar);
+    menuItems[i].addEventListener('click', toggleTopMenuBar);
   }
 }
 closeMobileMenu();
@@ -35,12 +35,10 @@ function activeLinkHighlight() {
       if (menuLinks[i].href == currentPage) {
         menuLinks[i].classList.toggle('current');
         let subMenuOpener = menuLinks[i].parentElement.querySelector(".opener");
-        if (subMenuOpener != null) {
-          let menuSub = menuLinks[i].parentElement.querySelectorAll(".sub-menu-link");
-          for (let i = 0; i < menuSub.length; i++) {
-            if (menuSub[i].href.indexOf("#") != -1) {
-              menuSub[i].classList.toggle('current-sibling');
-            }
+        let menuSub = menuLinks[i].parentElement.querySelectorAll(".sub-menu-link");
+        for (let i = 0; i < menuSub.length; i++) {
+          if (menuSub[i].href.indexOf("#") != -1) {
+            menuSub[i].classList.toggle('current');
           }
         }
       };
@@ -48,14 +46,39 @@ function activeLinkHighlight() {
   }
   highlightMainAndAnchorSub();
 
-  for (i = 0; i < subMenuLinks.length; i++) {
-    if (subMenuLinks[i].href == currentPage) {
-      let parent = subMenuLinks[i].parentElement;
-      while (!parent.classList.contains('menu-item'))
-        parent = parent.parentElement;
-      subMenuLinks[i].classList.toggle('current'), parent.querySelector(".menu-link").classList.toggle('current');
+  function highlightSubMenuPageAndParent() {
+    for (i = 0; i < subMenuLinks.length; i++) {
+      if (subMenuLinks[i].href == currentPage && subMenuLinks[i].href.indexOf("#") == -1) {
+        let parent = subMenuLinks[i].parentElement;
+        while (!parent.classList.contains('menu-item'))
+          parent = parent.parentElement;
+        subMenuLinks[i].classList.toggle('current'), parent.querySelector(".menu-link").classList.toggle('current');
+      }
     }
   }
+  highlightSubMenuPageAndParent();
+
+  function highlightSubMenuAnchorsAndParent() {
+    for (i = 0; i < subMenuLinks.length; i++) {
+      if (subMenuLinks[i].href == currentPage && subMenuLinks[i].href.indexOf("#") != -1) {
+        subMenuLinks[i].addEventListener('click', openMobileDropdownMenu);
+        let subMenuParent = subMenuLinks[i].parentElement.parentElement.parentElement;
+        subMenuParent.querySelector(".menu-link").classList.toggle('current', true);
+        let subMenuSiblings = subMenuParent.querySelectorAll(".sub-menu-link");
+        for (let i = 0; i < subMenuSiblings.length; i++) {
+          subMenuSiblings[i].classList.toggle('current', true)
+        }
+      }
+    }  
+  }
+  highlightSubMenuAnchorsAndParent();
+
+  function blogpostHighlight() {
+    if (currentPage.indexOf("/blog/") != -1) {
+      document.getElementById("blog").querySelector(".menu-link").classList.toggle('current', true);
+    }
+  }
+  blogpostHighlight();
 };
 
 activeLinkHighlight();
