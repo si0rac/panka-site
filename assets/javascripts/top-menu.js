@@ -61,7 +61,6 @@ function activeLinkHighlight() {
   function highlightSubMenuAnchorsAndParent() {
     for (i = 0; i < subMenuLinks.length; i++) {
       if (subMenuLinks[i].href == currentPage && subMenuLinks[i].href.indexOf("#") != -1) {
-        subMenuLinks[i].addEventListener('click', openMobileDropdownMenu);
         let subMenuParent = subMenuLinks[i].parentElement.parentElement.parentElement;
         subMenuParent.querySelector(".menu-link").classList.toggle('current', true);
         let subMenuSiblings = subMenuParent.querySelectorAll(".sub-menu-link");
