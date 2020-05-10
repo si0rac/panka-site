@@ -6,7 +6,7 @@
 {% if workshopCounter == 1 %}
 <div class="groups-title"><h3>Aktuális workshopjaim</h3></div>
 {% endif %}
-<a href="{{event.url}}"><div class="groups-name">{{event.title}}</div></a>
+<a href="{{event.url}}"><div class="groups-name">{{event.title}} {% if event.event_date %} - {{ event.event_date | date: '%Y. %m. %d., %H:%M' }}{% endif %}</div></a>
 {% endif %}
 {% endfor %}
 </div>

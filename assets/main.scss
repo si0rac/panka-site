@@ -235,7 +235,7 @@ html, body {
                 display: block;
                 height: 110px; /* fixed header height*/
                 margin: -110px 0 0; /* negative fixed header height */
-              }
+            }
         }
 
         .blogpost-ul {
@@ -1161,9 +1161,15 @@ a.events-list-item-link:hover {
 /* groups page styling */
 
 .groups-container {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-width: 45%;
+    flex: 1 1 auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+
 }
 
 .groups-title {
@@ -1182,6 +1188,7 @@ a.events-list-item-link:hover {
 
 .groups-name {
     padding: 20px;
+    background: white;
     border: solid 1px #8c8c8c;
     border-top: none;
 

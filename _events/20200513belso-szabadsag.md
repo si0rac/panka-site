@@ -2,7 +2,7 @@
 layout: default
 title: Belső szabadság II.
 event_date: "2020. 05. 13., 18:00"
-event_type: Workshop
+event_type: Nyitott csoport
 comments: false
 tags: 
 - események 
