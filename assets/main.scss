@@ -1161,26 +1161,39 @@ a.events-list-item-link:hover {
 /* groups page styling */
 
 .groups-container {
-    background: rosybrown;
-    width: 50%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .groups-title {
-    background: white;
-    border-top: solid 1px rosybrown;
-    border-left: solid 1px rosybrown;
-    border-right: solid 1px rosybrown;
+    background: $active-menu-background-color;
+    border: solid 1px #8c8c8c;
     padding: 10px;
+    padding-left: 20px;
+
+
+    h3 {
+        color: white;
+        opacity: 1;
+        font-size: 1.5rem;
+    }
 }
 
 .groups-name {
     padding: 20px;
-    background: transparent;
+    border: solid 1px #8c8c8c;
+    border-top: none;
+
+    &:hover, &:focus {
+        background: $color-light-blue;
+        color: white;
+    }
 }
 
-.groups-name a {
+.groups-container a {
     text-decoration: none;
-    color: white;
+    color: #8c8c8c;
     font-weight: bold;
 }
 
