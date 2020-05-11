@@ -24,82 +24,6 @@ comments: false
     .title-with-source-edit {
         display: none;
     }
-
-    .opengroups-right, .opengroups-left {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 3rem;
-        margin-top: 3rem;
-    }
-
-    .opengroups-right {
-        background: #1c92d2;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-
-    .opengroups-left {
-        background: #1c92d2;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-
-    .opengroup-text, .closedgroup-text {
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        color: #f2f2f2;
-        font-weight: bold;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .opengroup-text h2, .closedgroup-text h2 {
-        opacity: 1;
-        font-size: 2rem;
-    }
-
-    .opengroup-text {
-        padding-left: 4rem;
-    }
-
-    .closedgroup-text {
-        padding-right: 4rem;
-        text-align: right;
-    }
-
-    .opengroup-image {
-        width: 40%;
-    }
-
-    .closedgroup-image {
-        width: 40%;
-    }
-
-    .opengroup-image img, .closedgroup-image img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .group-event-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-        margin-bottom: 3rem;
-    }
-
-    .calendar-link {
-        text-decoration: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        color: #045B8A;
-    }
-
-    .calendar-link:hover, .calendar-link:focus {
-        opacity: 0.7;
-    }
-
 </style>
 <div id="nyitott-csoportok"></div>
 <div class="opengroups-left">
@@ -110,7 +34,7 @@ comments: false
 {% if event.event_type == 'Nyitott csoport' %}
 {% assign openCounter = openCounter | plus: 1 %}
 {% if openCounter == 1 %}
-<a class="calendar-link" href="#event_calendar">Aktuális nyitott csoportjaimért kattints ide!</a>{% endif %}{% endif %}{% endfor %}</div><div class="opengroup-image"><img src="/assets/img/groups/opengroup.png"></div></div>
+<a class="calendar-link" href="#event_calendar"><button class="link-button">Aktuális nyitott csoportjaimért kattints ide!</button></a>{% endif %}{% endif %}{% endfor %}</div><div class="opengroup-image"><img src="/assets/img/groups/opengroup.png"></div></div>
 
 <div id="zárt-csoportok"></div>
 <div class="opengroups-right">
@@ -122,7 +46,7 @@ comments: false
 {% if event.event_type == 'Zárt csoport' %}
 {% assign closedCounter = closedCounter | plus: 1 %}
 {% if closedCounter == 1 %}
-<a class="calendar-link" href="#event_calendar">Aktuális zárt csoportjaimért kattints ide!</a>{% endif %}{% endif %}{% endfor %}</div></div>
+<a class="calendar-link" href="#event_calendar"><button class="link-button">Aktuális zárt csoportjaimért kattints ide!</button></a>{% endif %}{% endif %}{% endfor %}</div></div>
 
 <div id="workshopok"></div>
 <div class="opengroups-left">
@@ -134,7 +58,7 @@ comments: false
 {% if event.event_type == 'Workshop' %}
 {% assign workshopCounter = workshopCounter | plus: 1 %}
 {% if workshopCounter == 1 %}
-<a class="calendar-link" href="#event_calendar">Aktuális workshopjaimért kattints ide!</a>{% endif %}{% endif %}{% endfor %}</div><div class="opengroup-image"><img src="/assets/img/groups/opengroup.png"></div></div>
+<a class="calendar-link" href="#event_calendar"><button class="link-button">Aktuális workshopjaimért kattints ide!</button></a>{% endif %}{% endif %}{% endfor %}</div><div class="opengroup-image"><img src="/assets/img/groups/opengroup.png"></div></div>
 
 <div id="event_calendar" class="group-event-container">
 {% include closedgroup.html %}{% include workshop.html %}{% include opengroup.html %}
