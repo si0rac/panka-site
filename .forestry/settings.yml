@@ -47,7 +47,7 @@ sections:
   label: HTML fájlok
   create: all
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: document
   path: _layouts/default.html
   label: Default layout
