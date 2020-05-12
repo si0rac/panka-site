@@ -42,6 +42,12 @@ sections:
 - type: document
   path: _includes/contact.html
   label: Kapcsolat
+- type: directory
+  path: _includes
+  label: HTML fájlok
+  create: all
+  match: "**/*"
+  new_doc_ext: ".html"
 - type: document
   path: _layouts/default.html
   label: Default layout
