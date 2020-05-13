@@ -224,6 +224,7 @@ html, body {
                 margin: 20px auto;
                 line-height: 1.5;
                 text-align: justify;
+                letter-spacing: -1px;
             }
 
             a.anchor-symbol {
@@ -453,6 +454,140 @@ h1 {
     font-family: Bebas Neue, cursive;
     letter-spacing: 1.5px;
     opacity: 0.7;
+}
+
+
+.upcoming-events-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-event-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    width: 100%;
+    margin-bottom: 3rem;
+    border-radius: 12px;
+    background: white;
+}
+
+[class^="single-event-title"] {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 25%;
+    border-top-right-radius: 90%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.single-event-title-workshop {
+    background: #a23a39;
+}
+
+.single-event-title-workshop:before {
+    content: url(/assets/icons/workshop.svg);
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;        
+}
+
+.single-event-title-opengroup {
+    background: #499a9b;
+}
+
+.single-event-title-opengroup:before {
+    content: url(/assets/icons/open-group.svg);
+    margin-right: 1rem;
+}
+
+.single-event-title-closedgroup {
+    background: #bd8747;
+}
+
+.single-event-title-closedgroup:before {
+    content: url(/assets/icons/closed-group.svg);
+    margin-right: 1rem;
+}
+
+[class^="single-event-title"] title {
+    position: absolute;
+    bottom: 20%;
+    display: block;
+    font-family: Bebas Neue, cursive;
+    letter-spacing: 1.2px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.single-event-description { 
+    flex: 1 1 auto;
+    width: 50%;
+    background: white;
+    font-family: Montserrat;
+}
+
+.single-event-description p {
+    opacity: 0.65;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.single-event-description title {
+    display: block;
+    font-family: Bebas Neue, cursive;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.single-event-link {
+    text-decoration: none;
+    font-weight: bold;
+} 
+
+[class^="single-event-button"] {
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: Bebas Neue, cursive;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.single-event-button-workshop {
+    background: #F3A0A0;
+    color: #A23939;
+}
+
+.single-event-button-opengroup {
+    background: #AFE1E1;
+    color: #499B9B;
+}
+
+.single-event-button-closedgroup {
+    background: #FFDCB3;
+    color: #bd8747;
+}
+
+.single-event-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    width: 25%;
+}
+
+.single-event-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
 }
 
 /* styling for events page ends - collapsibles start here */
@@ -1197,58 +1332,6 @@ figcaption {
     margin-right: auto;
 }
 
-/* events page styling starts */
-
-
-.events-list {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(/assets/img/events/calendar.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    list-style-type: none;
-    list-style-position: outside;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 2rem;
-}
-
-.events-list-item {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: solid 2px darkred;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-family: Bebas Neue, cursive;
-    letter-spacing: 1px;
-    font-size: 1.3rem;
-    text-align: center;
-}
-
-a.events-list-item-link {
-    text-decoration: none;
-    color: darkred;
-}
-
-a.events-list-item-link:hover {
-    text-decoration: underline;
-}
-
-.events-aligner {
-    height: 200px;
-    color: white;
-    text-align: center;
-    font-family: Bebas Neue, cursive;
-    letter-spacing: 1px;
-    font-size: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 6rem 0 4rem;
-}
-
 /* groups page styling */
 
 .groups-container {
@@ -1706,7 +1789,10 @@ a.events-list-item-link:hover {
     .meta {
       font-size: 0.7rem;  
     }
-  
+
+    .single-event-image {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 30em) {
@@ -1745,5 +1831,62 @@ a.events-list-item-link:hover {
         padding: 10px;
         height: auto;
         font-size: 1.8rem;
-    } 
+    }
+
+    [class^="single-event-title"] {
+        display: none;
+    }
+
+    .single-event-description title {
+        position: relative;
+        color: white;
+        text-align: center;
+        padding-left: 60px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .single-event-title-workshop + .single-event-description title {
+        background: #a23a39;
+
+        &:before {
+            position: absolute;
+            display: inline-block;
+            content: url(/assets/icons/workshop-mobile.svg);
+            left: 7.5%;
+            top: 30%;
+        }
+    }
+
+    .single-event-title-opengroup + .single-event-description title {
+        background: #499a9b;
+
+        &:before {
+            position: absolute;
+            display: inline-block;
+            content: url(/assets/icons/open-group-mobile.svg);
+            left: 7.5%;
+            top: 30%;
+        }
+    }
+
+    .single-event-title-closedgroup + .single-event-description title {
+        background: #bd8747;
+
+        &:before {
+            position: absolute;
+            display: inline-block;
+            content: url(/assets/icons/closed-group-mobile.svg);
+            left: 7.5%;
+            top: 30%;
+        }
+    }
+
+    [class^=single-event-button] {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }

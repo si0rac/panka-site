@@ -44,7 +44,7 @@
     <link rel="canonical" href="{{ site.data.basic_info.page_url }}" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&Nanum+Gothic+Coding&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/main.css" />
@@ -57,7 +57,7 @@
         <main>
             <section class="content">
                 {% if current_article or current_post or current_event %}
-                  {% if current_article.url != "/" and current_article.url != "/esemenyek/" and current_article %}
+                  {% if current_article.url != "/"  and current_article %}
                     <div class="title-with-source-edit">
                       <h1>{{ current_article.title }}</h1>
                     </div>
@@ -127,4 +127,5 @@
   <script src="/assets/javascripts/search-input.js"></script>
   <script src="/assets/javascripts/top-menu.js"></script>
   <script src="/assets/javascripts/code-collapse.js"></script>
+
 </html>

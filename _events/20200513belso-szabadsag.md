@@ -11,7 +11,8 @@ tags:
 - rudolfpanka
 - workshop
 - csoport
-description: A három alkalmas online irodalomterápiás workshop-sorozat második része.
+description: A három alkalmas online irodalomterápiás workshop-sorozat második része. A három alkalmas online irodalomterápiás workshop-sorozat második része. A három alkalmas online irodalomterápiás workshop-sorozat második része. A három alkalmas online irodalomterápiás workshop-sorozat második része.
+image_url: "/assets/img/events/belso-szabadsag.jpg"
 ---
 
 # Belső szabadság II. - online irodalomterápiás workshop

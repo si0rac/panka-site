@@ -1,0 +1,24 @@
+<style>
+    main .content {
+        width: 70%;
+    }
+</style>
+
+<div class="upcoming-events-container">
+    {% for event in site.events %}
+    <div class="single-event-container">
+        <div class="{% if event.event_type == "Workshop" %}single-event-title-workshop{% elsif event.event_type == "Nyitott csoport" %}single-event-title-opengroup{% elsif event.event_type == "Zárt csoport" %}single-event-title-closedgroup{% endif %}">
+            <title>{{ event.event_type }}</title>
+        </div>
+    <div class="single-event-description">
+        <title>{{ event.title }} {% if event.event_date %}- {{ event.event_date | date: '%Y. %m. %d., %H:%M' }}{% endif %}</title>
+        <p>{{ event.description | truncatewords: 30 }}</p>
+        <a class="single-event-link" target="_blank" href="{{ event.url }}">
+            <button class="{% if event.event_type == "Workshop" %}single-event-button-workshop{% elsif event.event_type == "Nyitott csoport" %}single-event-button-opengroup{% elsif event.event_type == "Zárt csoport" %}single-event-button-closedgroup{% endif %}">Részletek</button>
+        </a>
+    </div>
+    <div class="single-event-image">
+        <img src="{{ event.image_url }}"></div>
+    </div>
+    {% endfor %}
+</div>

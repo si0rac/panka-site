@@ -13,7 +13,7 @@ tags:
 - rudolfpanka 
 - workshop
 - csoport
-
+image_url: "/assets/img/events/dontpanic.jpg"
 ---
 
 # Ne ess pánikba - törölközőnapi online irodalomterápiás workshop
