@@ -81,4 +81,3 @@ function activeLinkHighlight() {
 };
 
 activeLinkHighlight();
-

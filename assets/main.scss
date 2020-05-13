@@ -7,6 +7,7 @@ $main-dark-blue: #045B8A;
 $backup-colour: #DEB887;
 $color-dark-blue: #1c92d2;
 $color-light-blue: #6AB8E2;
+$title-type-font: Bebas Neue, cursive;
 
 
 html, body {
@@ -16,7 +17,7 @@ html, body {
     padding-top: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    letter-spacing: -0.5px;
+    letter-spacing: -1px;
     box-sizing: border-box;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
@@ -193,7 +194,7 @@ html, body {
         font-size: 2.2rem;
         margin-top: -1rem;
         margin-bottom: 2rem;
-        font-family: Bebas Neue, cursive;
+        font-family: $title-type-font;
         letter-spacing: 1.5px;
         opacity: 0.7;
     }
@@ -214,7 +215,7 @@ html, body {
                 position: relative;
                 margin-top: 20px;
                 margin-bottom: 20px;
-                font-family: Bebas Neue, cursive;
+                font-family: $title-type-font;
                 letter-spacing: 1.5px;
                 opacity: 0.7;
 
@@ -411,7 +412,7 @@ html, body {
 .link-button {
     background: #045B8A;
     color: white;
-    font-family: Bebas Neue, cursive;
+    font-family: $title-type-font;
     letter-spacing: 1px;
     font-size: 1.1rem;
     border: none;
@@ -422,7 +423,7 @@ html, body {
 
 /* styling for "events" and "about" pages - can affect collapsibles and titles elsewhere! */
 
-h1 ~ p img, .collapse-container + p img, h2#bemutatkozás + p img {
+h1 ~ p img, .collapse-container + p img {
     width: 45%;
     float: right;
     margin-left: 2rem;
@@ -430,18 +431,8 @@ h1 ~ p img, .collapse-container + p img, h2#bemutatkozás + p img {
     border-radius: 12px;
 }
 
-h2#bemutatkozás + p img {
-    width: 35%;
-}
-
 .title-with-source-edit + p img, .collapse-container + p img {
     margin-top: 2rem;
-}
-
-#bemutatkozás + p img {
-    padding: 8px;
-    border: 4px solid rosybrown;
-    border-radius:12px;
 }
 
 h1 {
@@ -451,7 +442,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 1.8rem;
-    font-family: Bebas Neue, cursive;
+    font-family: $title-type-font;
     letter-spacing: 1.5px;
     opacity: 0.7;
 }
@@ -517,7 +508,7 @@ h1 {
     position: absolute;
     bottom: 20%;
     display: block;
-    font-family: Bebas Neue, cursive;
+    font-family: $title-type-font;
     letter-spacing: 1.2px;
     font-size: 1.5rem;
     color: white;
@@ -538,7 +529,7 @@ h1 {
 
 .single-event-description title {
     display: block;
-    font-family: Bebas Neue, cursive;
+    font-family: $title-type-font;
     color: black;
     letter-spacing: 1px;
     font-size: 1.3rem;
@@ -555,7 +546,7 @@ h1 {
     padding: 10px;
     border-radius: 12px;
     cursor: pointer;
-    font-family: Bebas Neue, cursive;
+    font-family: $title-type-font;
     letter-spacing: 1px;
     font-size: 1rem;
     margin-bottom: 10px;
@@ -612,7 +603,7 @@ h1 {
         color: white;
 		display: inline-block;
         letter-spacing: 1.2px;
-        font-family: Bebas Neue, cursive;
+        font-family: $title-type-font;
         font-weight: bold;
         font-size: 1.2rem;
     }
@@ -677,7 +668,7 @@ h1 {
         z-index: 0;
         background-color: rgba(255,255,255,0.3);
         background-blend-mode: lighten;
-        background-image: url(/assets/img/therapy-office.jpg);
+        background-image: url(/assets/img/irodalom-terapia.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -686,7 +677,7 @@ h1 {
     }
 }
 
-.hover-nav, .hover-nav-blog {
+.hover-nav, .hover-nav-blog, .hover-nav-facebook {
     display: flex;
     flex-direction: column;
     width: 22.5%;
@@ -716,14 +707,18 @@ h1 {
 }
 
 .hover-nav {
-    top: 25%;
+    top: 15%;
 }
 
 .hover-nav-blog {
-    top: 45%;
+    top: 35%;
 }
 
-.hover-nav-content, .hover-nav-content-blog {
+.hover-nav-facebook {
+    top: 55%;
+}
+
+.hover-nav-content, .hover-nav-content-blog, .hover-nav-content-facebook {
     max-height: 0;
     transition: max-height 0.1s ease-in;
 
@@ -736,7 +731,7 @@ h1 {
     }
 }
 
-.hover-nav:hover .hover-nav-content, .hover-nav-blog:hover .hover-nav-content-blog {
+.hover-nav:hover .hover-nav-content, .hover-nav-blog:hover .hover-nav-content-blog, .hover-nav-facebook:hover .hover-nav-content-facebook {
     max-height: 150px;
     background: #6AB8E2;
     border-bottom-right-radius: 12px;
@@ -756,8 +751,17 @@ h1 {
 }
 
 .hover-nav:hover ~ .hover-nav-blog {
-    top: 65%;
+    top: 55%;
 }
+
+.hover-nav:hover ~ .hover-nav-facebook {
+    top: 75%;
+}
+
+.hover-nav-blog:hover ~ .hover-nav-facebook {
+    top: 80%;
+}
+
 
 .hover-nav-blog label {
     cursor: pointer;
@@ -831,7 +835,7 @@ h1 {
 
     .button-text {
         color: white;
-        font-family: Bebas Neue, cursive;
+        font-family: $title-type-font;
         letter-spacing: 1.4px;
         font-size: 1.3rem;
         font-weight: bold;
@@ -850,7 +854,7 @@ h1 {
 .sensible-container {
     background-color: rgba(135,206,250,0.5);
     background-blend-mode: lighten;
-    background-image: url(/assets/img/therapy-office.jpg);
+    background-image: url(/assets/img/irodalom-terapia.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -886,7 +890,7 @@ h1 {
     background: rgba(255,255,255,0.8);
     border: 1px solid #f2f2f2;
     border-radius: 12px;
-    box-shadow: 2px 2px 8px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 10px;
@@ -909,7 +913,7 @@ h1 {
         width: 75%;
 
         label {
-            font-family: Bebas Neue, cursive;
+            font-family: $title-type-font;
             font-size: 1.5rem;
             letter-spacing: 1px;
             color: #8c8c8c;
@@ -939,7 +943,7 @@ h1 {
   background: rgba(255,255,255,0.8);
   border: 1px solid #f2f2f2;
   border-radius: 12px;
-  box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   padding: 10px;
   font-family: 'Montserrat', sans-serif;
 
@@ -955,7 +959,7 @@ h1 {
   }
 
   label {
-    font-family: Bebas Neue, cursive;
+    font-family: $title-type-font;
     font-size: 1.8rem;
     letter-spacing: 1px;
     color: #8c8c8c;
@@ -977,81 +981,124 @@ h1 {
   }
 }
 
-/* not used right now
-
-.sensible-intro {
-    display: flex;
-    justify-content: center;
-    background: rgba(8, 52, 255, 0.85);
-    width: 100%;
-    height: 50%;
-}
-
-.sensible-bg {
+.whathappens-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    background: $color-dark-blue;
-    width: 80%;
-    height: 100%;
-    align-self: center;
-    padding-left: 10%;
-
-    img {
-        float: right;
-        border-top-left-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-left: solid 20px rgba(0, 0, 0, 0.25); 
-    }
-}
-
-.sensible-text {
-    display: flex;
-    flex-direction: column;
-    border-radius: 12px;
-    box-shadow: 0.5rem 0.5rem 0.75rem rgba(0, 0, 0, 0.3);
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
-    height: 80%;
-    margin-right: 2rem;
-    padding: 25px 0;
-    align-items: center;
-    text-align: center;
-    color: white;
+    border-bottom: 2px solid white;
 
     title {
         display: block;
-        width: 50%;
-        font-size: 1.5rem;
-        font-weight: bold;
+        width: 100%;
+        background: linear-gradient(to right, #4286f4, #373B44);
+        padding: 40px;
+        text-align: center;
+        font-family: $title-type-font;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        color: white;
+
+        &:before {
+            content: url(/assets/icons/book-white.svg);
+            display: block;
+        }
+    }
+
+    .whathappens-cta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(to right, #4286f4, #373B44);
+
+        p {
+            color: white;
+            font-family: $title-type-font;
+            letter-spacing: 1px;
+            font-size: 2rem;
+        }
+    }
+
+    .button-to-event-calendar {
+        cursor: pointer;
+        background: #1c92d2;
+        border-radius: 8px;
+        border: none;
+        box-shadow: 0 0 0.25rem $active-menu-background-color;
+        margin-bottom: 3rem;
+        padding: 20px;
+        color: white;
+        font-family: $title-type-font;
+        letter-spacing: 1.4px;
+        font-size: 1.3rem;
+
+        &:hover {
+            background: #6AB8E2;
+            cursor: pointer;
+        }
+    }
+}
+
+.whathappens-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    ul {
+        list-style-type: none;
+        width: 70%;
+    }
+
+    li {
+        color: white;
+        font-family: $title-type-font;
+        letter-spacing: 1px;
+        margin-top: 1rem;
+    }
+
+    label {
+        color: white;
+        font-family: $title-type-font;
+        letter-spacing: 1px;
+        font-size: 2rem;
+        margin-top: 2rem;
     }
 
     p {
-        display: block;
-        width: 80%;
-        opacity: 0.7;
+        color: white;
+        margin-bottom: 2rem;
+        width: 70%;
+        text-align: left;
+        font-family: Montserrat;
+        font-size: 1rem;
     }
 }
 
-.intro-background {
-    width: 100%;
-    align-self: center;
-    background-color: white;
-    opacity: 0.7;
-    padding: 1rem;
-}
+.community-exp-image {
+    width: 35%;
+    padding: 50px;
+    margin: 20px;
 
-.intro-text {
-    width: 75%;
-    margin: auto;
-    font-family: "Cinzel", serif;
-    font-size: 1.5rem;
-    color: black;
-    opacity: 1;
-    text-align: center;
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        border: 20px solid white;
+        background-color: white;
+        box-shadow: -20px -20px 0 0 #4286f4;
+        transform: rotate(8deg);
+    }
 }
-
-*/
 
 .slider-wrap {
     display: flex;
@@ -1074,7 +1121,7 @@ h1 {
         z-index: 0;
         background-color: rgba(240,248,255,0.5);
         background-blend-mode: lighten;
-        background-image: url(/assets/img/therapy-office.jpg);
+        background-image: url(/assets/img/irodalom-terapia.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -1212,12 +1259,11 @@ h1 {
         letter-spacing: -1px;
         align-self: center;
         font-size: 1rem;
-        font-style: italic;
       }
 
       label {
         color: white;
-        font-family: Bebas Neue, cursive;
+        font-family: $title-type-font;
         letter-spacing: 1px;
         margin-bottom: 1rem;
       }
@@ -1238,13 +1284,21 @@ h1 {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 1rem;
-      color: white;
-      background-color: purple;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      border-radius: 12px;
       z-index: 1;
-      cursor: pointer;
+
+      button {
+        background-color: purple;
+        color: white;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background: #A32FA3;
+          }
+      }
 
       p {
           margin-left: auto;
@@ -1252,17 +1306,7 @@ h1 {
           font-weight: bold;
           font-size: 1.1rem;
           letter-spacing: 1px;
-          font-family: Bebas Neue, cursive;
-      }
-
-      a {
-          color: white;
-          font-size: 1.1rem;
-          text-decoration: none;
-      }
-
-      &:hover {
-        background: #A32FA3;
+          font-family: $title-type-font;
       }
   }
 
@@ -1319,7 +1363,7 @@ figcaption {
 }
 
 .consult-feedback-person {
-    font-family: Bebas Neue, cursive;
+    font-family: $title-type-font;
     letter-spacing: 1px;
     opacity: 1;
     text-align: center;
@@ -1378,9 +1422,208 @@ figcaption {
     font-weight: bold;
 }
 
-/* not used right now
 
-  .what-is-container {
+/* about page */
+
+.introduction-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(90deg,rgba(6, 133, 201, 0.7), rgba(4, 91, 138, 0.7));
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.intro-image-container {
+    width: 25%;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.intro-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.intro-starter-text {
+
+    title {
+        display: block;
+        font-family: $title-type-font;
+        letter-spacing: 1px;
+        font-size: 1.7rem;
+    }
+}
+
+.intro-text-columns-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.intro-text-column {
+    width: 45%;
+
+    title {
+        display: block;
+        font-family: $title-type-font;
+        letter-spacing: 1px;
+        font-size: 1.4rem;
+    }
+}
+
+.column-separator {
+    width: 0;
+    border-left: solid 1px #06E6FB;
+}
+
+.bibliotherapy-explained-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.bibliotherapy-infographics {
+    width: 25%;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.bibliotherapy-explained-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+
+    title {
+        display: block;
+        font-family: $title-type-font;
+        letter-spacing: 1px;
+        font-size: 1.4rem;
+    }
+
+    .link-button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.separator-icon {
+    display: block;
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.all-feedback {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.all-feedback-title {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-family: $title-type-font;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00636C;
+}
+
+.underline {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 2px #00aabb;
+}
+
+.speech-bubble-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.speech-bubble-columns {
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #00aabb;
+    border-radius: .4em;
+    box-shadow: 3px 3px 5px 4px #00636C;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.speech-bubble-id {
+    background: #00636C;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-family: $title-type-font;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* not used
+
+.whathappens-container {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -1389,35 +1632,44 @@ figcaption {
     padding: 50px 50px;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(153.5deg, rgba(30, 144, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 50%);
-  }
+    background: linear-gradient(153.5deg, rgba(30, 144, 255, 0.5) 30%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0.5) 70%, rgba(30, 144, 255, 0.5) 70%);
+}
 
-  .what-is-text {
-    width: 30%;
-    height: 40%;
-    margin: auto;
-    background:rgba(30, 144, 255, 0.5);
-    border-radius: 12px;
-    box-shadow: 6px 6px 18px 6px rgba(62,116,171,1);
-    padding: 15px;
+
+.whathappens-text {
     position: absolute;
-    bottom: 50px;
-    right: 150px;
-    color: white;
-    text-shadow: 0.5px 0.5px #000000;
-    text-align: center;
-    vertical-align: middle;
-    overflow: hidden;
-    line-height: 1.6;
+    left: 5%;
+    top: 10%;
+    width: 30%;
+    height: auto;
+
+    label {
+        font-family: $title-type-font;
+        letter-spacing: 1px;
+        font-size: 2rem;
+        color: white;
+    }
 
     p {
-      margin: auto;
-      width: 100%;
-      height: 100%;
+        color: white;
+        font-size: 1.4rem;
     }
-  }
+}
 
-  .what-is-image {
+.community-exp-image {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    width: 30%;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+.what-is-image {
       position: absolute;
       top: 50px;
       left: 150px;
@@ -1430,9 +1682,10 @@ figcaption {
         height: 100%;
         box-shadow: 6px 6px 18px 6px rgba(62,116,171,1);
     }
-  }
+}
 
-  */
+*/
+
 
 @media only screen and (max-width: 50em) {
 
@@ -1559,7 +1812,7 @@ figcaption {
         margin-right: auto;
     }
     
-    .hover-nav, .hover-nav-blog {
+    .hover-nav, .hover-nav-blog, .hover-nav-facebook {
         width: 40%;
     
         p {
@@ -1573,31 +1826,22 @@ figcaption {
     }
     
     .hover-nav {
-        top: 10%;
+        top: 2.5%;
     }
     
     .hover-nav-blog {
-        top: 20%;
+        top: 12.5%;
+    }
+
+    .hover-nav-facebook {
+        top: 22.5%;
     }
 
     .hover-nav-img {
         display: none;
     }
-    
-    .hover-nav-content, .hover-nav-content-blog {
-        max-height: 0;
-        transition: max-height 0.1s ease-in;
-    
-        p {
-            display: none;
-        }
-    
-        label {
-            display: none;
-        }
-    }
 
-    .hover-nav-blog:hover .hover-nav-content-blog p {
+    .hover-nav-blog:hover .hover-nav-content-blog p, .hover-nav-facebook:hover .hover-nav-content-facebook p {
         font-family: Montserrat;
         font-size: 0.65rem;
     }
@@ -1613,8 +1857,16 @@ figcaption {
         }
     }
     
-    .hover-nav:hover ~ .hover-nav-blog {
-        top: 45%;
+    .hover-nav:hover ~ .hover-nav-blog, .hover-nav:hover ~ .hover-nav-facebook, .hover-nav-blog:hover ~ .hover-nav-facebook {
+        display: none;
+    }
+
+    .hover-nav:focus ~ .hover-nav-blog, .hover-nav:focus ~ .hover-nav-facebook {
+        display: none;
+    }
+
+    .nav-content-close {
+        display: none;
     }
     
     .landing-text-container {

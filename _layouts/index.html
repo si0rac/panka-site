@@ -53,7 +53,6 @@
             <div class="panka-landing-image-mobile">
               <img src="/assets/img/panka_index.jpg">
             </div>
-            {% assign next_event = site.events.first %}<div class="hover-nav"><p><img class="hover-nav-img" src="/assets/icons/calendar.svg/">Következő esemény</p><a href="{{ next_event.url }}"><div class="hover-nav-content"><label>{{ next_event.title }}</label><p>Időpont: {{ next_event.event_date | date: '%Y. %m. %d., %H:%M' }}</p></div></a></div>
             <div class="landing-text-container">
               <div class="panka-landing-image-container">
                 <img src="/assets/img/panka_index.jpg">
@@ -64,7 +63,9 @@
               </div>
             </div>
             <a target="_blank" href="http://m.me/263008247482207"><button class="cta-purple"><p class="button-text">Írj nekem Messengeren!</p></button></a>
+            {% assign next_event = site.events.first %}<div class="hover-nav"><p><img class="hover-nav-img" src="/assets/icons/calendar.svg/">Következő esemény</p><a href="{{ next_event.url }}"><div class="hover-nav-content"><label>{{ next_event.title }}</label><p>Időpont: {{ next_event.event_date | date: '%Y. %m. %d., %H:%M' }}</p></div></a></div>
             {% assign latest_blog = site.posts.first %}<div class="hover-nav-blog"><p><img class="hover-nav-img" src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><a href="{{ latest_blog.url }}"><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.excerpt | truncatewords: 8 }}</p></div></a></div>
+            <div class="hover-nav-facebook"><p><img class="hover-nav-img" src="/assets/icons/facebook.svg/">Kék Könyvtárszoba</p><a href=""><div class="hover-nav-content-facebook"><p>Csatlakozz a Kék Könyvtárszoba Facebook-csoportomhoz!</p></div></a></div>
           </div>
           <div class="sensible-container">
             <div class="sensible-section" id="sensible-content">
@@ -77,6 +78,55 @@
               <div class="sensible-content">
                 <div class="info-block-large"><div><img src="/assets/img/info-block-large.png"></div><div><label>Mi is az a biblioterápia?</label><p>A biblioterápia vagy irodalomterápia az irodalmi szövegek erejével inspirál, hogy ráláss saját működési módjaidra, akár a magánéletedről, karrieredről, kapcsolataidról, vagy önbecsülésedről van szó. A saját válaszaidat csak te tudod megtalálni a kérdéseidre - a szöveg és én pedig támogatunk ezen az úton.</p><a href="#">Itt többet is megtudhatsz &gt;</a></div></div>
               </div>
+            </div>
+          </div>
+          <div class="whathappens-container"><title>Mi fog történni veled egy irodalomterápiás foglalkozásomon?</title></div>
+          <div class="whathappens-container">
+            <div class="whathappens-text">
+              <ul>
+                <li>
+                  <label>Közösségi élményben lesz részed</label>
+                  <p>Megéled a résztvevők közötti hasonlóságokat és tanulsz a különbözőségeitekből.</p>
+                </li>
+                <li>
+                  <label>Kilépsz a komfortzónádból</label>
+                  <p>Olyan módokon, amire talán nem is számítasz.</p>
+                </li>
+              </ul>
+            </div>
+            <div class="community-exp-image"><img src="/assets/img/kozossegi-elmeny.jpg"></div>
+          </div>
+          <div class="whathappens-container">
+            <div class="community-exp-image"><img src="/assets/img/kreativ-energiak.jpg"></div>
+            <div class="whathappens-text">
+              <ul>
+                <li>
+                  <label>Felszabadítod a kreatív energiáidat</label>
+                  <p>Nemcsak a szövegek erejét mozgósítjuk, hanem egyéb művészetterápiás eszközök is előkerülhetnek, hogy felszabadítsuk gyermeki, játékos éned.</p>
+                </li>
+                <li>
+                  <label>Új szemmel fogsz nézni az irodalomra</label>
+                  <p>Olyan megközelítéssel fogsz kapcsolódni ezekhez a művekhez, ahogy talán addig még soha. </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="whathappens-container">
+            <div class="whathappens-text">
+              <ul>
+                <li>
+                  <label>Haladsz önismereti utadon</label>
+                  <p>És persze felismerésekre jutsz saját magadról, visszajelzéseket kapsz a többiektől, mindezek pedig segítenek fejleszteni önismeretedet.</p>
+                </li>
+              </ul>
+
+            </div>
+            <div class="community-exp-image"><img src="/assets/img/onismereti-ut.png"></div>
+          </div>
+          <div class="whathappens-container">
+            <div class="whathappens-cta">
+              <p>Belevágnál?</p>
+              <a href="/csoportok/#event_calendar"><button class="button-to-event-calendar">Jelentkezz a következő csoportomra!</button></a>
             </div>
           </div>
           {% include feedback.html %}
