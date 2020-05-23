@@ -356,6 +356,7 @@ html, body {
 .opengroup-text, .closedgroup-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 60%;
     color: #f2f2f2;
     font-weight: bold;
@@ -2044,6 +2045,59 @@ figcaption {
 
     .single-event-image {
         display: none;
+    }
+
+    .closedgroup-image, .opengroup-image {
+        display: none;
+    }
+
+    .closedgroup-text, .opengroup-text {
+        padding: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .group-event-container {
+        flex-direction: column;
+    }
+
+    .groups-container {
+        width: 80%;
+        max-width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .intro-text-container {
+        width: 90%;
+    }
+
+    .intro-text-columns-container {
+        flex-direction: column;
+    }
+    
+    .intro-text-column {
+        width: 100%;
+    }
+
+    .intro-image-container {
+        display: none;
+    }
+
+    .bibliotherapy-infographics {
+        display: none;
+    }
+
+    .bibliotherapy-explained-text {
+        width: 90%;
+    }
+
+    .speech-bubble-container {
+        flex-direction: column;
+    }
+
+    .speech-bubble-columns {
+        width: 100%;
     }
 }
 

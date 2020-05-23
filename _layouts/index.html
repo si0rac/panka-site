@@ -21,6 +21,22 @@
         {{ site.data.basic_info.name }}
       {% endif %}
     </title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166928727-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-166928727-1');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-59CNMPP');</script>
+    <!-- End Google Tag Manager -->
     <meta property="og:title" content="{{ site.data.basic_info.name }}" />
     <meta property="og:locale" content="hu" />
     <meta property="og:url" content="{{ site.data.basic_info.page_url }}" />
@@ -44,6 +60,10 @@
     <link rel="stylesheet" href="/assets/search.css" />
   </head>
   <body> 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59CNMPP"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
       <div id="fb-root"></div>
       <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
       <div class="page-wrapper">
@@ -71,12 +91,12 @@
             <div class="sensible-section" id="sensible-content">
               <div class="feedback-title" id="container-title">Mire van szükséged?</div>
               <div class="sensible-content">
-                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-1.png"></div><div class="info-block-text-holder"><label>Önismereti csoport</label><p>Csatlakozz nyitott vagy zárt irodalomterápiás önismereti csoportjaimhoz, ha szeretnél egy mélyebb folyamat során rálátni saját működési módjaidra, elakadásaidra!</p><a class="info-block-link" href="#">Katt ide! &gt;</a></div></div>
-                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-2.png"></div><div class="info-block-text-holder"><label>Egyéni konzultáció</label><p>Jelentkezz be egyéni irodalomterápiás konzultációra, ha igényeidre és problémáidra szabott segítő beszélgetésre van szükséged. Személyesen neked választott irodalmi szöveggel!</p><a href="#">Katt ide! &gt;</a></div></div>
-                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-3.png"></div><div class="info-block-text-holder"><label>Workshopok</label><p>Ha játékos és kreatív gyakorlatok során edzenéd önreflexiós képességedet, ahol egy-egy téma vagy szöveg van előtérben, az irodalomterápiás workshopjaimat ajánlom neked!</p><a href="#">Katt ide! &gt;</a></div></div>
+                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-1.png"></div><div class="info-block-text-holder"><label>Önismereti csoport</label><p>Csatlakozz nyitott vagy zárt irodalomterápiás önismereti csoportjaimhoz, ha szeretnél egy mélyebb folyamat során rálátni saját működési módjaidra, elakadásaidra!</p><a class="info-block-link" href="/csoportok/#event_calendar">Katt ide! &gt;</a></div></div>
+                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-2.png"></div><div class="info-block-text-holder"><label>Egyéni konzultáció</label><p>Jelentkezz be egyéni irodalomterápiás konzultációra, ha igényeidre és problémáidra szabott segítő beszélgetésre van szükséged. Személyesen neked választott irodalmi szöveggel!</p><a href="/konzultacio/">Katt ide! &gt;</a></div></div>
+                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-3.png"></div><div class="info-block-text-holder"><label>Workshopok</label><p>Ha játékos és kreatív gyakorlatok során edzenéd önreflexiós képességedet, ahol egy-egy téma vagy szöveg van előtérben, az irodalomterápiás workshopjaimat ajánlom neked!</p><a href="/csoportok/#event_calendar/">Katt ide! &gt;</a></div></div>
               </div>
               <div class="sensible-content">
-                <div class="info-block-large"><div><img src="/assets/img/info-block-large.png"></div><div><label>Mi is az a biblioterápia?</label><p>A biblioterápia vagy irodalomterápia az irodalmi szövegek erejével inspirál, hogy ráláss saját működési módjaidra, akár a magánéletedről, karrieredről, kapcsolataidról, vagy önbecsülésedről van szó. A saját válaszaidat csak te tudod megtalálni a kérdéseidre - a szöveg és én pedig támogatunk ezen az úton.</p><a href="#">Itt többet is megtudhatsz &gt;</a></div></div>
+                <div class="info-block-large"><div><img src="/assets/img/info-block-large.png"></div><div><label>Mi is az a biblioterápia?</label><p>A biblioterápia vagy irodalomterápia az irodalmi szövegek erejével inspirál, hogy ráláss saját működési módjaidra, akár a magánéletedről, karrieredről, kapcsolataidról, vagy önbecsülésedről van szó. A saját válaszaidat csak te tudod megtalálni a kérdéseidre - a szöveg és én pedig támogatunk ezen az úton.</p><a href="/rolam/#mi-is-az-a-biblioter%C3%A1pia">Itt többet is megtudhatsz &gt;</a></div></div>
               </div>
             </div>
           </div>
