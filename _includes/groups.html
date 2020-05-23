@@ -53,7 +53,7 @@
 {% if event.event_type == 'Workshop' %}
 {% assign workshopCounter = workshopCounter | plus: 1 %}
 {% if workshopCounter == 1 %}
-<a class="calendar-link" href="#event_calendar"><button class="link-button">Aktuális workshopjaimért kattints ide!</button></a>{% endif %}{% endif %}{% endfor %}</div><div class="opengroup-image"><img src="/assets/img/groups/opengroup.png"></div></section>
+<a class="calendar-link" href="#event_calendar"><button class="link-button">Aktuális workshopjaimért kattints ide!</button></a>{% endif %}{% endif %}{% endfor %}</div><div class="opengroup-image"><img src="/assets/img/groups/workshopok.png"></div></section>
 
 <section id="event_calendar" class="group-event-container">
 {% include closedgroup.html %}{% include workshop.html %}{% include opengroup.html %}
