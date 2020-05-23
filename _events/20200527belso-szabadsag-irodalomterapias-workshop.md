@@ -11,7 +11,7 @@ tags:
 title: 'Belső szabadság: irodalomterápiás workshop'
 description: Három alkalmas online irodalomterápiás workshop-sorozat, amely során
   körüljárjuk, hogy mi az a belső szabadság, és hogyan érhetjük el.
-event_date: 2020-05-27 16:00:00 +0000
+event_date: 2020-05-27T16:00:00.000+00:00
 comments: false
 image_url: "/media/belso-szabadsag-3-1.jpg"
 
@@ -19,6 +19,8 @@ image_url: "/media/belso-szabadsag-3-1.jpg"
 # Belső szabadság III. – Szabadulás - de mitől?
 
 ![](/media/belso-szabadsag-3-1.jpg)
+
+## Időpont: 2020. 05. 27., 18:00-20:00
 
 Ha képes vagy megélni a belső szabadság állapotát, akkor mindegy, mik a körülményeid, a kezedben a döntés, hogyan állsz hozzájuk.  
 Ez azonban nem könnyű, nagyfokú tudatosságot és önismeretet igényel.
@@ -43,3 +45,5 @@ Kedvezményes részvétel [A Kék Könyvtárszoba - "itt nem kell megőrülni"](
 
 Regisztráció és részletek: rudolfpanka@gmail.com  
 Jelentkezési határidő: május 25.
+
+{% include collapse.html title="Jelentkezés" content="Kismalacok barátkoznak a sünbébikkel." %}

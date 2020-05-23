@@ -55,7 +55,6 @@ sections:
 - type: document
   path: _config.yml
   label: _config.yml
-  match: "**/*"
 upload_dir: media
 public_path: "/media"
 front_matter_path: ''
