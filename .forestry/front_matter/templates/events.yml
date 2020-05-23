@@ -34,6 +34,13 @@ fields:
   label: Az esemény típusa
   description: 'Add meg, hogy milyen eseményről van szó: workshop, zárt csoport, nyitott
     csoport. '
+- name: image_url
+  type: file
+  config:
+    maxSize: 64
+  label: Indexkép eseményekhez
+  description: Az Aktuális események oldalon ez a kép jelenik meg az eseménynél. 16:9-es
+    képarányú kép az ideális (1600x900, 800x450 stb.)
 - name: tags
   type: tag_list
   default:
@@ -50,3 +57,5 @@ fields:
   label: Lehet-e kommentelni?
   default: false
   description: Ne lehessen eseményt kommentelni :)
+pages:
+- _events/20200527belso-szabadsag-irodalomterapias-workshop.md

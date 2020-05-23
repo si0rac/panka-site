@@ -343,22 +343,22 @@ html, body {
 
 .opengroups-right {
     background: #1c92d2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #a0cfd8, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a0cfd8, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .opengroups-left {
     background: #1c92d2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #a0cfd8, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #a0cfd8, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .opengroup-text, .closedgroup-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 60%;
     color: #f2f2f2;
-    font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -1956,6 +1956,25 @@ figcaption {
             text-align: justify;
         }
     }
+    
+    .whathappens-text {
+        width: 100%;
+
+        ul {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+
+            p {
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            }
+        }
+    }
+    .community-exp-image {
+        display: none;
+    }
 
     .consult-feedback-container {
         display: flex;
@@ -2044,6 +2063,59 @@ figcaption {
 
     .single-event-image {
         display: none;
+    }
+
+    .closedgroup-image, .opengroup-image {
+        display: none;
+    }
+
+    .closedgroup-text, .opengroup-text {
+        padding: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .group-event-container {
+        flex-direction: column;
+    }
+
+    .groups-container {
+        width: 80%;
+        max-width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .intro-text-container {
+        width: 90%;
+    }
+
+    .intro-text-columns-container {
+        flex-direction: column;
+    }
+    
+    .intro-text-column {
+        width: 100%;
+    }
+
+    .intro-image-container {
+        display: none;
+    }
+
+    .bibliotherapy-infographics {
+        display: none;
+    }
+
+    .bibliotherapy-explained-text {
+        width: 90%;
+    }
+
+    .speech-bubble-container {
+        flex-direction: column;
+    }
+
+    .speech-bubble-columns {
+        width: 100%;
     }
 }
 

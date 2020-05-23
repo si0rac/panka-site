@@ -52,6 +52,9 @@ sections:
   path: _layouts/default.html
   label: Default layout
   read_only: true
+- type: document
+  path: _config.yml
+  label: _config.yml
 upload_dir: media
 public_path: "/media"
 front_matter_path: ''

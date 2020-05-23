@@ -8,7 +8,8 @@ function collapseProcedures() {
       var content = this.nextElementSibling;
       if (content.style.display === "block") {
         content.style.display = "none", this.style.width = "50%";
-      } else {
+      } 
+      else {
         content.style.display = "block", this.style.width = "100%", content.style.width = "100%";
       }
     });
