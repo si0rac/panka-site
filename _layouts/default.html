@@ -112,14 +112,16 @@
         {% endif %}                 
         </main>
         <footer>
-            <div class="meta">
-              {% assign current_year = 'now' | date: '%Y' %}
-              {% if current_year != '2020' %}
-                Copyright © 2020 - {{ current_year }} Me!
-              {% else %}
-                Copyright © 2020 Me!
-              {% endif %}
-            </div>
+          <div class="meta">
+            {% assign current_year = 'now' | date: '%Y' %}
+            {% if current_year != '2020' %}
+              Copyright © 2020 - {{ current_year }} Rudolf Panka  |  info@rudolfpanka.hu
+            {% else %}
+              Copyright © 2020 Rudolf Panka
+            {% endif %}
+          </div>
+          <div class="meta">|</div>
+          <div class="meta">email: info@rudolfpanka.hu</div>
         </footer>
     </div>
   </body>
