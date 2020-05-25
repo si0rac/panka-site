@@ -778,9 +778,10 @@ h1 {
     cursor: pointer;
 }
 
-.hover-nav-blog:hover .hover-nav-content-blog > p {
+.hover-nav-blog:hover .hover-nav-content-blog p {
     font-family: Montserrat;
-    font-size: 1rem;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
 }
 
 .landing-text-container {
