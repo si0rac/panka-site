@@ -33,17 +33,14 @@ Neked való a workshop, ha:
 
 \- Szeretnéd a járvány idejére belső lelki munícióval felvértezni magad.  
 \- Úgy érzed, túl sok időt töltesz pótcselekvésekkel, és szeretnél a lényegre koncentrálni.  
-\- Úgy érzed, a külső körülmények határozzák meg a mindennapjaidat, és szeretnéd a belső kontrollodat eddzeni.  
+\- Úgy érzed, a külső körülmények határozzák meg a mindennapjaidat, és szeretnéd a belső kontrollodat edzeni.  
 \- Szeretnéd jobban megélni a jelent, és nem a múlton rágódni vagy a jövőért aggódni.  
 \- Egyszerűen csak szeretnél közösségben beszélgetni életünk nagy kérdéseiről, irodalmi művek segítségével.
 
 A csoport három alkalmas, kéthetente, szerdán kerül megrendezésre, ám az alkalmakon külön-külön is részt lehet venni.
 
-Részvételi díj:  
-2000 ft/alkalom.  
+**Részvételi díj:** 2000 ft/alkalom.  
 Kedvezményes részvétel [A Kék Könyvtárszoba - "itt nem kell megőrülni"](https://www.facebook.com/groups/1063476370667620/) Facebook csoport tagjainak, részletek a csoportban.
 
-Regisztráció és részletek: rudolfpanka@gmail.com  
-Jelentkezési határidő: május 25.
-
-{% include collapse.html title="Jelentkezés" content="Kismalacok barátkoznak a sünbébikkel." %}
+**Regisztráció és részletek**: rudolfpanka@gmail.com  
+**Jelentkezési határidő**: május 25.
