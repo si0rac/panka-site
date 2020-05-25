@@ -84,7 +84,7 @@
             </div>
             <a target="_blank" href="http://m.me/263008247482207"><button class="cta-purple"><p class="button-text">Írj nekem Messengeren!</p></button></a>
             {% assign next_event = site.events.first %}<div class="hover-nav"><p><img class="hover-nav-img" src="/assets/icons/calendar.svg/">Következő esemény</p><a href="{{ next_event.url }}"><div class="hover-nav-content"><label>{{ next_event.title }}</label><p>Időpont: {{ next_event.event_date | date: '%Y. %m. %d., %H:%M' }}</p></div></a></div>
-            {% assign latest_blog = site.posts.first %}<div class="hover-nav-blog"><p><img class="hover-nav-img" src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><a href="{{ latest_blog.url }}"><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.excerpt | truncatewords: 8 }}</p></div></a></div>
+            {% assign latest_blog = site.posts.first %}<div class="hover-nav-blog"><p><img class="hover-nav-img" src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><a href="{{ latest_blog.url }}"><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.description | truncatewords: 8 }}</p></div></a></div>
             <div class="hover-nav-facebook"><p><img class="hover-nav-img" src="/assets/icons/facebook.svg/">Kék Könyvtárszoba</p><a href="https://www.facebook.com/groups/1063476370667620/"><div class="hover-nav-content-facebook"><p>Csatlakozz a Kék Könyvtárszoba Facebook-csoportomhoz!</p></div></a></div>
           </div>
           <div class="sensible-container">
