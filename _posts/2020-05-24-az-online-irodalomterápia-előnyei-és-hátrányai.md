@@ -3,20 +3,21 @@ layout: default
 image_url: "/media/thumbnail-test-2.png"
 title: Az online irodalomterápia előnyei és hátrányai
 comments: true
-description: Az online irodalomterápiás csoportok jellegzetességei, az elmúlt hónapok tapasztalatai alapján.
-Date: 2020-05-24 14:00:00 +0000
+description: Az online irodalomterápiás csoportok jellegzetességei, az elmúlt hónapok
+  tapasztalatai alapján.
+Date: 2020-05-24T14:00:00.000+00:00
 tag: []
 
 ---
-**Általában sok tervem van a jövőre nézve, ha az irodalomterápiáról van szó. Az online csoporrttartás viszont eddig nem szerepelt köztük. Az utóbbi két hónapban azonban muszáj volt belevágni, ha nem akartam teljes mértékben leállni a csoportozással. És nem akartam, így hát irány a mélyvíz, a komfortzóna elhagyása.**  
-  
-Amikor az ember nem szabad választása alapján kényszerül egy megoldásra, előfordul, hogy vannak benne rossz érzések. Bennem is voltak. Nehezen hittem el, hogy a képernyők előtt ülve kialakulhat az a bizalmi légkör, ami egy személyes alkalommal, amikor mindannyian egy zárt térben találkozunk.   
-  
+**Általában sok tervem van a jövőre nézve, ha az irodalomterápiáról van szó. Az online csoporttartás viszont eddig nem szerepelt köztük. Az utóbbi két hónapban azonban muszáj volt belevágni, ha nem akartam teljes mértékben leállni a csoportozással. És nem akartam, így hát irány a mélyvíz, a komfortzóna elhagyása.**
+
+Amikor az ember nem szabad választása alapján kényszerül egy megoldásra, előfordul, hogy vannak benne rossz érzések. Bennem is voltak. Nehezen hittem el, hogy a képernyők előtt ülve kialakulhat az a bizalmi légkör, ami egy személyes alkalommal, amikor mindannyian egy zárt térben találkozunk.
+
 Én lepődtem meg a legjobban, amikor egyes alkalmakkor mégis sikerült. Addig egymásnak ismeretlen emberek kapcsolódtak össze, akár többszáz kilométeres távolságból. Rezonáltak egymásra, örültek a közös tapasztalatoknak, csodálkoztak rá a különbözőségekre. Volt olyan online foglalkozásom, ami ugyanennek a sorozatnak a személyes alkalmán sokkal kevésbé sikerült bensőségesre, mint a virtuális változat.  
-Szóval a csoda itt is megtörténik. Az ember ember marad, a kapcsolódási, önkifejezési vágya megmarad, és megvalósul, ha megteremtjük hozzá a körülményeket. Akár online is.  
-  
-A Facebook oldalamon indított szavazáson azt szavaztátok meg, hogy a karanténhelyzet feloldása után is jó alternatíva lehet az online csoporttartás. Így, bár jelenleg kényszer szülte ezt a megoldást, de most, hogy látom, működik, lehet, hogy nem fogok róla lemondani.  
-  
+Szóval a csoda itt is megtörténik. Az ember ember marad, a kapcsolódási, önkifejezési vágya megmarad, és megvalósul, ha megteremtjük hozzá a körülményeket. Akár online is.
+
+A Facebook oldalamon indított szavazáson azt szavaztátok meg, hogy a karanténhelyzet feloldása után is jó alternatíva lehet az online csoporttartás. Így, bár jelenleg kényszer szülte ezt a megoldást, de most, hogy látom, működik, lehet, hogy nem fogok róla lemondani.
+
 Lássuk listába szedve a formátum előnyeit és hátrányait:
 
 ## Hátrányok:
