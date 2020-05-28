@@ -9,7 +9,7 @@ layout: default
 title: Üdvözöllek a blogomon!
 description: 'Bemutatkozó poszt, melyből kiderül, milyen jellegű tartalmakra számíthatsz
   a blogon. '
-Date: 2020-05-28 15:00:00 +0000
+Date: 2020-05-21 15:00:00 +0000
 image_url: "/media/rudolf-panka-profilkep.jpg"
 
 ---
