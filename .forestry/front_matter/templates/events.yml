@@ -57,5 +57,3 @@ fields:
   label: Lehet-e kommentelni?
   default: false
   description: Ne lehessen eseményt kommentelni :)
-pages:
-- _events/20200527belso-szabadsag-irodalomterapias-workshop.md
