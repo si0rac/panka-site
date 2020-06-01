@@ -9,7 +9,6 @@ description: Egyboglya pályaorientációs és személyiségfejlesztő kamasztá
 event_date: 2020-06-15 09:00:00 +0000
 image_url: "/media/97072266_2830820010301162_3823072663593549824_n.jpg"
 comments: false
-published: false
 
 ---
 # Egyboglya pályaorientációs és személyiségfejlesztő kamasztábor
