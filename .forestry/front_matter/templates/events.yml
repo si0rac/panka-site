@@ -17,6 +17,8 @@ fields:
   name: event_date
   label: Mikor lesz az esemény?
   default: 
+  config:
+    display_utc: false
 - name: event_type
   type: select
   default: []
