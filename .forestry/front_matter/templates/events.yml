@@ -57,3 +57,5 @@ fields:
   label: Lehet-e kommentelni?
   default: false
   description: Ne lehessen eseményt kommentelni :)
+pages:
+- _events/egyboglya-napkozis-tabor-obudan.md
