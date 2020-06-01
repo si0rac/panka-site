@@ -4,7 +4,7 @@ tags:
 - irodalomterápia
 - rudolfpanka
 - biblioterápia
-title: Egyboglya pályaorientációs és személyiségfejlesztő kamasztábor
+title: Egyboglya kamasztábor
 description: Egyboglya pályaorientációs és személyiségfejlesztő kamasztábor
 event_date: 2020-06-15 09:00:00 +0000
 image_url: "/media/97072266_2830820010301162_3823072663593549824_n.jpg"
