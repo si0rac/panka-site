@@ -84,7 +84,7 @@
             </div>
             <a target="_blank" href="http://m.me/263008247482207"><button class="cta-purple"><p class="button-text">Írj nekem Messengeren!</p></button></a>
             {% assign next_event = site.events.first %}<div class="hover-nav"><p><img class="hover-nav-img" src="/assets/icons/calendar.svg/">Következő esemény</p><a href="{{ next_event.url }}"><div class="hover-nav-content"><label>{{ next_event.title }}</label><p>Időpont: {{ next_event.event_date | date: '%Y. %m. %d., %H:%M' }}</p></div></a></div>
-            {% assign latest_blog = site.posts.first %}<div class="hover-nav-blog"><p><img class="hover-nav-img" src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><a href="{{ latest_blog.url }}"><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.excerpt | truncatewords: 8 }}</p></div></a></div>
+            {% assign latest_blog = site.posts.first %}<div class="hover-nav-blog"><p><img class="hover-nav-img" src="/assets/icons/post_add-white.svg/">Legújabb blogposzt</p><a href="{{ latest_blog.url }}"><div class="hover-nav-content-blog"><label>{{ latest_blog.title }}</label><p>{{ latest_blog.description | truncatewords: 8 }}</p></div></a></div>
             <div class="hover-nav-facebook"><p><img class="hover-nav-img" src="/assets/icons/facebook.svg/">Kék Könyvtárszoba</p><a href="https://www.facebook.com/groups/1063476370667620/"><div class="hover-nav-content-facebook"><p>Csatlakozz a Kék Könyvtárszoba Facebook-csoportomhoz!</p></div></a></div>
           </div>
           <div class="sensible-container">
@@ -92,7 +92,7 @@
               <div class="feedback-title" id="container-title">Mire van szükséged?</div>
               <div class="sensible-content">
                 <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-1.png"></div><div class="info-block-text-holder"><label>Önismereti csoport</label><p>Csatlakozz nyitott vagy zárt irodalomterápiás önismereti csoportjaimhoz, ha szeretnél egy mélyebb folyamat során rálátni saját működési módjaidra, elakadásaidra!</p><a class="info-block-link" href="/csoportok/#event_calendar">Katt ide! &gt;</a></div></div>
-                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-2.png"></div><div class="info-block-text-holder"><label>Egyéni konzultáció</label><p>Jelentkezz be egyéni irodalomterápiás konzultációra, ha igényeidre és problémáidra szabott segítő beszélgetésre van szükséged. Személyesen neked választott irodalmi szöveggel!</p><a href="/konzultacio/">Katt ide! &gt;</a></div></div>
+                <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-2.png"></div><div class="info-block-text-holder"><label>Egyéni konzultáció</label><p>Jelentkezz be egyéni irodalomterápiás konzultációra, ha igényeidre és problémáidra szabott segítő beszélgetésre van szükséged. Három csomag közül választhatsz!</p><a href="/konzultacio/">Katt ide! &gt;</a></div></div>
                 <div class="info-block"><div class="info-block-image-holder"><img src="/assets/img/info-block-image-3.png"></div><div class="info-block-text-holder"><label>Workshopok</label><p>Ha játékos és kreatív gyakorlatok során edzenéd önreflexiós képességedet, ahol egy-egy téma vagy szöveg van előtérben, az irodalomterápiás workshopjaimat ajánlom neked!</p><a href="/csoportok/#event_calendar/">Katt ide! &gt;</a></div></div>
               </div>
               <div class="sensible-content">

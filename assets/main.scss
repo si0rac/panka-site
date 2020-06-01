@@ -642,6 +642,17 @@ h1 {
 	padding: 0 18px;
 }
 
+.consult-options-list {
+    list-style-type: none;
+    list-style-position: inside;
+    padding-inline-start: 0;
+
+    li {
+        line-height: 1.5;
+        margin-bottom: 2rem;
+    }
+}
+
 /* homepage elements */
 
 .index-main {
@@ -767,9 +778,10 @@ h1 {
     cursor: pointer;
 }
 
-.hover-nav-blog:hover .hover-nav-content-blog > p {
+.hover-nav-blog:hover .hover-nav-content-blog p {
     font-family: Montserrat;
-    font-size: 1rem;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
 }
 
 .landing-text-container {

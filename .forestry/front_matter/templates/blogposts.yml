@@ -49,5 +49,6 @@ fields:
   label: layout
   default: default
 pages:
-- _posts/2020-05-04-az-online-irodalomterápia-előnyei-és-hátrányai.md
-- _posts/2020-05-21-mit-keres-egy-irodalomterapeuta-a-siofoki-plazson.md
+- _posts/2020-05-21-udvozollek-a-blogomon.md
+- _posts/2020-05-24-az-online-irodalomterápia-előnyei-és-hátrányai.md
+- _posts/2020-06-09-mit-keres-egy-irodalomterapeuta-a-siofoki-plazson.md

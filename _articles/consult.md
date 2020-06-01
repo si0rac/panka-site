@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /konzultacio/
-title: Egyéni irodalomterápiás konzultáció - online
+title: Egyéni irodalomterápiás konzultáció
 comments: false
 tags: események, irodalomterápia, biblioterápia, rudolfpanka, konzultáció
 ---

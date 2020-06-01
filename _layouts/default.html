@@ -69,9 +69,8 @@
                 {% endif %}
                 {% include anchor_headings.html html=content anchorBody="⚓" anchorClass="anchor-symbol" %}
             </section>
-        <!-- Begin Mailchimp Signup Form -->
+          <!-- Begin Mailchimp Signup Form -->
             {% if page.url != "/contact/" %}
-<!-- Begin Mailchimp Signup Form -->
           <div class=mailchimp-holder>
             <div id="mc_embed_signup">
             <form action="https://rudolfpanka.us18.list-manage.com/subscribe/post?u=361336606566c6fe562e4c6cf&amp;id=49b65bd329" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -112,14 +111,16 @@
         {% endif %}                 
         </main>
         <footer>
-            <div class="meta">
-              {% assign current_year = 'now' | date: '%Y' %}
-              {% if current_year != '2020' %}
-                Copyright © 2020 - {{ current_year }} Me!
-              {% else %}
-                Copyright © 2020 Me!
-              {% endif %}
-            </div>
+          <div class="meta">
+            {% assign current_year = 'now' | date: '%Y' %}
+            {% if current_year != '2020' %}
+              Copyright © 2020 - {{ current_year }} Rudolf Panka  |  info@rudolfpanka.hu
+            {% else %}
+              Copyright © 2020 Rudolf Panka
+            {% endif %}
+          </div>
+          <div class="meta">|</div>
+          <div class="meta">email: info@rudolfpanka.hu</div>
         </footer>
     </div>
   </body>
