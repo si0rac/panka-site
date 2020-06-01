@@ -8,7 +8,7 @@ title: Egyboglya Napközis Tábor Óbudán
 description: 'Júniusban az Egyboglya közösség által szervezett táborokban találhattok
   meg, ahol kreatív írás foglalkozásokkal igyekszem majd lekötni a fiatalok figyelmét,
   energiáit. '
-event_date: 2020-06-15 06:00:00 +0000
+event_date: 2020-06-15 08:00:00 +0000
 image_url: "/media/96687508_2824429280940235_4706036820603830272_o.jpg"
 comments: false
 
