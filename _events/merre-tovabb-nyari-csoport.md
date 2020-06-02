@@ -9,7 +9,6 @@ description: Nyári irodalomterápiás zárt csoport a járvány tanulságairól
 event_date: 
 image_url: "/media/merre-tovabb.png"
 comments: false
-published: false
 
 ---
 # Merre tovább?  
