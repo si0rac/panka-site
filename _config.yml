@@ -34,6 +34,7 @@ social:
 # Build settings
 markdown: kramdown
 theme: minima
+timezone: Europe/Budapest
 plugins:
 - jekyll-feed
 - jekyll-sitemap
