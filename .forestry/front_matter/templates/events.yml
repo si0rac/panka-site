@@ -17,6 +17,8 @@ fields:
   name: event_date
   label: Mikor lesz az esemény?
   default: 
+  config:
+    display_utc: false
 - name: event_type
   type: select
   default: []
@@ -57,3 +59,6 @@ fields:
   label: Lehet-e kommentelni?
   default: false
   description: Ne lehessen eseményt kommentelni :)
+pages:
+- _events/2020-06-15-egyboglya-napkozis-tabor-obudan.md
+- _events/2020-06-15-egyboglya-palyaorientacios-es-szemelyisegfejleszto-kamasztabor.md
