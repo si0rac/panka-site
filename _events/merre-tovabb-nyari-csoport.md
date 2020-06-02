@@ -22,6 +22,8 @@ Július második felében indul következő zárt csoportom, mely a nyár másod
 Az alkalmak során lehetőséged lesz összegezni az előző időszak eseményeit, tanulságait, önismereti és életvezetési szempontból fontos következtetéseit.  
 Arról is fogunk beszélgetni, mit szeretnél ezután másképpen, és hogyan tudod ezeket a vágyakat realitássá formálni, beépíteni az életedbe.
 
+A csoport után sokkal tudatosabban kezded majd az őszi, tevékeny periódust.
+
 Ha érdekel a csoport, jelezd e-mailben, én pedig felveszem veled a kapcsolatot. Megfelelő számú jelentkező esetén közösen állapodunk meg a pontos időpontban, a találkozások gyakoriságában és számában.
 
 Érdeklődés és további információ: info@rudolfpanka.hu
