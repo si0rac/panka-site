@@ -76,6 +76,11 @@ algolia:
   index_name: BIBLIO_TEST
   application_id: 9AYJ75P776
 
+exclude: 
+  - deploy.md
+  - .forestry
+  - netlify.toml
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
