@@ -1491,6 +1491,11 @@ figcaption {
     width: 65%;
     padding-top: 30px;
     padding-bottom: 20px;
+
+    a {
+        text-decoration: underline;
+        color: #ffffff;
+    }
 }
 
 .intro-starter-text {
@@ -1610,6 +1615,7 @@ figcaption {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 2rem;
 }
 
 .speech-bubble-columns {
@@ -1662,21 +1668,64 @@ figcaption {
 
 .press-container {
     background-image: url(/assets/img/about/press-background.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: fixed;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-bottom: 15rem;
+}
+
+.press-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
 }
 
 .press-content {
-	background: #00aabb;
+    position: relative;
+	background: #6AB8E2;
     border-radius: .4em;
-    box-shadow: 3px 3px 5px 4px #00636C;
-    width: 70%;
+    box-shadow: 3px 3px 5px 4px rgb(63, 102, 105);
+    width: 80%;
     height: auto;
     color: white;
     padding: 20px;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-width: 0 48px 48px 0;
+        border-style: solid;
+        border-color: #00636C #ffffff;
+    }
+    */
+
+    &:hover {
+        cursor: pointer;
+        background: $main-dark-blue;
+    }
+}
+
+.presslink {
+    color: white;
+    text-decoration: none;
+}
+
+.underline-partial {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 2px #00aabb;
 }
 
 /* not used
