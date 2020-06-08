@@ -2224,6 +2224,22 @@ figcaption {
     .speech-bubble-columns {
         width: 100%;
     }
+
+    .press-container {
+        flex-direction: column;
+        background: none;
+        padding-bottom: 1rem;
+    }
+
+    .press-column {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .press-content {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 30em) {
