@@ -1,6 +1,6 @@
 ---
 layout: default
-image_url: "/media/thumbnail-test-2.png"
+image: "/media/thumbnail-test-2.png"
 title: Az online irodalomterápia előnyei és hátrányai
 comments: true
 description: Az online irodalomterápiás csoportok jellegzetességei, az elmúlt hónapok

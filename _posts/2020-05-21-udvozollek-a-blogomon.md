@@ -10,7 +10,7 @@ title: Üdvözöllek a blogomon!
 description: 'Bemutatkozó poszt, melyből kiderül, milyen jellegű tartalmakra számíthatsz
   a blogon. '
 Date: 2020-05-21 15:00:00 +0000
-image_url: "/media/rudolf-panka-profilkep.jpg"
+image: "/media/rudolf-panka-profilkep.jpg"
 
 ---
 Rudolf Panka vagyok, irodalomterapeuta.

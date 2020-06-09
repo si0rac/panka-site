@@ -10,7 +10,7 @@ title: Mit keres egy irodalomterapeuta a siófoki Plázson?
 description: Beszámoló a 2019-es Fotel Projekt siófoki helyszínéről, egy irodalomterapeuta
   szemével.
 Date: 2020-06-09 09:00:00 +0000
-image_url: "/media/62226418_678211519295209_3413032363477696512_n.jpg"
+image: "/media/62226418_678211519295209_3413032363477696512_n.jpg"
 
 ---
 **Standolni akar – gondolhatjuk, de tavaly júniusban mégsem ezzel a céllal érkeztem a Balatonhoz.**

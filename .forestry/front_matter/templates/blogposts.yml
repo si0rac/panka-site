@@ -19,7 +19,7 @@ fields:
   default: 
   description: 'Ezzel időzíteni is lehet a posztot: a megadott dátumig nem jelenik
     meg. '
-- name: image_url
+- name: image
   type: file
   config:
     maxSize: 64
