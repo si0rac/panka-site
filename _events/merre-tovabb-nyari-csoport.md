@@ -7,7 +7,7 @@ tags:
 title: Merre tovább? - nyári zárt csoport
 description: Nyári irodalomterápiás zárt csoport a járvány tanulságairól.
 event_date: 
-image_url: "/media/merre-tovabb.png"
+image: "/media/merre-tovabb.png"
 comments: false
 
 ---

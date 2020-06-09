@@ -36,7 +36,7 @@ fields:
   label: Az esemény típusa
   description: 'Add meg, hogy milyen eseményről van szó: workshop, zárt csoport, nyitott
     csoport. '
-- name: image_url
+- name: image
   type: file
   config:
     maxSize: 64
