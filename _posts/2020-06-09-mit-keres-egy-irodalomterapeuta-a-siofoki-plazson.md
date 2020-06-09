@@ -9,7 +9,7 @@ layout: default
 title: Mit keres egy irodalomterapeuta a siófoki Plázson?
 description: Beszámoló a 2019-es Fotel Projekt siófoki helyszínéről, egy irodalomterapeuta
   szemével.
-Date: 2020-06-09 09:00:00 +0000
+Date: 2020-06-09T09:00:00.000+00:00
 image: "/media/62226418_678211519295209_3413032363477696512_n.jpg"
 
 ---
@@ -33,13 +33,13 @@ Több helyszínen is kitették a tavalyi év folyamán ikonikus piros foteljeike
 
 ![](/media/62226418_678211519295209_3413032363477696512_n.jpg)
 
-Én a siófokra kitelepülő csapatot erősítettem, ott vállaltam egy egynapos „szolgálatot”. Molnár Csilla, kedves irodalomterapeuta kolléganőmmel felváltva vártunk a hozzánk érkezőket.
+Én a siófokra kitelepülő csapatot erősítettem, ahova Huszár Annamária, kedves irodalomterapeuta kolléganőm kapcsán kerültem. Molnár Csilla, szintén kedves irodalomterapeuta kolléganőmmel felváltva vártunk a hozzánk érkezőket.
 
 Hogy milyen volt a sok fürdőruhás strandoló között, „teljes díszben”, vagyis az alkalomhoz megfelelő utcai ruhában, a strand füvén egy piros fotelben várni az érkezőket, a lángososok és fröccs standok szomszédságában? Érdekes, bevallom.  
 Minden elismerésem azoknak a bátor jelentkezőknek, akik bevállalták, hogy egy ilyen lazulós helyszínen, ami általában nem az önvizsgálatról és mély gondolatokról szól, eljönnek beszélgetni egy kicsit.
 
 ![](/media/62631875_678211549295206_5931775905121697792_o.jpg)
 
-Ez a helyszínválasztás, ha talán nem is ösztönöz a mély lelki mélységekben való megmártózásra (minek, ha lehet a Balantonban is?), arra tökéletes emlékeztetőnek bizonyult, hogy mindenhova cipeljük magunkkal saját megküzdési módjainkat, saját kérdéseinket, azokat a csomagokat, amiken nap, mint nap dolgozunk. 
+Ez a helyszínválasztás, ha talán nem is ösztönöz a mély lelki mélységekben való megmártózásra (minek, ha lehet a Balantonban is?), arra tökéletes emlékeztetőnek bizonyult, hogy mindenhova cipeljük magunkkal saját megküzdési módjainkat, saját kérdéseinket, azokat a csomagokat, amiken nap, mint nap dolgozunk.
 
 És ezt a munkát nem kell egyedül végeznünk. A segítség ott van, elérhető, csak keresni kell. Ha mered kérni, akkor lesz, aki segít, olyan módon, ahogy arra neked ott és akkor szükséged van. Megtapasztalhatod, milyen az, amikor akár csak egy órára, de nem egyedül cipeled a terheket, amikor valaki megtartó figyelemmel van veled együtt. És megérzed, mennyivel könnyebb így. Szóval, ha úgy érzed, segítségre van szükséged, ne szégyelld kérni, keresni. Meg fogod találni a saját segítőidet. Akár a Plázs egy eldugott sarkában, árnyas fák alatt, két lángos között is.
