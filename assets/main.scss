@@ -206,6 +206,18 @@ html, body {
         margin-right: 5%;
     }
 
+    a.anchor-symbol {
+        text-decoration: none;
+        visibility: hidden;
+    }
+
+    :target::before {
+        content: "";
+        display: block;
+        height: 110px; /* fixed header height*/
+        margin: -110px 0 0; /* negative fixed header height */
+    }
+
     main {
         display: flex;
         flex-direction: column;
@@ -233,18 +245,6 @@ html, body {
                 line-height: 1.5;
                 text-align: justify;
                 letter-spacing: -1px;
-            }
-
-            a.anchor-symbol {
-                text-decoration: none;
-                visibility: hidden;
-            }
-
-            :target::before {
-                content: "";
-                display: block;
-                height: 110px; /* fixed header height*/
-                margin: -110px 0 0; /* negative fixed header height */
             }
         }
 
@@ -1055,7 +1055,6 @@ h1 {
         justify-content: center;
         align-items: center;
         width: 100%;
-        background: linear-gradient(to right, #4286f4, #373B44);
 
         p {
             color: white;
@@ -1082,6 +1081,41 @@ h1 {
             background: #6AB8E2;
             cursor: pointer;
         }
+    }
+}
+
+.get-free-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    text-align: center;
+    background: linear-gradient(to right, #4286f4, #373B44);
+    width: 100%;
+
+    p {
+        color: white;
+        font-family: Montserrat;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        color: white;
+        font-family: $title-type-font;
+        letter-spacing: 1px;
+        font-size: 2rem;
+        margin-top: 6rem;
+    }
+
+    .kalauz-image {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
 }
 
