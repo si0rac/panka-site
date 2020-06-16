@@ -11,6 +11,7 @@ image: "/media/_hat-tudja-meg-hogy-ez-az-abrand-ahogy-on-nevezi-ketsegtelenul-me
 comments: false
 
 ---
+# Most rólad szól a történet! - kedvezményes egyéni konzultációs hét: június 15-19.
 
 Ha mindig is érdekelt az irodalomterápia, és kipróbálnád úgy, hogy rád és csakis rád figyelek, 60 percen át, akkor eljött a te időd!
 
