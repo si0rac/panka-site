@@ -4,20 +4,20 @@ tags:
 - irodalomterápia
 - rudolfpanka
 - biblioterápia
-title: Merre tovább? - nyári zárt csoport
-description: Nyári irodalomterápiás zárt csoport a járvány tanulságairól.
+title: Merre tovább? - őszköszöntő zárt csoport
+description: Őszköszöntő irodalomterápiás zárt csoport a járvány tanulságairól.
 event_date: 
 image: "/media/merre-tovabb.png"
 comments: false
 
 ---
-# Merre tovább? - nyáron induló zárt csoport
+# Merre tovább? - őszköszöntő zárt csoport
 
 Összegzés, vissza- és előrekintés az előző hónapok után
 
 ![](/media/merre-tovabb.png)
 
-Július második felében indul következő zárt csoportom, mely a nyár második felét öleli majd fel.
+Augusztusban induló zárt csoport.
 
 Az alkalmak során lehetőséged lesz összegezni az előző időszak eseményeit, tanulságait, önismereti és életvezetési szempontból fontos következtetéseit.  
 Arról is fogunk beszélgetni, mit szeretnél ezután másképpen, és hogyan tudod ezeket a vágyakat realitássá formálni, beépíteni az életedbe.
