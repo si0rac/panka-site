@@ -13,28 +13,27 @@ comments: false
 ---
 ![](/media/ee.png)
 
-Együtt – egyedül: négy alkalmas, zárt önismereti csoport  
-  
-A foglalkozásokon irodalmi szövegek segítségével járjuk körbe központi témánkat, amely a közösségi lét és az elmagányosodás.  
-  
-A szövegek segítőink lesznek, nem elemezni fogjuk őket, a csoporton való részvételhez nem szükséges semmiféle irodalmi előismeret. Elsősorban azokkal a témákat fogunk dolgozni, amiket ti, résztvevők hoztok be, a szövegek kapcsán.  
-  
-Részletek:  
-  
+Együtt – egyedül: négy alkalmas, zárt önismereti csoport
+
+A foglalkozásokon irodalmi szövegek segítségével járjuk körbe központi témánkat, amely a közösségi lét és az elmagányosodás.
+
+A szövegek segítőink lesznek, nem elemezni fogjuk őket, a csoporton való részvételhez nem szükséges semmiféle irodalmi előismeret. Elsősorban azokkal a témákat fogunk dolgozni, amiket ti, résztvevők hoztok be, a szövegek kapcsán.
+
+Részletek:
+
 Téma:  
-Együtt-egyedül, közösségi lét, elmagányosodás, együttlét és magány kapcsolatainkban  
-  
+Együtt-egyedül, közösségi lét, elmagányosodás, együttlét és magány kapcsolatainkban
+
 Időpontok:  
-2020\. júlis 13.,  20., 27., augusztus 3. (négy egymást követő hétfő)  
-  
-  
-Időtartam:   
-18:00-20:00 óra között  
-  
-Helyszín:   
-Budapest belvárosa, pontos helyszín hamarosan...  
-  
-Részvételi díj:   
-12\.000 Ft   
-  
+2020\. július 13.,  20., 27., augusztus 3. (négy egymást követő hétfő)
+
+Időtartam:  
+18:00-20:00 óra között
+
+Helyszín:  
+Budapest belvárosa, pontos helyszín hamarosan.
+
+Részvételi díj:  
+12\.000 Ft
+
 Jelentkezés, további infók: info@rudolfpanka.hu
