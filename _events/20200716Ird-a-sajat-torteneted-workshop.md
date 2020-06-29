@@ -4,7 +4,7 @@ tags:
 - irodalomterápia
 - rudolfpanka
 - biblioterápia
-title: ''
+title: Írd a saját történeted! - Hogyan segíthet az önismeret az alkotásban?
 description: Irodalomterápiás szemléletű szabadtéri workshop. Hogyan segíthet az önismeret
   az írásban és egyéb alkotói folyamatokban?
 event_date: 2020-07-16 18:00:00 +0200
