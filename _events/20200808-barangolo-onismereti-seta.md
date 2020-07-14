@@ -4,7 +4,7 @@ tags:
 - irodalomterápia
 - rudolfpanka
 - biblioterápia
-title: '20200808-Barangoló - önismereti séta '
+title: 'Barangoló - önismereti séta '
 description: Barangoló - önismereti séta vadon- és irodalomterápiás gyakorlatokkal
 event_date: 2020-08-08 14:00:00 +0200
 image: "/media/barangolo1.png"
