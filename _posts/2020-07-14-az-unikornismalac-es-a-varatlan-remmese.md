@@ -7,7 +7,7 @@ tag:
 - biblioterápia
 layout: default
 title: Az unikornismalac és a váratlan rémmese
-description: Beszámoló egy gyerektábor irodalomterápiás foglalkozásairól.
+description: Beszámoló egy gyerektáborban tartott irodalomterápiás foglalkozásaimról.
 Date: 
 image: "/media/106908666_2672883026374485_6702997097193204260_n.jpg"
 
@@ -33,13 +33,13 @@ A második héten nagyobb lányokkal beszélgettem, játszottam, gondolkodtam eg
 
 A másik jó emlék erről a hétről, hogy a velük közösen alkotott történet annyira a lányok szívéhez nőtt, hogy még napokkal később is emlegették a szereplőket, illetve még találtak ki fordulatokat, folytatást a történethez. Csodás volt megtapasztalni, amit eddig is tudtam, hogy nekünk, embereknek mennyire fontosak a történetek. Történetek segítségével kapcsolódunk egymáshoz, és mindegy, hogy igaz sztoriról van szó, irodalmi műről vagy éppen egy olyan meséről, amit mi, közösen alkottunk meg, egy kreatív írás gyakorlaton. A szereplők életre kelnek, a szívünkhöz nőnek, a részünkké válnak, és fontosak lesznek nekünk. Ez igazi varázslat.
 
-![](/media/107656863_760921548062674_3533311268753494394_n.jpg)
-
 Utolsó héten mintha a két előző hét keveredett volna korosztályilag, mert kisebbek és kiskamaszok is megfordultak a csoporton. Megtapasztaltam, mennyire érzékenyek a gyerekek a világ rezdüléseire, ugyanis az ő közös történetüket sötét felhők árnyékolták be, szinte már rémmesébe illő fordulatokkal. Viszont szuper dolog, hogy egy ilyen, közösen alakított sztoriban, ahol náluk a kontroll, megélhették ezeket a negatívabb érzéseket is. Nyilván rajtuk is nyomot hagyott az előző időszak, tele vannak kételyekkel, ki nem mondott vagy akár kimondott félelmekkel, kérdésekkel – ezek manifesztálódtak ebben a történetben is.  
 Már az pozitív, hogy volt egy terük arra, hogy ezeket a félelmeket, negatív érzéseket áttranszformálhassák, kibeszélhessék valahol.
 
 Ezen a héten került szóba a Harry Potter is. Mindig örülök, ha kiderül a mai gyerekekről, hogy szeretik ezt az általam is kedvencnek tartott történetet. Érdekes aspektusról beszéltek az egyik leghíresebb szereplőről, erről [itt írtam bővebben.](https://www.facebook.com/263008247482207/photos/a.265268033922895/964297037353321/)
 
 A gyerekek azt is megtapasztalták, hogy ha a közös történetben mindenki a saját verziójához ragaszkodik, és azt erőlteti, nem jutnak előre a sztoriban. Erre is volt példa: az egyik kislány mindenképpen azt szerette volna, ha a főszereplő család otton marad, a másik pedig, hogy elmegy valahova. Így amint hozzájuk ért a történet, mindig az akaratuk szerint visszavitték az eseményeket oda, ahova ők szerették volna. Így persze nem haladt előre a történet, hiszen csak körbe-körbe jártak. Ennek a gyakorlatnak az üzenetét mindannyian elvihetjük magunkkal: csak akkor jutunk előre, ha másokkal közösen alakítjuk a történetünket, elfogadva azt az irányt is, amerre ők szeretnének haladni.
+
+![](/media/107656863_760921548062674_3533311268753494394_n.jpg)
 
 A három hét sok is volt, kevés is... sok élmény ért, és ennyire intenzíven még sosem dolgoztam együtt gyerekekkel. Kevés is, mert amikor az ember benne van, csak úgy szalad az idő, és amikor vége, nincs más hátra, mint feldolgozni az élményeket, elrakni a tapasztalatokat, levonni a tanulságokat, és hiányolni a gyerekeket, aki ez alatt a rövid idő alatt is képesek az ember szívéhez nőni...:)
