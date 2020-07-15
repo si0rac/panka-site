@@ -14,7 +14,7 @@ image: "/media/106908666_2672883026374485_6702997097193204260_n.jpg"
 ---
 # Az unikornismalac és a váratlan rémmese - avagy szubjektív beszámoló egy gyerektáborból
 
-**Gyerekekkel dolgozni egészen más, mint felnőttekkel. A felnőttek már megtanultak udvariasak lenni, kevésbé fejezik ki közvetlenül igényeiket.**
+**Gyerekekkel dolgozni egészen más, mint felnőttekkel. A gyerekek sokkal közvetlenebbek, ami a szívükön, az a szájukon. Nem épültek még be azok a gátak és visszafogó erők, amik felnőttkorban szabályozzák a viselkedésünket.**
 
 **Ha egy gyereknek nem tetszik egy gyakorlat, azt azonnal közli veled, ha elkezd unatkozni, azonnal látod rajta, viszont cserébe olyan őszinte reakciókat is kapsz tőlük, amikkel be tudják magukat lopni a szívedbe.**
 
