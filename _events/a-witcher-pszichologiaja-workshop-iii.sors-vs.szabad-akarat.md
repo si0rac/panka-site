@@ -7,13 +7,13 @@ tags:
 title: A Witcher pszichológiája workshop III. – Sors vs. szabad akarat
 description: Irodalomterápiás workshop a Witcher világáról.
 event_date: 2020-08-13 18:00:00 +0200
-image: "/media/_hat-tudja-meg-hogy-ez-az-abrand-ahogy-on-nevezi-ketsegtelenul-megvalosul-ezt-higgye-el-de-nem-most-mert-minden-cselekvesnek-megvan-a-maga-torvenye-ez-lelki-pszichologiai-dolog-ahhoz-hogy-ujjaalakits-45.png"
+image: "/media/witcher3.png"
 comments: false
 
 ---
-# A Witcher pszichológiája workshop III. - Sors vs. szabad akarat
+![](/media/witcher3.png)
 
-![](/media/_hat-tudja-meg-hogy-ez-az-abrand-ahogy-on-nevezi-ketsegtelenul-megvalosul-ezt-higgye-el-de-nem-most-mert-minden-cselekvesnek-megvan-a-maga-torvenye-ez-lelki-pszichologiai-dolog-ahhoz-hogy-ujjaalakits-45.png)
+# A Witcher pszichológiája workshop III. - Sors vs. szabad akarat
 
 **Időpont:** 2020. augusztus 13., 18:00 – 2020. augusztus 13., 20:00
 
