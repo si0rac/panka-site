@@ -11,7 +11,9 @@ image: "/media/lazulj.png"
 comments: false
 
 ---
-# ![](/media/lazulj.png)Lazulj! - játékos önismeret (online)
+![](/media/lazulj.png)
+
+# Lazulj! - játékos önismeret (online)
 
 Ha szeretnél egy péntek esti programot, ami egyszerre kapcsol ki, lazít le, de közben játékos formában rá is látsz saját működési módjaidra, tanulsz magadról, akkor ezt az programot neked találtam ki!
 
@@ -26,8 +28,8 @@ Amire számíthatsz:
 – sok mosoly és nevetés  
 – lehetőség arra, hogy reflektálj önmagadra.
 
-Részvételi díj: 1500 forint  
-  
+Részvételi díj: 1500 forint
+
 Időpont: július 24., péntek, 17:00-18:30
 
 Jelentkezés: [**info@rudolfpanka.hu**](mailto:info@rudolfpanka.hu)  
