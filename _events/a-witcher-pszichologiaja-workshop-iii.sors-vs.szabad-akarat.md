@@ -13,9 +13,6 @@ comments: false
 ---
 # A Witcher pszichológiája workshop III. - Sors vs. szabad akarat
 
-| Helyszín | Barcraft Nyugati, Budapest, 1065, Bajcsy Zsilinszky út 59. |
-| Időpont | 2020. augusztus 13., 18:00 – 2020. augusztus 13., 20:00 |
-
 ![](/media/_hat-tudja-meg-hogy-ez-az-abrand-ahogy-on-nevezi-ketsegtelenul-megvalosul-ezt-higgye-el-de-nem-most-mert-minden-cselekvesnek-megvan-a-maga-torvenye-ez-lelki-pszichologiai-dolog-ahhoz-hogy-ujjaalakits-45.png)
 
 **Időpont:** 2020. augusztus 13., 18:00 – 2020. augusztus 13., 20:00
@@ -32,7 +29,7 @@ Az est elsősorban Andrzej Sapkowski regényeire épít. Természetesen előford
 
 ## Kinek szól a program?
 
-Bárkinek, akit érdekel a téma. Akkor is részt vehetsz az eseményen, ha nem olvastad az összes kötetet, és persze akkor is, ha mindent olvastál és láttál, ami Sapkowski világához köthető. 
+Bárkinek, akit érdekel a téma. Akkor is részt vehetsz az eseményen, ha nem olvastad az összes kötetet, és persze akkor is, ha mindent olvastál és láttál, ami Sapkowski világához köthető.
 
 ## Hogy zajlik?
 
@@ -46,7 +43,7 @@ Persze! Az alkalmakat úgy építem fel, hogy az is tudja élvezni őket, aki mo
 
 Jegy ára: 3.000 forint
 
-Az eseményre kizárólag banki átutalással tudsz jegyet venni. Regisztrációs e-mailedre válaszul megkapod az utalási adatokat. 
+Az eseményre kizárólag banki átutalással tudsz jegyet venni. Regisztrációs e-mailedre válaszul megkapod az utalási adatokat.
 
 **Regisztráció:** info@rudolfpanka.hu
 
