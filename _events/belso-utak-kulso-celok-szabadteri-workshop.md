@@ -7,11 +7,11 @@ tags:
 title: Belső utak - külső célok - szabadtéri workshop
 description: 'Szabadtéri irodalomterápiás önismereti workshop: utazás, célok'
 event_date: 2020-08-19 18:00:00 +0200
-image: "/media/_hat-tudja-meg-hogy-ez-az-abrand-ahogy-on-nevezi-ketsegtelenul-megvalosul-ezt-higgye-el-de-nem-most-mert-minden-cselekvesnek-megvan-a-maga-torvenye-ez-lelki-pszichologiai-dolog-ahhoz-hogy-ujjaalakits-48.png"
+image: "/media/belsoutak.png"
 comments: false
 
 ---
-![](/media/_hat-tudja-meg-hogy-ez-az-abrand-ahogy-on-nevezi-ketsegtelenul-megvalosul-ezt-higgye-el-de-nem-most-mert-minden-cselekvesnek-megvan-a-maga-torvenye-ez-lelki-pszichologiai-dolog-ahhoz-hogy-ujjaalakits-48.png)
+![](/media/belsoutak.png)
 
 # Belső utak - külső célok
 
