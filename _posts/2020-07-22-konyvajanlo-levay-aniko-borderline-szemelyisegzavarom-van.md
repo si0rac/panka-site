@@ -14,18 +14,18 @@ image: "/media/borderline2.png"
 ---
 # Könyvajánló: Lévay Anikó Borderline személyiségzavarom van
 
-**Egy estét Lévay Anikó társaságában töltöttem, na persze csak képletesen. Úgy éreztem, a könyv olvasásával pár órára beköltöztem a fejébe. Anikó fejében nem volt túl kellemes tartózkodni, de annál tanulságosabb.**
+**Egy estét Lévay Anikó társaságában töltöttem, na persze csak képletesen. Úgy éreztem, a könyv olvasásával pár órára beköltöztem a szerző fejébe. Az itt tartózkodás nem volt túl kellemes, de annál tanulságosabb.**
 
 ![](/media/borderline-szemelyisegzavarom-van.jpg)
 
 A könyv címe lényegre törő, nem árul zsákbamacskát. Eleinte keresetlenül direktnek találtam, de aztán rájöttem, hogy más cím nem is illene ehhez a könyvhöz.  
 Ugyanígy voltam a központozási, stilisztikai hibákkal is. Eleinte hiányoltam a lektori munkát, de aztán rájöttem, hogy ez a könyv így hiteles. Oké, a vesszőhibákat tényleg ki lehetett volna gyomlálni, de a stilisztikai bakik, nyelvhelyességi hibák hozzátettek a hitelességhez.
 
-Ugyanis a kötet nem szakkönyv, ahogy a szerző is többször, határozottan hangsúlyozza. Ez egy önvallomás, és ezt azért jó figyelembe venni, mert csak egy tapasztalat a sok közül.   
+Ugyanis a kötet nem szakkönyv, ahogy a szerző is többször, határozottan hangsúlyozza. Ez egy önvallomás, és ezt azért jó figyelembe venni, mert csak egy tapasztalat a sok közül.  
 Anikó „kiképzett” személyiségzavaros, rengeteget olvasott, művelődött a borderline témában, és ez oda vezetett, hogy néha azt éreztem, a szakkönyvekben olvasott, tankönyvi leírásokhoz keresi magán a tüneteket.  
 Félreértés ne essék, nem elvitatni akarom az élményeit, csak úgy gondolom, sokszor inkább fejből írta a sorokat, mint lélekből.
 
-Ráadásul a könyv felénél derül ki, hogy egyébként először kényszerbetegnek diagnosztizálták, ami azért nem mindegy, és több tünete is inkább arra utal, mint borderline-ra. Nem érzem túl szerencsésnek összemosni a kettőt. De hát, ugye, ez nem szakkönyv. 
+Ráadásul a könyv felénél derül ki, hogy egyébként először kényszerbetegnek diagnosztizálták, ami azért nem mindegy, és több tünete is inkább arra utal, mint borderline-ra. Nem érzem túl szerencsésnek összemosni a kettőt. De hát, ugye, ez nem szakkönyv.
 
 A kötet nem sok konkrétumot tartalmaz, amikor a tünetekre kerül sor. A szerző is megjegyzi, hogy nem konkrét eseteket fog leírni, inkább azt, hogy ő belül, lelkileg hogyan éli meg ezeket, a kapcsolatait, az élet kisebb, nagyobb történéseit.  
 Értem az e mögötti motivációt, és el is fogadom, valószínűleg a helyében én is inkább így tettem volna. De nekem, mint kívülállónak, vagy adott esetben egy olyan olvasónak, aki magát vagy szeretteit igyekszik elhelyezni a spektrumon, talán több fogódzót adott volna néhány konkrétum
