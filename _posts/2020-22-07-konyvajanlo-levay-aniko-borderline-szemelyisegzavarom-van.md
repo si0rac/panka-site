@@ -8,7 +8,7 @@ tag:
 layout: default
 title: 'Könyvajánló: Lévay Anikó Borderline személyiségzavarom van'
 description: 'Személyes és szubjektív könyvajánló: Borderline személyiségzavarom van'
-Date: 2020-07-22 00:00:00 +0200
+Date: 2001-01-01 12:10:00 +0100
 image: "/media/borderline2.png"
 
 ---
