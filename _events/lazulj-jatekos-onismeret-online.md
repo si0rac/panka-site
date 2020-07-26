@@ -9,6 +9,7 @@ description: Játékos önismereti workshop, online formában
 event_date: 2020-07-24 17:00:00 +0200
 image: "/media/lazulj.png"
 comments: false
+published: false
 
 ---
 ![](/media/lazulj.png)
