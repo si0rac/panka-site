@@ -45,7 +45,7 @@ Jegy ára: 3.000 forint
 
 Az eseményre kizárólag banki átutalással tudsz jegyet venni. Regisztrációs e-mailedre válaszul megkapod az utalási adatokat.
 
-**Regisztráció:** info@rudolfpanka.hu
+**Regisztráció:** [regisztrációs űrlap](https://forms.gle/4oZEfwqnk4abMfhh8)
 
 Szeretettel várlak,
 
