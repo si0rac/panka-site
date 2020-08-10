@@ -9,6 +9,7 @@ description: Együtt-egyedül zárt irodalomterápiás önismereti csoport
 event_date: 2020-07-13T18:00:00.000+02:00
 image: "/media/ee.png"
 comments: false
+published: false
 
 ---
 ![](/media/ee.png)

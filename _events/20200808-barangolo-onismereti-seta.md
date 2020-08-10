@@ -9,6 +9,7 @@ description: Barangoló - önismereti séta vadon- és irodalomterápiás gyakor
 event_date: 2020-08-08 14:00:00 +0200
 image: "/media/barangolo1.png"
 comments: false
+published: false
 
 ---
 # ![](/media/barangolo1.png)Barangoló - önismereti séta vadon- és irodalomterápiás gyakorlatokkal
