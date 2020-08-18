@@ -9,6 +9,7 @@ description: Irodalomterápiás workshop a Witcher világáról.
 event_date: 2020-08-13 18:00:00 +0200
 image: "/media/witcher3.png"
 comments: false
+published: false
 
 ---
 ![](/media/witcher3.png)
