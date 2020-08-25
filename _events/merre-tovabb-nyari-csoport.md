@@ -9,6 +9,7 @@ description: Őszköszöntő irodalomterápiás zárt csoport a járvány tanuls
 event_date: 
 image: "/media/merre-tovabb.png"
 comments: false
+published: false
 
 ---
 # Merre tovább? - őszköszöntő zárt csoport

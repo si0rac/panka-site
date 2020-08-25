@@ -9,6 +9,7 @@ description: 'Szabadtéri irodalomterápiás önismereti workshop: utazás, cél
 event_date: 2020-08-19 18:00:00 +0200
 image: "/media/belsoutak.png"
 comments: false
+published: false
 
 ---
 ![](/media/belsoutak.png)
