@@ -9,6 +9,7 @@ description: Hétindító reggeli hangolódás irodalommal // Örkény Egyperces
 event_date: 2020-08-24 09:00:00 +0200
 image: "/media/hetforeggel.png"
 comments: false
+published: false
 
 ---
 ![](/media/hetforeggel.png)
