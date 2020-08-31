@@ -4,23 +4,22 @@ tags:
 - irodalomterápia
 - rudolfpanka
 - biblioterápia
-title: A Witcher pszichológiája workshop III. – Sors vs. szabad akarat
-description: Irodalomterápiás workshop a Witcher világáról.
-event_date: 2020-08-13 18:00:00 +0200
-image: "/media/witcher3.png"
+title: A Witcher pszichológiája workshop IV. – Elnyomók és elnyomottak
+description: Irodalomterápiás workshop a Witcher világa alapján.
+event_date: 2020-09-17 18:00:00 +0200
+image: "/media/witcher4.png"
 comments: false
-published: false
 
 ---
-![](/media/witcher3.png)
+![](/media/witcher4.png)
 
-# A Witcher pszichológiája workshop III. - Sors vs. szabad akarat
+# A Witcher pszichológiája workshop IV. - Elnyomók és elnyomottak (társadalmi berendezkedés A vaják világában)
 
-**Időpont:** 2020. augusztus 13., 18:00 – 2020. augusztus 13., 20:00
+**Időpont:** 2020. szeptember 17., 18:00 – 2020. augusztus 13., 20:00
 
 **Helyszín:** Barcraft Nyugati, Budapest, 1065, Bajcsy Zsilinszky út 59.
 
-Folytatjuk a Witcher világának körüljárását, pszichológiai szempontból. Ezúttal a végzet és a szabad akarat kérdéseiről fogunk beszélgetni.
+Folytatjuk a Witcher világának körüljárását, pszichológiai szempontból. Ezúttal a világ társadalmi berendezkedésének kérdéseiről fogunk beszélgetni.
 
 A harmadik alkalom témája a sors/végzet és a szabad akarat problematikája a Vaják világában. Sapkowski művein túl, de ennek kapcsán lehetőségetek lesz ránézni arra, hogyan gondolkodtok erről a kérdésről saját életetekben.
 
