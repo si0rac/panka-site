@@ -28,7 +28,7 @@ Mit kapsz, ha eljössz a workshopra?
 – közösségi élményt, inspiráló beszélgetést, mások szempontjait, melyek téged is gazdagítani fognak  
 – igazi nyárvégi hangulatú, szabadtéri élményt
 
-Időpont: 2020 szeptember 3. 18:00-20:00
+Időpont: 2020 szeptember 8. 18:00-20:00
 
 Helyszín: Budapest, Szabadság tér (a pontos helyszínt e-mailben kapják meg a regisztráltak)
 
