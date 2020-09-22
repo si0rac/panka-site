@@ -9,6 +9,7 @@ description: Rajzolj nekem egy bárányt – szabadtéri önismereti workshop
 event_date: 2020-09-08 18:00:00 +0200
 image: "/media/kisherceg.png"
 comments: false
+published: false
 
 ---
 ![](/media/kisherceg.png)
