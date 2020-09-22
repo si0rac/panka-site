@@ -9,7 +9,6 @@ description: Csatlakozz a TörtÉNeted – önismereti sztorialkotó kihívásho
 event_date: 2020-10-05 00:00:00 +0200
 image: "/media/torteneted.png"
 comments: false
-published: false
 
 ---
 ![](/media/torteneted.png)
