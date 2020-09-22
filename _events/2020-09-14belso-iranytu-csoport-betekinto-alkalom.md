@@ -9,6 +9,7 @@ description: Belső iránytű irodalomterápiás csoport betekintő alkalom
 event_date: 2020-09-14 18:00:00 +0200
 image: "/media/_hat-tudja-meg-hogy-ez-az-abrand-ahogy-on-nevezi-ketsegtelenul-megvalosul-ezt-higgye-el-de-nem-most-mert-minden-cselekvesnek-megvan-a-maga-torvenye-ez-lelki-pszichologiai-dolog-ahho-2020-08-26t133512-407.png"
 comments: false
+published: false
 
 ---
 ![](/media/_hat-tudja-meg-hogy-ez-az-abrand-ahogy-on-nevezi-ketsegtelenul-megvalosul-ezt-higgye-el-de-nem-most-mert-minden-cselekvesnek-megvan-a-maga-torvenye-ez-lelki-pszichologiai-dolog-ahho-2020-08-26t133512-407.png)
