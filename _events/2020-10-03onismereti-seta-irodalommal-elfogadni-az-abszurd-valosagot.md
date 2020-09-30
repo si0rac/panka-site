@@ -34,6 +34,8 @@ Részvételi díj: helyszínen fizetve 3000 forint
 Előreutalás esetén: 2500 forint  
 Regisztráció: [**https://forms.gle/4PyEr6ko6nsjiRXQ8**](https://forms.gle/4PyEr6ko6nsjiRXQ8 "https://forms.gle/4PyEr6ko6nsjiRXQ8")
 
+Jelentkezési határidő: október 2., péntek dél - 12 óra
+
 A találkozó pontos helyszínét és egyéb tudnivalókat e-mailben küldöm a jelentkezőknek.  
 FONTOS: hűvösebb időben, akár szemerkélő esőben is megtartjuk a sétát, mert így is tudunk kapcsolódni a természethez. Természetesen viharos, szeles, zivataros időben nem lesz séta. Ebben az esetben visszutalom a már átutalt részvételi díjakat.
 
