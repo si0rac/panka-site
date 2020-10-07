@@ -35,7 +35,7 @@ Mit kapsz, ha részt veszel az alkalmakon:
 
 **Időpontok:** három egymást követő kedd:
 
-október 13., 20., 28. 18:00-20:00 óra
+október 13., 20., 27. 18:00-20:00 óra
 
 **Részvételi díj:**
 
@@ -53,7 +53,7 @@ Október 13.: Hova tűnik az idő - időbeosztás, késés, rohanós napok, át 
 
 Október 20.: Pillanatban levés - szubjektív idő, jelenlét, kihozni az itt-és-mostból a legtöbbet
 
-Október 28.: Múlt és jövő - saját idővonalam: hol vagyok most, mi a viszonyom a múltamhoz és a jövőmhöz
+Október 27.: Múlt és jövő - saját idővonalam: hol vagyok most, mi a viszonyom a múltamhoz és a jövőmhöz
 
 Várlak szeretettel,
 
