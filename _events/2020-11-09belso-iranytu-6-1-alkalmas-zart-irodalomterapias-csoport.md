@@ -6,7 +6,7 @@ tags:
 - biblioterápia
 title: Belső iránytű – 7 alkalmas zárt irodalomterápiás csoport
 description: Belső iránytű – 7 alkalmas zárt irodalomterápiás csoport
-event_date: 2020-11-09 18:00:00 +0100
+event_date: 2020-11-10 18:00:00 +0100
 image: "/media/belso-iranytuii.png"
 comments: false
 
@@ -45,8 +45,9 @@ Ahhoz, hogy a foglalkozásokon minél jobban meg tudjon valósulni az itt-és-mo
 
 Időpontok:
 
-7 egymást követő hétfő  
-november 9., 16., 23., 30., december 7., 14., 21. (az utolsó alkalom időpontja a karácsonyi hét miatt megbeszélés kérdése)
+7 egymást követő kedd
+
+november 10., 17., 24., december 1., 8., 15., 22. (az utolsó alkalom időpontja a karácsonyi hét miatt megbeszélés kérdése)
 
 Az első alkalom nyílt, utána eldöntheted, hogy csatlakozol-e az egész folyamatra. Ha nem, természetesen csak az első alkalom díját kell kifizetned.
 
