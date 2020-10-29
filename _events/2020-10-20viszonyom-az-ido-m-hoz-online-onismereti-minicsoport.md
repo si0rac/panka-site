@@ -6,7 +6,7 @@ tags:
 - biblioterápia
 title: Viszonyom az idő(m)höz - online önismereti minicsoport
 description: Viszonyom az idő(m)höz - online önismereti minicsoport
-event_date: 2020-10-13 18:00:00 +0200
+event_date: 2020-10-13T18:00:00.000+02:00
 image: "/media/idocsoport.png"
 comments: false
 
