@@ -6,12 +6,12 @@ tags:
 - biblioterápia
 title: Belső iránytű – 7 alkalmas zárt irodalomterápiás csoport
 description: Belső iránytű – 7 alkalmas zárt irodalomterápiás csoport
-event_date: 2020-11-10 18:00:00 +0100
+event_date: 2020-11-10T18:00:00.000+01:00
 image: "/media/belso-iranytuii.png"
 comments: false
 
 ---
-![](/media/belso-iranytuii.png)
+![](/media/belsoiranytuii.png)
 
 # Belső iránytű – 7 alkalmas zárt irodalomterápiás csoport
 
