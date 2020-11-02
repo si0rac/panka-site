@@ -9,7 +9,6 @@ description: Önismereti séta irodalommal – „nincs – semmi – baj”
 event_date: 2020-11-07 10:00:00 +0100
 image: "/media/fodorakosseta.png"
 comments: false
-published: false
 
 ---
 ![](/media/fodorakosseta.png)
