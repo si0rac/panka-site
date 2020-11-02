@@ -9,7 +9,6 @@ description: 'Péntek 13-i Önismereti Workshop: (bal)szerencse? – online'
 event_date: 2020-11-13 17:00:00 +0100
 image: "/media/szerencsecsoport.png"
 comments: false
-published: false
 
 ---
 ![](/media/szerencsecsoport.png)
