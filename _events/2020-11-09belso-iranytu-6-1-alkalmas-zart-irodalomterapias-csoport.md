@@ -61,7 +61,7 @@ Két részletben fizetendő. Ha jössz az egész folyamatra, akkor az első alka
 
 Kezdvezmény: teljes összeg előreutalása vagy első alkalommal készpénzben fizetés esetén a részvételi díj 18.000 forint.
 
-Regisztráció: [https://forms.gle/x8LKU3GBiVuEa8KAA](https://forms.gle/x8LKU3GBiVuEa8KAA "https://forms.gle/x8LKU3GBiVuEa8KAA")
+[Regisztráció itt.](https://forms.gle/x8LKU3GBiVuEa8KAA)
 
 Csoportvezető: Rudolf Panka, irodalomterapeuta
 
