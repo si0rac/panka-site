@@ -32,7 +32,7 @@ Részvételi díj:
 Alkalmanként 2500 forint.  
 Bérlet (mindhárom alkalomra érvényes): 6000 forint.
 
-Regisztráció: https://forms.gle/5k3pXiqAqtNJA2NJ6  
+[Regisztráció itt.](https://forms.gle/5k3pXiqAqtNJA2NJ6)  
 (A linket, amin bekapcsolódhatsz a beszélgetésbe, e-mailben fogod megkapni.)
 
 Témáink*:  
@@ -71,7 +71,7 @@ Bérlet (mindhárom alkalomra érvényes): 6000 forint.
 **Regisztráció:** [https://forms.gle/5k3pXiqAqtNJA2NJ6](https://forms.gle/5k3pXiqAqtNJA2NJ6 "https://forms.gle/5k3pXiqAqtNJA2NJ6")  
 (A linket, amin bekapcsolódhatsz a beszélgetésbe, e-mailben fogod megkapni.)
 
-**Témáink*:**  
+_Témáink_:*  
 November 9.: Hol vagyok én a testemben? - testi érzetek, mi tetszik magamon, mi nem, mi az identitásom része stb.
 
 November 16.: A változó test - hogy viselem a testem változásait, a korral, szülés után, terhesség alatt, sebesülések, betegségek nyomán. Tudom-e szeretni ezt a változó testet?
