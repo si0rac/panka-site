@@ -32,7 +32,7 @@ Sétáljunk egyet az őszi Hajógyári szigeten, csodáljuk meg a természet vá
 **Részvételi díj:** helyszínen fizetve 3000 forint  
 Előreutalás esetén: 2500 forint
 
-**Regisztráció:** [**https://forms.gle/Vqh7xUMGQy7EXFqG6**](https://forms.gle/Vqh7xUMGQy7EXFqG6 "https://forms.gle/Vqh7xUMGQy7EXFqG6")
+[**Regisztráció itt.**](https://forms.gle/Vqh7xUMGQy7EXFqG6)
 
 **Jelentkezési határidő:** november 6., péntek dél – 12:00 óra
 
