@@ -35,7 +35,7 @@ Gyere, és oszd meg velünk a véleményed!
 
 **Részvételi díj:**  
 4000 forint  
-**Regisztráció:** [**https://forms.gle/XwzkxExDWZbrtWn16**](https://forms.gle/XwzkxExDWZbrtWn16 "https://forms.gle/XwzkxExDWZbrtWn16")  
+[**Regisztráció itt.**](https://forms.gle/XwzkxExDWZbrtWn16)  
 (A linket, amin bekapcsolódhatsz a beszélgetésbe, e-mailben fogod megkapni.)
 
 Várlak szeretettel,  
