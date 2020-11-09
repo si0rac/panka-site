@@ -15,6 +15,11 @@ comments: false
 
 # Belső iránytű – 7 alkalmas zárt irodalomterápiás csoport
 
+FIGYELEM:  
+A november 11-től életbe lépő kijárási korlátozások értelmében a csoport a második alkalomtól online csoporttá alakul. Az első alkalom nyitott, így megteheted, hogy csak a második alkalomtól csatlakozol, az online folyamatra. Jelezd, ha így jelentkeznél!
+
+\*
+
 Szeretettel várlak a Belső iránytű - találd meg és használd! 7 alkalmas zárt irodalomterápiás csoporton!
 
 Az irodalomterápiás foglalkozásokon válogatott irodalmi szövegek segítenek abban, hogy kapcsolódj a csoport többi tagjához, a szövegekhez és persze önmagadhoz. A művek kiindulópontot jelentenek a beszélgetéshez, a fókusz a résztvevők által hozott témákon van.
@@ -54,7 +59,10 @@ Az első alkalom nyílt, utána eldöntheted, hogy csatlakozol-e az egész folya
 Időtartam:  
 18:00-20:00 óra
 
-Helyszín: Élet-terem, Budapest, 1136, Balzac utca. 39.
+Helyszín: 
+
+1. alkalom: Élet-terem, Budapest, 1136, Balzac utca. 39.
+2. alkalomtól: online, Zoom
 
 Részvételi díj: 21.000 Ft  
 Két részletben fizetendő. Ha jössz az egész folyamatra, akkor az első alkalommal is fizetheted az 50%-ot (10500 forint, vagy első alkalommal 3000 forintot, és ha utána döntesz úgy, hogy jössz tovább, akkor a második alkalommal a további 7500-at. A második 50%-ot november 30-ig tudod befizetni.)
