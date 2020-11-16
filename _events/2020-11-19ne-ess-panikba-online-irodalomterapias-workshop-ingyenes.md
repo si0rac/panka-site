@@ -9,7 +9,6 @@ description: Ne ess pánikba – online irodalomterápiás workshop – INGYENES
 event_date: 2020-11-19 18:00:00 +0100
 image: "/media/gusws.png"
 comments: false
-published: false
 
 ---
 ![](/media/gusws.png)
