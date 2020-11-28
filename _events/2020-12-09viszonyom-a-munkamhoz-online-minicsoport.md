@@ -9,7 +9,6 @@ description: Viszonyom a munkámhoz - online minicsoport
 event_date: 2020-12-09 18:00:00 +0100
 image: "/media/munkacsoport.png"
 comments: false
-published: false
 
 ---
 ![](/media/munkacsoport.png)
