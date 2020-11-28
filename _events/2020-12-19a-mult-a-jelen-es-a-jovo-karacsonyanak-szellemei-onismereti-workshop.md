@@ -9,7 +9,6 @@ description: A múlt, a jelen és a jövő karácsonyának szellemei - Önismere
 event_date: 2020-12-19 15:00:00 +0100
 image: "/media/karacsonycsoport.png"
 comments: false
-published: false
 
 ---
 ![](/media/karacsonycsoport.png)
