@@ -17,7 +17,7 @@ comments: false
 
 Szeretettel látlak novemberi online irodalomterápiás minicsoportomon!
 
-Az alkalmak nyitottak, egymástól függetlenül is részt vehetsz rajtuk, de ha mindháromra benevezel, egy felépített folyamatban tudsz tudatosodni a testedhez való viszonyoddal kapcsolatban.
+Az alkalmak nyitottak, egymástól függetlenül is részt vehetsz rajtuk, de ha mindháromra benevezel, egy felépített folyamatban tudsz tudatosodni a munkádhoz való viszonyoddal kapcsolatban.
 
 Mit kapsz, ha részt veszel az alkalmakon:  
 \- irodalomterápiás élményt, hiszen válogatott irodalmi szövegekkel fogunk dolgozni  
