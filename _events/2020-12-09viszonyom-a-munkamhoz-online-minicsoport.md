@@ -15,7 +15,7 @@ comments: false
 
 # Viszonyom a munkámhoz - online minicsoport
 
-Szeretettel látlak novemberi online irodalomterápiás minicsoportomon!
+Szeretettel látlak decemberi online irodalomterápiás minicsoportomon!
 
 Az alkalmak nyitottak, egymástól függetlenül is részt vehetsz rajtuk, de ha mindháromra benevezel, egy felépített folyamatban tudsz tudatosodni a munkádhoz való viszonyoddal kapcsolatban.
 
