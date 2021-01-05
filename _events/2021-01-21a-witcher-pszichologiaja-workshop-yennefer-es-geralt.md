@@ -9,7 +9,6 @@ description: A Witcher pszichológiája workshop - Yennefer és Geralt
 event_date: 2021-01-21 18:00:00 +0100
 image: "/media/witcher-januar.png"
 comments: false
-published: false
 
 ---
 ![](/media/witcher-januar.png)
