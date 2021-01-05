@@ -9,7 +9,6 @@ description: Viszonyom 2021-hez - három alkalmas online minicsoport
 event_date: 2021-01-13 18:00:00 +0100
 image: "/media/2021viszony.png"
 comments: false
-published: false
 
 ---
 ![](/media/2021viszony.png)
