@@ -9,7 +9,6 @@ description: Belső iránytű 8 alkalmas zárt irodalomterápiás csoport
 event_date: 2021-01-18 18:00:00 +0100
 image: "/media/belsoiranytu2021.png"
 comments: false
-published: false
 
 ---
 ![](/media/belsoiranytu2021.png)
