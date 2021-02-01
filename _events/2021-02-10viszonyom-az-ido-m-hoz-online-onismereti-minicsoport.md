@@ -9,7 +9,6 @@ description: Viszonyom az idő(m)höz - online önismereti minicsoport
 event_date: 2021-02-10 18:00:00 +0100
 image: "/media/idocsoport2.png"
 comments: false
-published: false
 
 ---
 ![](/media/idocsoport2.png)
