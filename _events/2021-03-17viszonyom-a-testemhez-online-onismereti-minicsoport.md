@@ -9,7 +9,6 @@ description: Viszonyom a testemhez - online önismereti minicsoport
 event_date: 2021-03-17 18:00:00 +0100
 image: "/media/testcsoport2021.png"
 comments: false
-published: false
 
 ---
 ![](/media/testcsoport2021.png)
