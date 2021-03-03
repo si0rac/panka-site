@@ -60,5 +60,4 @@ fields:
   default: false
   description: Ne lehessen eseményt kommentelni :)
 pages:
-- _events/2021-02-10viszonyom-az-ido-m-hoz-online-onismereti-minicsoport.md
 - _events/2021-03-01csatlakozz-a-torteneted-onismereti-sztorialkoto-kihivashoz.md

@@ -9,6 +9,7 @@ description: Csatlakozz a TörtÉNeted – önismereti sztorialkotó kihívásho
 event_date: 2021-03-01 00:00:00 +0100
 image: "/media/torteneted.png"
 comments: false
+published: false
 
 ---
 ![](/media/torteneted.png)
