@@ -11,7 +11,6 @@ description: 'A Gyűrűk Ura kaland - 8 alkalmas önismereti csoport
 event_date: 2021-04-12 18:00:00 +0200
 image: "/media/gyu-csoport.png"
 comments: false
-published: false
 
 ---
 ![](/media/gyu-csoport.png)
