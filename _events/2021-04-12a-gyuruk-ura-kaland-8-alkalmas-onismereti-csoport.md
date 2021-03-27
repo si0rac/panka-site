@@ -83,3 +83,5 @@ Rudolf Panka irodalomterapeuta (és lelkes Tolkien rajongó :))
 
 Várlak szeretettel,  
 Panka
+
+_Megjegyzés: a történet, a karakterek, a helyszínek J. R. R. Tolkien szellemi termékei, semmilyen kapcsolatban nem állok jogutódjaival. Az alkalmakon a regény szövegét, sem egészében, sem fejezetenként nem osztjuk meg, és nem sokszorosítjuk. A csoport részvételének előfeltétele a történet ismerete, a csoporttagok felelőssége saját könyvpéldány legális beszerzése, ha szükségesnek érzik._
