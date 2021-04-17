@@ -9,7 +9,6 @@ description: Viszonyom a tárgyaimhoz - online önismereti minicsoport
 event_date: 2021-05-05 18:00:00 +0200
 image: "/media/ahol-szeptemberben-talalkozhatunk_-15.png"
 comments: false
-published: false
 
 ---
 ![](/media/ahol-szeptemberben-talalkozhatunk_-15.png)
