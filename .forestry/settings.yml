@@ -46,7 +46,7 @@ sections:
   path: _includes
   label: HTML fájlok
   create: all
-  match: "**/*"
+  match: "**/*.html"
   new_doc_ext: html
 - type: document
   path: _layouts/default.html
