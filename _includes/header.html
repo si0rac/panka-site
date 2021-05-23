@@ -11,19 +11,11 @@
             <li class="dropdown-menu-item"><a class="sub-menu-link" href="/rolam/#cikkek-interjuk">Cikkek, interjúk</a></li>
           </ul>
         </li>
-        <li class="menu-item" id="events"><a class="menu-link" href="/esemenyek/">Aktuális események</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
+        <li class="menu-item" id="events"><a class="menu-link" href="/esemenyek/">Aktuális csoportok</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
           <ul class="dropdown-menu">
           {% for event in site.events limit: 8 %}
             <li class="dropdown-menu-item"><a class="sub-menu-link" href="{{ event.url }}">{{ event.title | truncate: 35 }}</a></li>
           {% endfor %}
-          </ul>
-        </li>
-        <li class="menu-item" id="groups"><a class="menu-link" href="/csoportok/">Csoportok</a><div class="opener"><img src="/assets/icons/arrow-forward-white.svg"></div>
-          <ul class="dropdown-menu">
-            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/csoportok/#nyitott-csoportok">Nyitott csoportok</a></li>
-            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/csoportok/#zárt-csoportok">Zárt csoportok</a></li>
-            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/csoportok/#workshopok">Workshopok</a></li>
-            <li class="dropdown-menu-item"><a class="sub-menu-link" href="/csoportok/#tréningek">Tréningek</a></li>
           </ul>
         </li>
         <li class="menu-item" id="consult"><a class="menu-link" href="/konzultacio/">Egyéni konzultáció</a></li>

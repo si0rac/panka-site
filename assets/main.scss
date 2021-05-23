@@ -74,7 +74,6 @@ html, body {
                 img {
                     width: 92px;
                     height: 92px;
-                    border-radius: 50%;
 
                     &:hover, &:focus {
                         opacity: 0.75;
@@ -1514,10 +1513,10 @@ figcaption {
 
 .intro-image-container {
     width: 25%;
+    height: 100%;
 
     img {
         width: 100%;
-        height: auto;
     }
 }
 
