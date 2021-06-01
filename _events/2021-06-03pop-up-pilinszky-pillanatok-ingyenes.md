@@ -9,7 +9,6 @@ description: Pop-up Pilinszky Pillanatok - ingyenes
 event_date: 2021-06-03 17:00:00 +0200
 image: "/media/ahol-szeptemberben-talalkozhatunk-2.png"
 comments: false
-published: false
 
 ---
 ![](/media/ahol-szeptemberben-talalkozhatunk-2.png)
