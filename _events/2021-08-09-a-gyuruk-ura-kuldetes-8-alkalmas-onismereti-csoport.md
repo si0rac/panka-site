@@ -9,7 +9,6 @@ description: A Gyűrűk Ura Küldetés – 8 alkalmas önismereti csoport
 event_date: 2021-08-09 18:00:00 +0200
 image: "/media/ahol-szeptemberben-talalkozhatunk-9.png"
 comments: false
-published: false
 
 ---
 ![](/media/ahol-szeptemberben-talalkozhatunk-9.png)
