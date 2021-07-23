@@ -9,7 +9,6 @@ description: Irodalomterápiás Tér-Idő séta Pilinszky versekkel
 event_date: 2021-08-11 18:00:00 +0200
 image: "/media/ahol-szeptemberben-talalkozhatunk-11.png"
 comments: false
-published: false
 
 ---
 
