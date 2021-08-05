@@ -44,16 +44,3 @@ A támogató, mentorszerephez tartozik az az együttműködés, ami szintén ebb
 Tehát mégiscsak „pedagógusalkat” vagyok, és remélem, a jövőben még több lehetőségem lesz, ahol összeérnek majd segítői és tanári kompetenciáim. Hiszen jó esetben maga a tanár is segítő, és az önismereti vezető pedig valahol tanító...
 
 De a jó pedagógus azt is tudja, mikor kell háttérbe vonulnia: a poszt lényege valami olyasmi lenne, hogy sok sikert az összes, mostanában vizsgázó irodalomterapeuta hallgatónak!
-
-<div id="emojics-root"></div>
-<script>
-window.emojicsOpts = {
-widget: 'afffebb5f471b27a6121c19c3e35c6',
-	position: 'inline'
-};
-(function(d, e, id) {
-function s() {var js, a = d.getElementsByTagName("script")[0];js = d.createElement("script");js.id = id;js.src = "//connect.emojics.com/dist/sdk.js";a.parentNode.insertBefore(js, a);}
-window.emojics=e;e.readyQueue=[];e.ready=function(b){e.readyQueue.push(b)}
-window.attachEvent?window.attachEvent("onload",s):window.addEventListener("load",s)
-})(document, window.emojics||{}, "emojics-js");
-</script>
