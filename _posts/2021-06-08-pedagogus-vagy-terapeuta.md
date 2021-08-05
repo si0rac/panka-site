@@ -9,7 +9,7 @@ layout: default
 title: Pedagógus vagy terapeuta?
 description: 'Nem is olyan régen, szakmai körben elhagyta a számat az a mondat, hogy
   „nem vagyok pedagógusalkat” – dacára annak, hogy két pedagógus diplomám is van. '
-Date: 2021-06-08 00:00:00 +0200
+Date: 2021-06-08T00:00:00.000+02:00
 image: "/media/kristin-vestgard.jpg"
 
 ---
@@ -47,13 +47,12 @@ De a jó pedagógus azt is tudja, mikor kell háttérbe vonulnia: a poszt lénye
 
 <div id="emojics-root"></div>
 <script>
-    window.emojicsOpts = {
-    widget: 'afffebb5f471b27a6121c19c3e35c6',
-      position: 'inline'
-    };
-    (function(d, e, id) {
-    function s() {var js, a = d.getElementsByTagName("script")[0];js = d.createElement("script");js.id = id;js.src = "//connect.emojics.com/dist/sdk.js";a.parentNode.insertBefore(js, a);}
-    window.emojics=e;e.readyQueue=[];e.ready=function(b){e.readyQueue.push(b)}
-    window.attachEvent?window.attachEvent("onload",s):window.addEventListener("load",s)
-    })(document, window.emojics||{}, "emojics-js");
+window.emojicsOpts = {
+widget: 'afffebb5f471b27a6121c19c3e35c6'
+};
+(function(d, e, id) {
+function s() {var js, a = d.getElementsByTagName("script")[0];js = d.createElement("script");js.id = id;js.src = "//connect.emojics.com/dist/sdk.js";a.parentNode.insertBefore(js, a);}
+window.emojics=e;e.readyQueue=[];e.ready=function(b){e.readyQueue.push(b)}
+window.attachEvent?window.attachEvent("onload",s):window.addEventListener("load",s)
+})(document, window.emojics||{}, "emojics-js");
 </script>
