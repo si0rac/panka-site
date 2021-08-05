@@ -9,7 +9,7 @@ layout: default
 title: Pedagógus vagy terapeuta?
 description: 'Nem is olyan régen, szakmai körben elhagyta a számat az a mondat, hogy
   „nem vagyok pedagógusalkat” – dacára annak, hogy két pedagógus diplomám is van. '
-Date: 2021-06-08 00:00:00 +0200
+Date: 2021-06-08T00:00:00.000+02:00
 image: "/media/kristin-vestgard.jpg"
 
 ---
@@ -43,4 +43,4 @@ A támogató, mentorszerephez tartozik az az együttműködés, ami szintén ebb
 
 Tehát mégiscsak „pedagógusalkat” vagyok, és remélem, a jövőben még több lehetőségem lesz, ahol összeérnek majd segítői és tanári kompetenciáim. Hiszen jó esetben maga a tanár is segítő, és az önismereti vezető pedig valahol tanító...
 
-De a jó pedagógus azt is tudja, mikor kell háttérbe vonulnia: a poszt lényege valami olyasmi lenne, hogy sok sikert az összes, mostanában vizsgázó irodalomterapeuta hallgatónak! 
+De a jó pedagógus azt is tudja, mikor kell háttérbe vonulnia: a poszt lényege valami olyasmi lenne, hogy sok sikert az összes, mostanában vizsgázó irodalomterapeuta hallgatónak!
