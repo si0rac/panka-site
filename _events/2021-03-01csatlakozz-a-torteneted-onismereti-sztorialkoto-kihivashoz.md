@@ -6,7 +6,7 @@ tags:
 - biblioterápia
 title: Csatlakozz a TörtÉNeted – önismereti sztorialkotó kihíváshoz!
 description: Csatlakozz a TörtÉNeted – önismereti sztorialkotó kihíváshoz!
-event_date: 2021-03-01 00:00:00 +0100
+event_date: 2021-09-06 00:00:00 +0200
 image: "/media/torteneted.png"
 comments: false
 published: false
@@ -22,11 +22,13 @@ Akkor a TörtÉNeted önismereti sztorialkotó csoportot neked találtam ki!
 A TörtÉNeted alapja, hogy narratív technikákkal megtámogatva, történetbe ágyazva válsz tudatosabbá azzal kapcsolatban, pontosan mit is szeretnél elérni, hogy ebben ki és mi lehet segítségedre, mik a legyőzendő nehézségek.
 
 Mi fog történni?  
-Hónapról hónapra és hétről hétre, irányított kérdések mentén megírsz egy saját történetet, amiben te alkotod meg a főszereplődet (aki a te avatarod lesz), és az történet részleteit. A történet írása során rá fogsz jönni, mi segít elérni a célodat, milyen külső és belső erőforrásaid vannak, mik akadályoznak, hogyan kezeled a nehézségeket és a kudarcot, és mi történik, amikor elérted a célt. Egy fiktív történetbe ágyazva megéled az utat a célod eléréséhez, ami a valóságban is segíteni fog ebben.
+Hónapról hónapra és **hétről hétre**, irányított kérdések mentén megírsz egy saját történetet, amiben te alkotod meg a főszereplődet (aki a te avatarod lesz), és az történet részleteit. A történet írása során rá fogsz jönni, mi segít elérni a célodat, milyen külső és belső erőforrásaid vannak, mik akadályoznak, hogyan kezeled a nehézségeket és a kudarcot, és mi történik, amikor elérted a célt. Egy fiktív történetbe ágyazva megéled az utat a célod eléréséhez, ami a valóságban is segíteni fog ebben.
 
-Minden hétvégén kapsz egy kihívást, aminek a segítségével a valóságba is áthelyezheted azt, amit a történetedben megtapasztaltál azon a héten.
+Minden **hétvégén** kapsz egy kihívást, aminek a segítségével a valóságba is áthelyezheted azt, amit a történetedben megtapasztaltál azon a héten.
 
-Minden hónapban online workshopon összegezzük a tapasztalatokat, élményeket.
+Minden **hónapban** két online workshopon összegezzük a tapasztalatokat, élményeket.
+
+A kihívás ideje alatt jár számodra **egy online egyéni konzultáció**. Ezt ideális esetben a kihívás végén tartjuk meg, de természetesen, ha közben szeretnéd, mert elakadtál, vagy valamit mindenképpen átbeszélnél velem, azt is lehet.
 
 Miért jó?  
 A történetírás segít egy egységes keretbe helyezni, hol tartasz most, milyen utat kell bejárnod a célod eléréséhez:  
@@ -43,20 +45,22 @@ Járulékos pozitívumok:
 
 De mi ez, hogyan épül fel?  
 Egy zárt Facebook közösségbe kerülsz, ahol lépésről-lépésre, irányított kérdésekre adott válaszok alapján épül fel a történeted. Minden hónapban más nagy téma szerint haladunk előre a sztoriban. (Alapok, segítők, belső és külső erőforrások, kudarccal való megküzdés, siker, eredmények)  
-Hétvégére a történetedhez kapcsolóan kapsz egy kihívást, ami segít a gyakorlatba is átültetni, amit tanultál.  
+Hétvégére a történetedhez kapcsolóan kapsz egy kihívást, ami segít a gyakorlatba is átültetni, amit tanultál.
+
+Havonta két online workshop, a kihívás alatt egyszeri online egyéni konzultáció segíti a folyamat mélyülését.  
 A folyamat végére az irányított kérdésekre adott válaszaidból összeáll egy összefüggő történet – a TE történeted, melyben haladsz a célod felé, végül pedig el is éred.  
-A teljes történet négy hónap alatt íródik meg, ám egy-egy hónapra is lehetőséged van csatlakozni.
+A teljes történet négy hónap alatt íródik meg.
 
 Plusz ajándék  
 Ha végigcsinálod az egész folyamatot (négy hónap), a végén letölthető PDF-ben megkapod a történeted egy füzetkében, melyben egyben lesz olvasható a te saját sztorid. Bármikor előveheted és erőt meríthetsz belőle a jövőben is.
 
 Hogyan csatlakozhatok?  
-Március 1-ig tudsz csatlakozni a csoporthoz, ekkor lezárom a jelentkezést. Innentől kezdve két héten át elköteleződés nélkül tartózkodhatsz a csoportban, és március 15-ig eldöntheted, csatalkozol-e a továbbiakra, belevágsz-e az igazi nagy kalandba. :)
+Szeptember 6-ig tudsz csatlakozni a csoporthoz, ekkor lezárom a jelentkezést. Innentől kezdve két héten át elköteleződés nélkül tartózkodhatsz a csoportban, és szeptember 20-ig eldöntheted, csatalkozol-e a továbbiakra, belevágsz-e az igazi nagy kalandba. :)
 
 Mi a teendőm most, ha érdekel a dolog?  
-Csupán annyi, hogy csatlakozz a csoporthoz! Március 1-ig ismerkedünk, hangolódunk a történetírásra, addig is kapsz értékes tartalmakat és lehetőséget az önismereti fejlődésre.  
-Minden további infót a csoportok osztok meg!  
-Csatlakozz: [https://www.facebook.com/groups/429525934832533](https://www.facebook.com/groups/429525934832533 "https://www.facebook.com/groups/429525934832533")
+Csupán annyi, hogy csatlakozz a csoporthoz! Szeptember 6-ig ismerkedünk, hangolódunk a történetírásra, addig is kapsz értékes tartalmakat és lehetőséget az önismereti fejlődésre.  
+Minden további infót a csoportban osztok meg!  
+Csatlakozz: [https://www.facebook.com/groups/620768235952402](https://www.facebook.com/groups/620768235952402 "https://www.facebook.com/groups/620768235952402")
 
 Lépj rá az utadra, és érd el a célod!  
 Várlak a csoportban,  
