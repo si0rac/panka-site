@@ -6,10 +6,9 @@ tags:
 - biblioterápia
 title: Csatlakozz a TörtÉNeted – önismereti sztorialkotó kihíváshoz!
 description: Csatlakozz a TörtÉNeted – önismereti sztorialkotó kihíváshoz!
-event_date: 2021-09-06 00:00:00 +0200
+event_date: 2021-09-06T00:00:00.000+02:00
 image: "/media/torteneted.png"
 comments: false
-published: false
 
 ---
 ![](/media/torteneted.png)
