@@ -6,9 +6,10 @@ tags:
 - biblioterápia
 title: A Gyűrűk Ura Küldetés – 8 alkalmas önismereti csoport
 description: A Gyűrűk Ura Küldetés – 8 alkalmas önismereti csoport
-event_date: 2021-08-09 18:00:00 +0200
+event_date: 2021-08-09T18:00:00.000+02:00
 image: "/media/ahol-szeptemberben-talalkozhatunk-9.png"
 comments: false
+published: false
 
 ---
 ![](/media/ahol-szeptemberben-talalkozhatunk-9.png)
