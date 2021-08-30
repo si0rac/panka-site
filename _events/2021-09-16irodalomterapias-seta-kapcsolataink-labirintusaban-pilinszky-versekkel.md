@@ -9,7 +9,6 @@ description: Irodalomterápiás séta / Kapcsolataink labirintusában / Pilinszk
 event_date: 2021-09-16 18:00:00 +0200
 image: "/media/ahol-szeptemberben-talalkozhatunk-19.png"
 comments: false
-published: false
 
 ---
 ![](/media/ahol-szeptemberben-talalkozhatunk-19.png)
