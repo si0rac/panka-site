@@ -6,7 +6,7 @@ tags:
 - biblioterápia
 title: Irodalomterápiás séta / Kapcsolataink labirintusában / Pilinszky-versekkel
 description: Irodalomterápiás séta / Kapcsolataink labirintusában / Pilinszky-versekkel
-event_date: 2021-09-16 18:00:00 +0200
+event_date: 2021-09-23 18:00:00 +0200
 image: "/media/ahol-szeptemberben-talalkozhatunk-19.png"
 comments: false
 
