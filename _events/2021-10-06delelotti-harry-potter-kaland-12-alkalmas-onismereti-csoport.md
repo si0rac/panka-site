@@ -9,7 +9,6 @@ description: DÉLELŐTTI Harry Potter Kaland - 12 alkalmas önismereti csoport
 event_date: 2021-10-06 10:00:00 +0200
 image: "/media/a-harry-potter-kaland-10-alkalmas-online-onismereti-csoport-1.png"
 comments: false
-published: false
 
 ---
 ![](/media/a-harry-potter-kaland-10-alkalmas-online-onismereti-csoport-1.png)
