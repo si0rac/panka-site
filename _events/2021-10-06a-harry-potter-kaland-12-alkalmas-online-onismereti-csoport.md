@@ -38,7 +38,7 @@ __Tematika és időpontok*__
 
 3\. alkalom: október 20. – Házbeosztás - melyik házba tartozom, milyen értékek fontosak számomra?
 
-4\. alkalom: október 27. – Voldemort, nazgúlok, halálfalók - mi ellen küzdök, mit kell legyőznöm?
+4\. alkalom: október 27. – Voldemort, dementorok, halálfalók - mi ellen küzdök, mit kell legyőznöm?
 
 5\. alkalom: november 3. – Választott segítőim (Dobby, Dumbledore, Sirius, Lupin...), erőforrásaim
 

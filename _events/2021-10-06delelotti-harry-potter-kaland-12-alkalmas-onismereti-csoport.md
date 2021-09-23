@@ -36,7 +36,7 @@ Tematika és időpontok*
 1\. alkalom: október 6. – Én és a Harry Potter – saját élmények megosztása, célok megfogalmazása, ismerkedés  
 2\. alkalom: október 13. – 9 és 3/4. vágány - honnan indulok, mit hozok magammal?  
 3\. alkalom: október 20. – Házbeosztás - melyik házba tartozom, milyen értékek fontosak számomra?  
-4\. alkalom: október 27. – Voldemort, nazgúlok, halálfalók - mi ellen küzdök, mit kell legyőznöm?  
+4\. alkalom: október 27. – Voldemort, dementorok, halálfalók - mi ellen küzdök, mit kell legyőznöm?  
 5\. alkalom: november 3. – Választott segítőim (Dobby, Dumbledore, Sirius, Lupin...), erőforrásaim  
 6\. alkalom: november 10. – Harry, Ron és Hermione - a "legbelsőbb kör" üzenete  
 7\. alkalom: november 17. - Bebarangoljuk a Roxfortot (hálótermek, Szükség Szobája, nagyterem, Hagrid kunyhója, Tiltott Rengeteg, Roxmorts...) - hol vagyok otthon?  
