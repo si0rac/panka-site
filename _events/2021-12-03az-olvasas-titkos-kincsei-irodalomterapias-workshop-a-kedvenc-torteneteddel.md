@@ -9,7 +9,6 @@ description: Az olvasás titkos kincsei – irodalomterápiás workshop a kedven
 event_date: 2021-12-03 18:00:00 +0100
 image: "/media/a-harry-potter-kaland-10-alkalmas-online-onismereti-csoport-5.png"
 comments: false
-published: false
 
 ---
 ![](/media/a-harry-potter-kaland-10-alkalmas-online-onismereti-csoport-5.png)
