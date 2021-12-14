@@ -9,7 +9,6 @@ description: DÉLELŐTTI Harry Potter Kaland - 12 alkalmas önismereti csoport
 event_date: 2022-01-12 10:00:00 +0100
 image: "/media/hp2022de.png"
 comments: false
-published: false
 
 ---
 ![](/media/hp2022de.png)
