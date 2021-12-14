@@ -9,7 +9,6 @@ description: Az olvasás titkos kincsei – irodalomterápiás workshop a kedven
 event_date: 2022-01-21 18:00:00 +0100
 image: "/media/otk2022ja.png"
 comments: false
-published: false
 
 ---
 ![](/media/otk2022ja.png)
