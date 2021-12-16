@@ -11,7 +11,7 @@ image: "/media/hp2022.png"
 comments: false
 
 ---
-![](/media/hp2022.png)
+![](/media/hp2022h.png)
 
 ## **A Harry Potter Kaland - 12 alkalmas online önismereti csoport**
 
@@ -29,8 +29,8 @@ Elég a filmek ismerete?
 Igen, részt tudsz venni akkor is, ha csak a filmeket láttad, de fontos, hogy emlékezz a történetre. Természetesen nem kell minden apró részletet ismerned, de ne homályos emlékeid legyenek róla.
 
 Időpont:  
-Kezdés: január 12., szerda.  
-Hetente egyszer, szerdánként fogunk találkozni, 18:00 órától 19:30-ig. Az utolsó alkalom időpontja: március 30.
+Kezdés: január 17., hétfő.  
+Hetente egyszer, hétfőnként fogunk találkozni, 18:00 órától 19:30-ig. Az utolsó alkalom időpontja: április 4.
 
 Ha délelőtt jobban ráérsz, ajánlom figyelmedbe azonos tematikájú délelőtti csoportomat.
 
