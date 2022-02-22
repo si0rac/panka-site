@@ -9,7 +9,6 @@ description: Színes TörtÉNetek - irodalom- és művészetterápiás nyári t�
 event_date: 2022-06-16 00:00:00 +0200
 image: "/media/fb-esemeny.png"
 comments: false
-published: false
 
 ---
 ![](/media/fb-esemeny.png)
