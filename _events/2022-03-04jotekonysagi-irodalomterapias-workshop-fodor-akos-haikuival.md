@@ -9,7 +9,6 @@ description: Jótékonysági irodalomterápiás workshop - Fodor Ákos haikuival
 event_date: 2022-03-04 18:00:00 +0100
 image: "/media/a-harry-potter-kaland-10-alkalmas-online-onismereti-csoport-2.png"
 comments: false
-published: false
 
 ---
 ![](/media/a-harry-potter-kaland-10-alkalmas-online-onismereti-csoport-2.png)
