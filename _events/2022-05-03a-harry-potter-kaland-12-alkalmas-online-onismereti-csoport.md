@@ -48,7 +48,7 @@ A további információkat a visszaigazoló e-mailben kapod meg.
 
 Részvételi díj:  
 Teljes ár: 48.000 forint három részletben fizetendő  
-(1. részlet 16.000 forint első alkalomig, 2. részlet, 16.000 forint 5. alkalomig, 3. részlet 162.000 forint 9. alkalomig)  
+(1. részlet 16.000 forint első alkalomig, 2. részlet, 16.000 forint 5. alkalomig, 3. részlet 16.000 forint 9. alkalomig)  
 Kedvezményes részvételi díj abban az esetben, ha egy összegben fizeted, az első alkalomig:  
 43\.200 forint  
 Banki átutalással fizetendő, részletek regisztráció után.
