@@ -25,7 +25,7 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-algolia"
   gem "jekyll-seo-tag"
-  gem “ffi”, “~> 1.16.3”
+  gem "ffi", "~> 1.16.3"
 
 
 end
