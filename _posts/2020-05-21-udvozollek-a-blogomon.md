@@ -1,18 +1,23 @@
 ---
 comments: true
 tag:
-- rudolfpanka
-- irodalomterápia
-- blogposzt
-- biblioterápia
+  - rudolfpanka
+  - irodalomterápia
+  - blogposzt
+  - biblioterápia
 layout: default
 title: Üdvözöllek a blogomon!
-description: 'Bemutatkozó poszt, melyből kiderül, milyen jellegű tartalmakra számíthatsz
-  a blogon. '
-Date: 2020-05-21 15:00:00 +0000
-image: "/media/rudolf-panka-profilkep.jpg"
-
+description: >-
+  Bemutatkozó poszt, melyből kiderül, milyen jellegű tartalmakra számíthatsz a
+  blogon. 
+Date: '2020-05-21 15:00:00 +0000'
+image: /media/rudolf-panka-profilkep.jpg
+_template: blogposts
 ---
+
+
+
+
 Rudolf Panka vagyok, irodalomterapeuta.
 
 Különféle szövegek segítségével beszélgetek emberekkel, azokról a kérdésekről, amik foglalkoztatják őket. A szöveg vezérfonala mentén jutunk előre dilemmáikban, látunk tisztábban problémáik terén.

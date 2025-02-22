@@ -1,17 +1,21 @@
 ---
 comments: true
 tag:
-- rudolfpanka
-- irodalomterápia
-- blogposzt
-- biblioterápia
+  - rudolfpanka
+  - irodalomterápia
+  - blogposzt
+  - biblioterápia
 layout: default
 title: 'Könyvajánló: Lévay Anikó Borderline személyiségzavarom van'
 description: 'Személyes és szubjektív könyvajánló: Borderline személyiségzavarom van'
-Date: 2001-01-01 12:30:00 +0100
-image: "/media/borderline2.png"
-
+Date: '2001-01-01 12:30:00 +0100'
+image: /media/borderline2.png
+_template: blogposts
 ---
+
+
+
+
 # Könyvajánló: Lévay Anikó Borderline személyiségzavarom van
 
 **Egy estét Lévay Anikó társaságában töltöttem, na persze csak képletesen. Úgy éreztem, a könyv olvasásával pár órára beköltöztem a szerző fejébe. Az itt tartózkodás nem volt túl kellemes, de annál tanulságosabb.**

@@ -1,17 +1,21 @@
 ---
 comments: true
 tag:
-- rudolfpanka
-- irodalomterápia
-- blogposzt
-- biblioterápia
+  - rudolfpanka
+  - irodalomterápia
+  - blogposzt
+  - biblioterápia
 layout: default
 title: És neked megvan még a gyerekkori macid?
 description: Beszámoló a májusi "Viszonyom a tárgyaimhoz" önismereti csoportról
-Date: 
-image: "/media/alexander-volkov.jpg"
-
+Date: null
+image: /media/alexander-volkov.jpg
+_template: blogposts
 ---
+
+
+
+
 # És neked megvan még a gyerekkori macid?
 
 _Merész dolog olyan prózai témával közelíteni saját önismeretünkhoz, mint a tárgyak. Vagy mégsem?  

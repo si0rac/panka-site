@@ -1,18 +1,22 @@
 ---
 layout: default
-image: "/media/thumbnail-test-2.png"
+image: /media/thumbnail-test-2.png
 title: Az online irodalomterápia előnyei és hátrányai
 comments: true
-description: Az online irodalomterápiás csoportok jellegzetességei, az elmúlt hónapok
+description: >-
+  Az online irodalomterápiás csoportok jellegzetességei, az elmúlt hónapok
   tapasztalatai alapján.
-Date: 2020-05-24T14:00:00.000+00:00
-tags: 
-- irodalomterápia
-- biblioterápia
-- rudolfpanka
-
-
+Date: 2020-05-24T14:00:00.000Z
+tags:
+  - irodalomterápia
+  - biblioterápia
+  - rudolfpanka
+_template: blogposts
 ---
+
+
+
+
 **Általában sok tervem van a jövőre nézve, ha az irodalomterápiáról van szó. Sőt, szeretem feszegetni a műfaj kereteit is, járatlan utakat kipróbálni (például angol nyelvű csoport tartása). Az online csoporttartás viszont eddig nem szerepelt köztük. Az utóbbi két hónapban azonban muszáj volt belevágni, ha nem akartam teljes mértékben leállni a csoportozással. És nem akartam, így hát irány a mélyvíz, a komfortzóna elhagyása.**
 
 ![](/media/thumbnail-test-2.png)

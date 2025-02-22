@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 panka-site.code-workspace
 .archive
+
+node_modules
+.env

@@ -1,18 +1,23 @@
 ---
 comments: true
 tag:
-- rudolfpanka
-- irodalomterápia
-- blogposzt
-- biblioterápia
+  - rudolfpanka
+  - irodalomterápia
+  - blogposzt
+  - biblioterápia
 layout: default
 title: Pedagógus vagy terapeuta?
-description: 'Nem is olyan régen, szakmai körben elhagyta a számat az a mondat, hogy
-  „nem vagyok pedagógusalkat” – dacára annak, hogy két pedagógus diplomám is van. '
-Date: 2021-06-08T00:00:00.000+02:00
-image: "/media/kristin-vestgard.jpg"
-
+description: >-
+  Nem is olyan régen, szakmai körben elhagyta a számat az a mondat, hogy „nem
+  vagyok pedagógusalkat” – dacára annak, hogy két pedagógus diplomám is van. 
+Date: 2021-06-07T22:00:00.000Z
+image: /media/kristin-vestgard.jpg
+_template: blogposts
 ---
+
+
+
+
 ## Pedagógus vagy terapeuta?
 
 Nem is olyan régen, szakmai körben elhagyta a számat az a mondat, hogy „nem vagyok pedagógusalkat” – dacára annak, hogy két pedagógus diplomám is van. Abban a pillanatban, ahogy ezt kimondtam, rájöttem, hogy de hát ez nem is igaz!

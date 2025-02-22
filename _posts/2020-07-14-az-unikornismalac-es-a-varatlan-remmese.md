@@ -1,17 +1,21 @@
 ---
 comments: true
 tag:
-- rudolfpanka
-- irodalomterápia
-- blogposzt
-- biblioterápia
+  - rudolfpanka
+  - irodalomterápia
+  - blogposzt
+  - biblioterápia
 layout: default
 title: Az unikornismalac és a váratlan rémmese
 description: Beszámoló egy gyerektáborban tartott irodalomterápiás foglalkozásaimról.
-Date: 
-image: "/media/106908666_2672883026374485_6702997097193204260_n.jpg"
-
+Date: null
+image: /media/106908666_2672883026374485_6702997097193204260_n.jpg
+_template: blogposts
 ---
+
+
+
+
 # Az unikornismalac és a váratlan rémmese - avagy szubjektív beszámoló egy gyerektáborból
 
 **Gyerekekkel dolgozni egészen más, mint felnőttekkel. A gyerekek sokkal közvetlenebbek, ami a szívükön, az a szájukon. Nem épültek még be azok a gátak és visszafogó erők, amik felnőttkorban szabályozzák a viselkedésünket.**

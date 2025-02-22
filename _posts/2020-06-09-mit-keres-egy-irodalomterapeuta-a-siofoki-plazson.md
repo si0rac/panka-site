@@ -1,18 +1,23 @@
 ---
 comments: true
 tag:
-- rudolfpanka
-- irodalomterápia
-- blogposzt
-- biblioterápia
+  - rudolfpanka
+  - irodalomterápia
+  - blogposzt
+  - biblioterápia
 layout: default
 title: Mit keres egy irodalomterapeuta a siófoki Plázson?
-description: Beszámoló a 2019-es Fotel Projekt siófoki helyszínéről, egy irodalomterapeuta
+description: >-
+  Beszámoló a 2019-es Fotel Projekt siófoki helyszínéről, egy irodalomterapeuta
   szemével.
-Date: 2020-06-09T09:00:00.000+00:00
-image: "/media/62226418_678211519295209_3413032363477696512_n.jpg"
-
+Date: 2020-06-09T09:00:00.000Z
+image: /media/62226418_678211519295209_3413032363477696512_n.jpg
+_template: blogposts
 ---
+
+
+
+
 **Standolni akar – gondolhatjuk, de tavaly júniusban mégsem ezzel a céllal érkeztem a Balatonhoz.**
 
 **A** [**Fotel Projekt.**](https://www.facebook.com/fotelproject1/) **elnevezésű kezdeményezésbe kapcsolódtam be, ami a segítő beszélgetések népszerűsítést tűzte ki céljául. Van néhány olyan, számomra fontos ügy, amihez nagyon szívesen adom az időmet, energiámat, szakértelmemet, figyelmemet, térítésmentesen is, hogy ezzel hozzájáruljak valami általam értéknek tartott építéséhez. A segítő beszélgetések destigmatizációja pont ilyen.**
