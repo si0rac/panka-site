@@ -44,7 +44,7 @@ EARLY BIRD: 2025. október 31-ig: 6600 forint.
 Teljes ár, 2025. november 1-től: 7500 forint.
 (A fizetés banki átutalással történik, az utalási adatok regisztráció után érkeznek. A részvételi díj sávozása az utalás indítására vonatkozik, nem a regisztráció időpontjára.)
 
-**Regisztráció**: https://forms.gle/soi1gG5CCPMMt8sf7
+[**Regisztrációhoz kattints ide!**](https://forms.gle/soi1gG5CCPMMt8sf7)
 
 Limitált részvételi helyek érhetőek el.
 
