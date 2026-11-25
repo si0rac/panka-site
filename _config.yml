@@ -56,6 +56,16 @@ collections:
     permalink: "/blog/:path"
 
 defaults:
+# Site-wide social preview image (used by jekyll-seo-tag for og:image / twitter:image).
+# Pages with their own `image:` front matter (events, blog posts) override it.
+- scope:
+    path: ''
+  values:
+    image:
+      path: /assets/img/panka-social-preview.jpg
+      width: 1200
+      height: 630
+      alt: Rudolf Panka irodalomterapeuta
 - scope:
     path: ''
     type: articles
